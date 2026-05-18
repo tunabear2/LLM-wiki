@@ -31,6 +31,10 @@ Pretrained model은 대규모 데이터에서 일반적인 표현을 학습하�
 - [[fine-tuning]]
 - [[transcriptomics]]
 
+### 관련 보고서
+
+- [Kidney Transplant Rejection Classification - Full Work Summary](reports/kidney-transplant-rejection-classification-summary.md)
+
 ### 가능한 접근
 
 1. Pretrained embedding을 그대로 사용하고, target task classifier만 학습한다.
@@ -56,4 +60,3 @@ Domain shift는 전체 데이터에서 균일하게 나타나지 않고, 특정 
 - Geneformer 관련 downstream transfer 논문
 - scGPT 관련 perturbation 또는 cell annotation 논문
 - Single-cell domain adaptation 또는 batch correction 관련 논문
-

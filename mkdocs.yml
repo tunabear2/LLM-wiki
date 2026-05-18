@@ -26,6 +26,8 @@ theme:
 nav:
   - Home: index.md
   - Research Questions: research-questions.md
+  - Reports:
+      - Kidney Transplant Rejection: reports/kidney-transplant-rejection-classification-summary.md
   - LLM Basics:
       - Overview: llm/overview.md
       - Transformer: llm/transformer.md
