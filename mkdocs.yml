@@ -45,6 +45,7 @@ nav:
       - Transcriptomics: bio-ai/transcriptomics.md
       - Single-cell LLM: bio-ai/single-cell-llm.md
   - Code:
+      - Code Log: code/code-log.md
       - PyTorch: code/pytorch.md
       - Hugging Face: code/huggingface.md
       - RAG: code/rag.md
