@@ -1,0 +1,5 @@
+.venv/
+site/
+.mkdocs-serve.log
+__pycache__/
+.DS_Store

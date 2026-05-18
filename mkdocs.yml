@@ -1,0 +1,50 @@
+site_name: LLM Bio Wiki
+site_description: Personal wiki for LLM, Transformer, bioinformatics, and single-cell foundation models
+site_author: tuna bear
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - LLM Basics:
+      - Overview: llm/overview.md
+      - Transformer: llm/transformer.md
+      - Attention: llm/attention.md
+      - Tokenizer: llm/tokenizer.md
+      - Fine-tuning: llm/fine-tuning.md
+  - Papers:
+      - Transformer: papers/transformer.md
+      - BERT: papers/bert.md
+      - GPT: papers/gpt.md
+      - Single-cell Foundation Models: papers/single-cell-foundation-models.md
+  - Bio AI:
+      - scGPT: bio-ai/scgpt.md
+      - Geneformer: bio-ai/geneformer.md
+      - Transcriptomics: bio-ai/transcriptomics.md
+      - Single-cell LLM: bio-ai/single-cell-llm.md
+  - Code:
+      - PyTorch: code/pytorch.md
+      - Hugging Face: code/huggingface.md
+      - RAG: code/rag.md
+  - Glossary:
+      - Terms: glossary/terms.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
