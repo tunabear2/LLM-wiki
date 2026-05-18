@@ -1,6 +1,15 @@
 site_name: LLM Bio Wiki
 site_description: Personal wiki for LLM, Transformer, bioinformatics, and single-cell foundation models
 site_author: tuna bear
+site_url: https://tunabear2.github.io/LLM-wiki/
+
+exclude_docs: |
+  _templates/*
+  papers/template.md
+  LLM-wiki/*
+
+hooks:
+  - hooks/strip_obsidian_comments.py
 
 theme:
   name: material
@@ -23,6 +32,8 @@ nav:
       - Tokenizer: llm/tokenizer.md
       - Fine-tuning: llm/fine-tuning.md
   - Papers:
+      - Paper Notes: papers/index.md
+      - Attention Is All You Need: papers/vaswaniAttentionAllYou2023.md
       - Transformer: papers/transformer.md
       - BERT: papers/bert.md
       - GPT: papers/gpt.md
@@ -38,6 +49,8 @@ nav:
       - RAG: code/rag.md
   - Glossary:
       - Terms: glossary/terms.md
+  - Workflows:
+      - Zotero + Obsidian: workflows/zotero-obsidian.md
 
 markdown_extensions:
   - admonition

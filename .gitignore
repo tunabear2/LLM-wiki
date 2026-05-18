@@ -1,5 +1,9 @@
 .venv/
 site/
 .mkdocs-serve.log
+docs/.obsidian/
+docs/**/.obsidian/
+docs/LLM-wiki/
+*.base
 __pycache__/
 .DS_Store
