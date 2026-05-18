@@ -48,6 +48,7 @@ nav:
       - Code Log:
           - Overview: code/code-log.md
           - LLM-wiki Deploy: code/logs/2026-05-18-llm-wiki-deploy.md
+          - scGPT Domain Transfer: code/logs/2026-05-18-scgpt-domain-transfer.md
       - PyTorch: code/pytorch.md
       - Hugging Face: code/huggingface.md
       - RAG: code/rag.md
