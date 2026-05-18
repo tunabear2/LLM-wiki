@@ -25,6 +25,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Research Questions: research-questions.md
   - LLM Basics:
       - Overview: llm/overview.md
       - Transformer: llm/transformer.md
