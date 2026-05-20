@@ -21,6 +21,7 @@
 | --- | --- | --- |
 | 2026-05-18 | [LLM-wiki 배포](logs/2026-05-18-llm-wiki-deploy.md) | 로컬 Markdown 문서를 GitHub Pages에 반영하는 기본 명령어 |
 | 2026-05-18 | [scGPT domain transfer](logs/2026-05-18-scgpt-domain-transfer.md) | Bulk microarray에서 학습한 classifier를 scRNA-seq 환자 임베딩에 적용하는 domain shift 실험 |
+| 2026-05-20 | [scGPT rejection worklog](logs/2026-05-20-scgpt-rejection-worklog.md) | RMA 전처리, pseudo-count 변환, scGPT embedding transfer, p60 patient score, Transformer MIL, 환자 추론 실험 정리 |
 
 ## 기록 템플릿
 
