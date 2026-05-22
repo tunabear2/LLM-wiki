@@ -12,6 +12,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 ## Bio AI
 
 - [Single-cell Foundation Models](single-cell-foundation-models.md)
+- [GeneBag](liangGeneBagTrainingCell2024.md)
+- [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 
 ## 사용 흐름
 

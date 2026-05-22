@@ -41,6 +41,8 @@ nav:
       - BERT: papers/bert.md
       - GPT: papers/gpt.md
       - Single-cell Foundation Models: papers/single-cell-foundation-models.md
+      - GeneBag: papers/liangGeneBagTrainingCell2024.md
+      - Path-GPTOmic: papers/PathGPTOmicBalancedMultimodal.md
   - Bio AI:
       - scGPT: bio-ai/scgpt.md
       - Geneformer: bio-ai/geneformer.md
