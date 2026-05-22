@@ -54,6 +54,7 @@ nav:
           - LLM-wiki Deploy: code/logs/2026-05-18-llm-wiki-deploy.md
           - scGPT Domain Transfer: code/logs/2026-05-18-scgpt-domain-transfer.md
           - scGPT Rejection Worklog: code/logs/2026-05-20-scgpt-rejection-worklog.md
+          - scGPT Rejection End-to-End v1/v2: code/logs/2026-05-22-scgpt-rejection-end2end-v1-v2.md
       - PyTorch: code/pytorch.md
       - Hugging Face: code/huggingface.md
       - RAG: code/rag.md
