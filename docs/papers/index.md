@@ -15,6 +15,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 
+## Transcriptomics / Platform
+
+- [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md)
+
 ## 사용 흐름
 
 1. Zotero에 논문과 PDF를 저장한다.
