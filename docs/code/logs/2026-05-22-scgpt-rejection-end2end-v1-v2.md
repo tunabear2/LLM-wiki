@@ -216,3 +216,5 @@ python3 scripts/rejection_finetune_end2end_v2.py predict-ft \
 ## 연구 맥락
 
 이 스크립트는 [scGPT rejection worklog](2026-05-20-scgpt-rejection-worklog.md)의 domain shift 실험 이후, frozen embedding transfer가 아니라 encoder 자체를 rejection task에 맞게 조정하려는 방향의 실험 기록이다.
+
+후속 버전인 v3/v4에서는 nonzero gene tokenization, raw count normalization, adapter/L2-norm ablation을 추가했다. 자세한 내용은 [scGPT rejection end-to-end fine-tuning v3/v4](2026-05-26-scgpt-rejection-end2end-v3-v4.md)에 정리한다.

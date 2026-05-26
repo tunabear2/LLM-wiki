@@ -478,6 +478,8 @@ data/results/domain_shift/FINAL_REPORT.txt
 
 현재 모델은 NR vs Rejection 이진 분류에 초점을 둔다. 향후 다른 신장 이식 환자 cohort 확장 및 예후 예측을 위해 아래 방향을 고려한다.
 
+scGPT encoder, binning 전처리, prediction head 설계에 대한 별도 메모는 [Transplant Prognosis Model Notes](transplant-prognosis-model-notes.md)에 정리했다.
+
 ### 1. 아형별 분류기 확장
 
 - NR vs ABMR vs TCMR 3-class classification
@@ -515,4 +517,3 @@ data/results/domain_shift/FINAL_REPORT.txt
 현재까지 가장 중요한 발견은 scGPT kidney pretrained embedding을 사용하면 bulk microarray에서 학습한 rejection classifier가 scRNA-seq 환자 수준 예측으로 상당히 잘 전이된다는 점이다. 특히 cell-level rejection probability의 p60 aggregation이 NR과 Rejection을 가장 잘 구분했다.
 
 다만 테스트 환자가 16명이고 Rejection이 4명뿐이므로, AUC = 1.0000 결과는 매우 조심스럽게 해석해야 한다. Bootstrap 결과와 얇은 p60 margin을 고려하면, 단일 threshold보다는 rank-based ensemble 및 외부 cohort 검증이 다음 단계에서 중요하다.
-

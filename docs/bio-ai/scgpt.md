@@ -32,6 +32,8 @@ Single-cell 데이터는 tissue, batch, protocol 차이가 크고 label이 부�
 
 Kidney transplant rejection scRNA-seq에서 rejection-specific immune cell state를 embedding space에서 비교한다. Stable graft와 rejection sample의 cell embedding 차이를 보고, rejection marker gene 후보를 추출한다.
 
+장기 이식 예후 예측 모델에서는 train/test domain 비대칭에 따라 encoder를 freeze할지 fine-tuning할지 나누어 실험한다. 자세한 설계 메모는 [Transplant Prognosis Model Notes](../reports/transplant-prognosis-model-notes.md)에 정리한다.
+
 ## 관련 자료
 
 - [scGPT Nature Methods](https://www.nature.com/articles/s41592-024-02201-0)
