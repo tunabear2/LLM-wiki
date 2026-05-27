@@ -45,6 +45,9 @@ nav:
       - GeneBag: papers/liangGeneBagTrainingCell2024.md
       - Path-GPTOmic: papers/PathGPTOmicBalancedMultimodal.md
       - RNA-Seq vs Microarray: papers/zhaoComparisonRNASeqMicroarray2014.1.16..md
+  - Articles:
+      - Article / Report Scraps: articles/index.md
+      - Bulk RNA-Seq Foundation Model Benchmark: articles/2026-05-27-bulk-rnaseq-foundation-model-benchmark.md
   - Bio AI:
       - scGPT: bio-ai/scgpt.md
       - Geneformer: bio-ai/geneformer.md
