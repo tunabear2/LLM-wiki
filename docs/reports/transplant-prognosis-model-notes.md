@@ -12,6 +12,32 @@ Training data와 test data 사이에 비대칭 domain shift가 있을 때는, tr
 - Training data가 bulk, microarray, pseudobulk, clinical table처럼 single-cell이 아니면 scGPT encoder weight는 가급적 보존하고, adapter와 prediction head 중심으로 학습하는 편이 안정적일 수 있다.
 - 이유는 scGPT가 single-cell data로 pretrain되었기 때문에, non-single-cell training signal로 encoder 전체를 업데이트하면 test single-cell representation이 pretrained manifold에서 벗어날 위험이 있기 때문이다.
 
+## 2026-06-01 최종 구현
+
+설계 메모의 권장 방향은 `prognosis_microarray_adapter.py`에서 frozen scGPT encoder + residual Microarray-to-SC adapter + prognosis head 구조로 구체화했다. 자세한 구현과 결과는 [Microarray-to-scRNA Prognosis Adapter](microarray-to-scrna-prognosis-adapter.md)에 정리했다.
+
+최종 기본 구조:
+
+```text
+bulk microarray RMA/log2 sample
+  -> nonzero gene tokenization
+  -> quantile-binned expression values
+  -> frozen scGPT kidney encoder
+  -> CLS embedding
+  -> residual adapter
+  -> L2 normalization
+  -> prognosis head
+  -> rejection probability / patient risk score
+```
+
+핵심 결정:
+
+- Encoder는 freeze하고 adapter/head만 학습한다.
+- Adapter는 `LayerNorm -> 512 to 256 -> GELU -> Dropout -> 256 to 512 -> residual add` 구조다.
+- Single-cell 적용 시 cell-level probability를 계산한 뒤 patient-level p60 score로 집계한다.
+- 현재 구현은 BCE 기반 NR vs Rejection objective가 중심이며, Cox branch는 아직 survival loss로 활성화하지 않았다.
+- 비교 결과 기준 Zeroed RMA + L2 normalization 설정이 OOF AUROC 0.762로 가장 좋았다.
+
 ## Domain 비대칭과 encoder 전략
 
 | Training data | Test data | 권장 전략 | 메모 |
@@ -134,6 +160,7 @@ gene token outputs
 
 - [scGPT](../bio-ai/scgpt.md)
 - [Kidney Transplant Rejection Classification](kidney-transplant-rejection-classification-summary.md)
+- [Microarray-to-scRNA Prognosis Adapter](microarray-to-scrna-prognosis-adapter.md)
 - [scGPT Rejection End-to-End v1/v2](../code/logs/2026-05-22-scgpt-rejection-end2end-v1-v2.md)
 
 ## 참고 문헌
