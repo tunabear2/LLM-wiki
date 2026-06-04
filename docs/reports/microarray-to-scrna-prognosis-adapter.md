@@ -93,6 +93,21 @@ Expression value는 sample 단위 quantile binning으로 scGPT value token에 �
 
 해석은 보수적으로 둔다. Zeroed + L2가 AUROC와 balanced accuracy에서 가장 좋고, Zeroed without L2는 AUPRC가 약간 높다. 최종 기본 구조는 domain shift 안정성과 AUROC를 우선해 adapter + L2 normalization을 유지한다.
 
+## Follow-up Validation
+
+2026-06-01~02 WORKLOG에서 adapter_8000 계열의 후속 검증을 추가했다. 전체 맥락은 [scGPT Worklog Summary](scgpt-worklog-summary.md)에 정리했다.
+
+| 검증 | 결과 | 해석 |
+| --- | --- | --- |
+| QC single-cell p60 prediction | AUROC 0.875, BalAcc 0.875, sensitivity 4/4, specificity 9/12 | QC 필터 후에도 rejection 4명 전원 검출 |
+| p55/p60/p65 aggregation | p60: AUROC 0.875, BalAcc 0.875 | p60이 기본 patient score로 가장 균형적 |
+| GSE39582 random-label negative control | OOF AUROC 0.515, patient AUROC 0.458 | pipeline artifact/label leakage 가능성을 낮춤 |
+| kidney vs human backbone | kidney p60 AUROC 0.875, human p60 AUROC 0.500 | kidney-specific pretraining이 cross-domain transfer에 결정적 |
+| MC-dropout sweep | ranking 거의 불변, uncertainty만 dropout에 따라 증가 | patient ranking이 dropout perturbation에 robust |
+| attention pooling | array OOF 개선, sc transfer 악화 | cross-domain에서는 CLS readout이 더 robust |
+
+![Adapter 8000 QC p60 prediction](../assets/reports/worklog-predict-cell-p60-qc.png)
+
 ## Prediction Outputs
 
 `predict-bulk`는 bulk 또는 pseudobulk `.h5ad`에 fold checkpoints와 final checkpoint ensemble을 적용한다.
@@ -176,4 +191,5 @@ python3 scripts/prognosis_microarray_adapter.py predict-bulk \
 
 - [Transplant Prognosis Model Notes](transplant-prognosis-model-notes.md)
 - [Kidney Transplant Rejection Classification](kidney-transplant-rejection-classification-summary.md)
+- [scGPT Worklog Summary](scgpt-worklog-summary.md)
 - [Prognosis Microarray Adapter Code Log](../code/logs/2026-06-01-prognosis-microarray-adapter.md)

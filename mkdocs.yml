@@ -30,6 +30,7 @@ nav:
       - Kidney Transplant Rejection: reports/kidney-transplant-rejection-classification-summary.md
       - Transplant Prognosis Model Notes: reports/transplant-prognosis-model-notes.md
       - Microarray-to-scRNA Prognosis Adapter: reports/microarray-to-scrna-prognosis-adapter.md
+      - scGPT Worklog Summary: reports/scgpt-worklog-summary.md
   - LLM Basics:
       - Overview: llm/overview.md
       - Transformer: llm/transformer.md
@@ -63,6 +64,7 @@ nav:
           - scGPT Rejection End-to-End v1/v2: code/logs/2026-05-22-scgpt-rejection-end2end-v1-v2.md
           - scGPT Rejection End-to-End v3/v4: code/logs/2026-05-26-scgpt-rejection-end2end-v3-v4.md
           - Prognosis Microarray Adapter: code/logs/2026-06-01-prognosis-microarray-adapter.md
+          - scGPT Full Worklog: code/logs/2026-06-04-scgpt-worklog.md
       - PyTorch: code/pytorch.md
       - Hugging Face: code/huggingface.md
       - RAG: code/rag.md

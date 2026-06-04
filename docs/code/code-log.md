@@ -25,6 +25,7 @@
 | 2026-05-22 | [scGPT rejection end-to-end fine-tuning v1/v2](logs/2026-05-22-scgpt-rejection-end2end-v1-v2.md) | scGPT encoder + rejection head v1과 domain adapter/ fold-wise pos_weight를 추가한 v2 비교 |
 | 2026-05-26 | [scGPT rejection end-to-end fine-tuning v3/v4](logs/2026-05-26-scgpt-rejection-end2end-v3-v4.md) | v3 nonzero gene tokenization/raw count normalization과 v4 adapter/L2-norm ablation 정리 |
 | 2026-06-01 | [Prognosis microarray-to-SC adapter](logs/2026-06-01-prognosis-microarray-adapter.md) | 최종 frozen scGPT encoder + residual adapter + prognosis head 모델 정리 |
+| 2026-06-04 | [scGPT full worklog](logs/2026-06-04-scgpt-worklog.md) | 5월~6월 scGPT rejection/prognosis 전체 실험 WORKLOG 원문 보존 |
 
 ## 기록 템플릿
 
