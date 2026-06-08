@@ -31,6 +31,7 @@ nav:
       - Transplant Prognosis Model Notes: reports/transplant-prognosis-model-notes.md
       - Microarray-to-scRNA Prognosis Adapter: reports/microarray-to-scrna-prognosis-adapter.md
       - scGPT Worklog Summary: reports/scgpt-worklog-summary.md
+      - Single-cell FM Paper Watch 2026-06-08: reports/single-cell-fm-paper-watch-2026-06-08.md
   - LLM Basics:
       - Overview: llm/overview.md
       - Transformer: llm/transformer.md
@@ -44,8 +45,14 @@ nav:
       - BERT: papers/bert.md
       - GPT: papers/gpt.md
       - Single-cell Foundation Models: papers/single-cell-foundation-models.md
+      - TxFM: papers/kenyonDeanEffectiveBiologicalRepresentation2026.md
+      - SIGnature: papers/goldScoringGeneImportance2026.md
       - GeneBag: papers/liangGeneBagTrainingCell2024.md
       - Path-GPTOmic: papers/PathGPTOmicBalancedMultimodal.md
+      - HEIMDALL: papers/haberHEIMDALLDisentanglingTokenizer2026.md
+      - USHER: papers/pratapaUSHERGuidingFoundation2025.md
+      - EGSP Survival Prediction: papers/liuLeveragingSinglecellFoundation2026.md
+      - COIN Drug Sensitivity: papers/shangguanDrugSensitivityInference2025.md
       - RNA-Seq vs Microarray: papers/zhaoComparisonRNASeqMicroarray2014.1.16..md
   - Articles:
       - Article / Report Scraps: articles/index.md

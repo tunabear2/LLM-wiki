@@ -38,3 +38,14 @@ Cell을 하나의 문서처럼, gene을 token처럼 보고 Transformer류 모델
 
 - [Geneformer Nature paper](https://www.nature.com/articles/s41586-023-06139-9)
 - [scGPT Nature Methods paper](https://www.nature.com/articles/s41592-024-02201-0)
+
+## 8. 최근 추가 논문
+
+| Paper | Source/date | DOI/URL | 한 줄 요약 | 관련성 |
+| --- | --- | --- | --- | --- |
+| [TxFM: Effective Biological Representation Learning by Masking Gene Expression](kenyonDeanEffectiveBiologicalRepresentation2026.md) | arXiv, 2026-05-29 | [10.48550/arXiv.2605.31562](https://doi.org/10.48550/arXiv.2605.31562) | RNA-seq count에 맞춘 masked autoencoder와 curated corpus로 transcriptomics representation을 학습한다. | Kidney transplant rejection bulk/pseudobulk RNA-seq에서 raw expression 대비 pretrained embedding의 추가 가치를 비교하는 후보 모델이다. |
+| [SIGnature: Scoring gene importance by interpreting single-cell foundation models](goldScoringGeneImportance2026.md) | PubMed / Nature Biotechnology, 2026-05-27 | [10.1038/s41587-026-03112-5](https://doi.org/10.1038/s41587-026-03112-5) | Single-cell foundation model attribution으로 gene importance를 계산해 atlas-scale disease signature를 검색한다. | Rejection-associated immune cell state에서 DEG를 넘어 context-specific regulatory gene 후보를 찾는 데 유용하다. |
+
+## 9. Paper watch 기록
+
+- [2026-06-08 single-cell FM paper watch](../reports/single-cell-fm-paper-watch-2026-06-08.md): 첫 실행 기록, 추가 논문, 중복/false positive 제외 기준, MkDocs 검증 상태를 정리했다.

@@ -12,8 +12,17 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 ## Bio AI
 
 - [Single-cell Foundation Models](single-cell-foundation-models.md)
+- [TxFM: masked gene-expression representation learning](kenyonDeanEffectiveBiologicalRepresentation2026.md)
+- [SIGnature: single-cell foundation model gene importance](goldScoringGeneImportance2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
+- [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
+- [USHER](pratapaUSHERGuidingFoundation2025.md)
+
+## Cancer Transcriptomics / Clinical Prediction
+
+- [EGSP: scFoundation embeddings for survival prediction](liuLeveragingSinglecellFoundation2026.md)
+- [COIN: bulk-single-cell drug sensitivity inference](shangguanDrugSensitivityInference2025.md)
 
 ## Transcriptomics / Platform
 
