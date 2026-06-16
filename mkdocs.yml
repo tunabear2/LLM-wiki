@@ -47,6 +47,9 @@ nav:
       - Single-cell Foundation Models: papers/single-cell-foundation-models.md
       - TxFM: papers/kenyonDeanEffectiveBiologicalRepresentation2026.md
       - SIGnature: papers/goldScoringGeneImportance2026.md
+      - Causal Circuit Tracing: papers/kendiukhovCausalCircuitTracing2026.md
+      - scGPT Bayesian HPO: papers/tayBayesianHyperparameterOptimization2026.md
+      - Single-cell LLM Learnability: papers/yanEvaluatingLearnabilitySingleCell2026.md
       - GeneBag: papers/liangGeneBagTrainingCell2024.md
       - Path-GPTOmic: papers/PathGPTOmicBalancedMultimodal.md
       - HEIMDALL: papers/haberHEIMDALLDisentanglingTokenizer2026.md
