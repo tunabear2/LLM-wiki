@@ -16,8 +16,15 @@
 - Single-cell foundation models
 - 장기 이식 예후 예측 모델 설계
 - Microarray-to-scRNA prognosis adapter
+- scGPT prognosis progress map
 - scGPT worklog summary
 - Article / report scrap notes
+
+## 최신 정리
+
+- [scGPT Prognosis Progress Map](reports/scgpt-prognosis-progress-2026-06-16.md): 2026-06-16 기준 신장 이식 거부반응/예후 예측 작업의 최신 종합 지도
+- [Microarray-to-scRNA Prognosis Adapter](reports/microarray-to-scrna-prognosis-adapter.md): 현재 adapter 모델 구조와 검증 결과
+- [scGPT Worklog Summary](reports/scgpt-worklog-summary.md): 2026-06-04까지의 이전 worklog 요약
 
 ## 정리 원칙
 

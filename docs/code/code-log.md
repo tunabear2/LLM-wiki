@@ -26,6 +26,8 @@
 | 2026-05-26 | [scGPT rejection end-to-end fine-tuning v3/v4](logs/2026-05-26-scgpt-rejection-end2end-v3-v4.md) | v3 nonzero gene tokenization/raw count normalization과 v4 adapter/L2-norm ablation 정리 |
 | 2026-06-01 | [Prognosis microarray-to-SC adapter](logs/2026-06-01-prognosis-microarray-adapter.md) | 최종 frozen scGPT encoder + residual adapter + prognosis head 모델 정리 |
 | 2026-06-04 | [scGPT full worklog](logs/2026-06-04-scgpt-worklog.md) | 5월~6월 scGPT rejection/prognosis 전체 실험 WORKLOG 원문 보존 |
+| 2026-06-16 | [scGPT prognosis worklog](logs/2026-06-16-scgpt-prognosis-worklog.md) | 2026-06-16 기준 predict-cell 통합, kidney microarray RMA/라벨링, 외부 scRNA-seq 검증, multi-dataset 학습 준비 원문 보존 |
+| 2026-06-16 | [Sessions log](logs/2026-06-16-sessions-log.md) | Claude Code 세션 단위 작업 인덱스 원문 보존 |
 
 ## 기록 템플릿
 
