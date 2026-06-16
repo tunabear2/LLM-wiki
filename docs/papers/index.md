@@ -8,10 +8,26 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Transformer paper summary](transformer.md)
 - [BERT](bert.md)
 - [GPT](gpt.md)
+- [GPT-2: unsupervised multitask learners](radfordLanguageModelsUnsupervised2019.md)
+- [GPT-3: language models are few-shot learners](brownLanguageModelsFewShot2020.md)
+- [T5: unified text-to-text transfer learning](raffelExploringLimitsTransfer2020.md)
+- [RAG: retrieval-augmented generation](lewisRetrievalAugmentedGeneration2020.md)
+- [Chinchilla: compute-optimal LLM training](hoffmannTrainingComputeOptimal2022.md)
+- [InstructGPT / RLHF](ouyangTrainingLanguageModels2022.md)
+- [LoRA: low-rank adaptation](huLoRALowRank2021.md)
+- [LLaMA: open and efficient foundation language models](touvronLLaMAOpenEfficient2023.md)
 
 ## Bio AI
 
 - [Single-cell Foundation Models](single-cell-foundation-models.md)
+- [Geneformer](theodorisTransferLearningNetwork2023.md)
+- [scGPT](cuiScGPTFoundation2024.md)
+- [scFoundation](haoLargeScaleFoundation2024.md)
+- [scBERT](yangScBERTLargeScale2022.md)
+- [CellPLM](wenCellPLMPretraining2023.md)
+- [UCE: universal cell embeddings](rosenUniversalCellEmbeddings2023.md)
+- [Nicheformer](tejadaLapuertaNicheformer2025.md)
+- [TranscriptFormer](pearceTranscriptFormer2025.md)
 - [TxFM: masked gene-expression representation learning](kenyonDeanEffectiveBiologicalRepresentation2026.md)
 - [SIGnature: single-cell foundation model gene importance](goldScoringGeneImportance2026.md)
 - [Causal circuit tracing in single-cell foundation models](kendiukhovCausalCircuitTracing2026.md)
@@ -30,6 +46,14 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 ## Transcriptomics / Platform
 
 - [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md)
+- [Smart-seq2](picelliSmartSeq2Sensitive2013.md)
+- [Drop-seq](macoskoDropSeq2015.md)
+- [Seurat spatial reconstruction](satijaSpatialReconstruction2015.md)
+- [Spatial transcriptomics](stahlSpatialTranscriptomics2016.md)
+- [CITE-seq](stoeckiusCITESeq2017.md)
+- [Scanpy](wolfSCANPY2018.md)
+- [scVI](lopezDeepGenerativeSingleCell2018.md)
+- [Harmony](korsunskyHarmony2019.md)
 
 ## 사용 흐름
 

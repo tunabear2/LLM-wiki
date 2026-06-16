@@ -48,3 +48,18 @@ Rejection prediction에서 batch와 donor effect를 먼저 점검한다. Cell-le
 ## 관련 자료
 
 - [Scanpy preprocessing API](https://scanpy.readthedocs.io/en/1.11.x/api/preprocessing.html)
+
+## Platform / Method Paper Notes
+
+- [Smart-seq2](../papers/picelliSmartSeq2Sensitive2013.md): full-length single-cell transcriptome.
+- [Drop-seq](../papers/macoskoDropSeq2015.md): droplet 기반 high-throughput scRNA-seq.
+- [Spatial transcriptomics](../papers/stahlSpatialTranscriptomics2016.md): tissue 위치를 보존한 transcriptome profiling.
+- [CITE-seq](../papers/stoeckiusCITESeq2017.md): RNA와 surface protein 동시 측정.
+- [Scanpy](../papers/wolfSCANPY2018.md): Python single-cell analysis toolkit.
+- [scVI](../papers/lopezDeepGenerativeSingleCell2018.md): probabilistic single-cell representation learning.
+- [Harmony](../papers/korsunskyHarmony2019.md): multi-dataset integration과 batch correction.
+
+## Foundation Model 전처리 연결
+
+- [Geneformer](../papers/theodorisTransferLearningNetwork2023.md)는 rank-based gene token을 쓰므로 raw count normalization과 별개 preprocessing이 필요하다.
+- [scGPT](../papers/cuiScGPTFoundation2024.md)와 [scFoundation](../papers/haoLargeScaleFoundation2024.md)은 model vocabulary, binning/value encoding, special token 처리가 downstream reproducibility에 직접 영향을 준다.

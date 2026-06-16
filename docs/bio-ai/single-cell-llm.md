@@ -38,3 +38,21 @@ Kidney transplant rejection에서는 single-cell LLM embedding을 immune cell su
 
 - [Geneformer](https://www.nature.com/articles/s41586-023-06139-9)
 - [scGPT](https://www.nature.com/articles/s41592-024-02201-0)
+
+## 대표 Paper Notes
+
+- [Geneformer](../papers/theodorisTransferLearningNetwork2023.md): rank-based gene token과 network biology transfer.
+- [scGPT](../papers/cuiScGPTFoundation2024.md): generative pretrained transformer for single-cell multi-omics.
+- [scFoundation](../papers/haoLargeScaleFoundation2024.md): large-scale single-cell transcriptomics foundation model.
+- [scBERT](../papers/yangScBERTLargeScale2022.md): BERT식 pretraining을 cell type annotation에 적용한 초기 모델.
+- [CellPLM](../papers/wenCellPLMPretraining2023.md): cell-cell relation을 반영하려는 cell language model.
+- [UCE](../papers/rosenUniversalCellEmbeddings2023.md): tissue/species를 넘는 universal cell embedding.
+- [Nicheformer](../papers/tejadaLapuertaNicheformer2025.md): single-cell과 spatial omics context를 함께 다루는 모델.
+- [TranscriptFormer](../papers/pearceTranscriptFormer2025.md): cross-species generative cell atlas.
+
+## 읽는 순서
+
+1. [scBERT](../papers/yangScBERTLargeScale2022.md)로 "BERT idea가 scRNA-seq로 어떻게 옮겨졌는지"를 본다.
+2. [Geneformer](../papers/theodorisTransferLearningNetwork2023.md), [scGPT](../papers/cuiScGPTFoundation2024.md), [scFoundation](../papers/haoLargeScaleFoundation2024.md)을 비교해 tokenization과 objective 차이를 잡는다.
+3. [UCE](../papers/rosenUniversalCellEmbeddings2023.md), [Nicheformer](../papers/tejadaLapuertaNicheformer2025.md), [TranscriptFormer](../papers/pearceTranscriptFormer2025.md)로 cross-species/spatial 방향을 확장한다.
+4. [Learnability benchmark](../papers/yanEvaluatingLearnabilitySingleCell2026.md)와 [causal circuit tracing](../papers/kendiukhovCausalCircuitTracing2026.md)으로 모델 한계를 같이 점검한다.

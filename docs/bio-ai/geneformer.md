@@ -35,3 +35,10 @@ Kidney transplant rejection에서 immune activation state를 Geneformer embeddin
 ## 관련 자료
 
 - [Transfer learning enables predictions in network biology](https://www.nature.com/articles/s41586-023-06139-9)
+
+## 같이 읽을 Paper Notes
+
+- [Transfer learning enables predictions in network biology](../papers/theodorisTransferLearningNetwork2023.md)
+- [Evaluating the learnability of single-cell large language models on multiple tasks](../papers/yanEvaluatingLearnabilitySingleCell2026.md)
+- [Causal circuit tracing reveals distinct computational architectures in single-cell foundation models](../papers/kendiukhovCausalCircuitTracing2026.md)
+- [SIGnature: single-cell foundation model gene importance](../papers/goldScoringGeneImportance2026.md)

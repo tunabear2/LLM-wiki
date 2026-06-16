@@ -41,23 +41,51 @@ nav:
       - Fine-tuning: llm/fine-tuning.md
   - Papers:
       - Paper Notes: papers/index.md
-      - Attention Is All You Need: papers/vaswaniAttentionAllYou2023.md
-      - Transformer: papers/transformer.md
-      - BERT: papers/bert.md
-      - GPT: papers/gpt.md
-      - Single-cell Foundation Models: papers/single-cell-foundation-models.md
-      - TxFM: papers/kenyonDeanEffectiveBiologicalRepresentation2026.md
-      - SIGnature: papers/goldScoringGeneImportance2026.md
-      - Causal Circuit Tracing: papers/kendiukhovCausalCircuitTracing2026.md
-      - scGPT Bayesian HPO: papers/tayBayesianHyperparameterOptimization2026.md
-      - Single-cell LLM Learnability: papers/yanEvaluatingLearnabilitySingleCell2026.md
-      - GeneBag: papers/liangGeneBagTrainingCell2024.md
-      - Path-GPTOmic: papers/PathGPTOmicBalancedMultimodal.md
-      - HEIMDALL: papers/haberHEIMDALLDisentanglingTokenizer2026.md
-      - USHER: papers/pratapaUSHERGuidingFoundation2025.md
-      - EGSP Survival Prediction: papers/liuLeveragingSinglecellFoundation2026.md
-      - COIN Drug Sensitivity: papers/shangguanDrugSensitivityInference2025.md
-      - RNA-Seq vs Microarray: papers/zhaoComparisonRNASeqMicroarray2014.1.16..md
+      - LLM / Transformer:
+          - Attention Is All You Need: papers/vaswaniAttentionAllYou2023.md
+          - Transformer: papers/transformer.md
+          - BERT: papers/bert.md
+          - GPT: papers/gpt.md
+          - GPT-2: papers/radfordLanguageModelsUnsupervised2019.md
+          - GPT-3: papers/brownLanguageModelsFewShot2020.md
+          - T5: papers/raffelExploringLimitsTransfer2020.md
+          - RAG: papers/lewisRetrievalAugmentedGeneration2020.md
+          - Chinchilla: papers/hoffmannTrainingComputeOptimal2022.md
+          - InstructGPT / RLHF: papers/ouyangTrainingLanguageModels2022.md
+          - LoRA: papers/huLoRALowRank2021.md
+          - LLaMA: papers/touvronLLaMAOpenEfficient2023.md
+      - Bio AI:
+          - Single-cell Foundation Models: papers/single-cell-foundation-models.md
+          - Geneformer: papers/theodorisTransferLearningNetwork2023.md
+          - scGPT: papers/cuiScGPTFoundation2024.md
+          - scFoundation: papers/haoLargeScaleFoundation2024.md
+          - scBERT: papers/yangScBERTLargeScale2022.md
+          - CellPLM: papers/wenCellPLMPretraining2023.md
+          - UCE: papers/rosenUniversalCellEmbeddings2023.md
+          - Nicheformer: papers/tejadaLapuertaNicheformer2025.md
+          - TranscriptFormer: papers/pearceTranscriptFormer2025.md
+          - TxFM: papers/kenyonDeanEffectiveBiologicalRepresentation2026.md
+          - SIGnature: papers/goldScoringGeneImportance2026.md
+          - Causal Circuit Tracing: papers/kendiukhovCausalCircuitTracing2026.md
+          - scGPT Bayesian HPO: papers/tayBayesianHyperparameterOptimization2026.md
+          - Single-cell LLM Learnability: papers/yanEvaluatingLearnabilitySingleCell2026.md
+          - GeneBag: papers/liangGeneBagTrainingCell2024.md
+          - Path-GPTOmic: papers/PathGPTOmicBalancedMultimodal.md
+          - HEIMDALL: papers/haberHEIMDALLDisentanglingTokenizer2026.md
+          - USHER: papers/pratapaUSHERGuidingFoundation2025.md
+      - Cancer Transcriptomics / Clinical Prediction:
+          - EGSP Survival Prediction: papers/liuLeveragingSinglecellFoundation2026.md
+          - COIN Drug Sensitivity: papers/shangguanDrugSensitivityInference2025.md
+      - Transcriptomics / Platform:
+          - RNA-Seq vs Microarray: papers/zhaoComparisonRNASeqMicroarray2014.1.16..md
+          - Smart-seq2: papers/picelliSmartSeq2Sensitive2013.md
+          - Drop-seq: papers/macoskoDropSeq2015.md
+          - Seurat Spatial Reconstruction: papers/satijaSpatialReconstruction2015.md
+          - Spatial Transcriptomics: papers/stahlSpatialTranscriptomics2016.md
+          - CITE-seq: papers/stoeckiusCITESeq2017.md
+          - Scanpy: papers/wolfSCANPY2018.md
+          - scVI: papers/lopezDeepGenerativeSingleCell2018.md
+          - Harmony: papers/korsunskyHarmony2019.md
   - Articles:
       - Article / Report Scraps: articles/index.md
       - Bulk RNA-Seq Foundation Model Benchmark: articles/2026-05-27-bulk-rnaseq-foundation-model-benchmark.md

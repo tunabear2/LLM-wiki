@@ -37,3 +37,10 @@ Kidney transplant rejection scRNA-seq에서 rejection-specific immune cell state
 ## 관련 자료
 
 - [scGPT Nature Methods](https://www.nature.com/articles/s41592-024-02201-0)
+
+## 같이 읽을 Paper Notes
+
+- [scGPT: toward building a foundation model for single-cell multi-omics using generative AI](../papers/cuiScGPTFoundation2024.md)
+- [Bayesian Hyperparameter Optimization Improves scGPT Fine-Tuning for Single-Cell Multi-Omics Integration](../papers/tayBayesianHyperparameterOptimization2026.md)
+- [Causal circuit tracing reveals distinct computational architectures in single-cell foundation models](../papers/kendiukhovCausalCircuitTracing2026.md)
+- [Evaluating the learnability of single-cell large language models on multiple tasks](../papers/yanEvaluatingLearnabilitySingleCell2026.md)
