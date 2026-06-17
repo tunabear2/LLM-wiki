@@ -41,6 +41,28 @@ nav:
       - Fine-tuning: llm/fine-tuning.md
   - Papers:
       - Paper Notes: papers/index.md
+      - Sequencing Analysis:
+          - Bulk RNA-seq Analysis: papers/bulk-rna-seq.md
+          - Bulk RNA-seq Core Papers:
+              - STAR: papers/dobinSTARUltrafast2013.md
+              - kallisto: papers/brayKallistoNearOptimal2016.md
+              - Salmon: papers/patroSalmonFast2017.md
+              - TMM Normalization: papers/robinsonScalingNormalization2010.md
+              - DESeq2: papers/loveDESeq2Moderated2014.md
+              - voom-limma: papers/lawVoomPrecision2014.md
+          - scRNA-seq Analysis: papers/scrna-seq.md
+          - scRNA-seq Core Papers:
+              - scran Normalization: papers/lunPoolingNormalizeSingleCell2016.md
+              - Seurat Integration: papers/stuartComprehensiveIntegration2019.md
+              - Seurat WNN: papers/haoIntegratedMultimodalSingleCell2021.md
+          - DNA-seq / Variant Analysis: papers/dna-seq-analysis.md
+          - DNA-seq Core Papers:
+              - BWA: papers/liBWAFast2009.md
+              - SAMtools: papers/liSAMtools2009.md
+              - GATK Best Practices: papers/vanDerAuweraGATKBestPractices2013.md
+              - FreeBayes: papers/garrisonFreeBayes2012.md
+              - Manta: papers/chenMantaRapid2016.md
+              - Ensembl VEP: papers/mclarenVEP2016.md
       - LLM / Transformer:
           - Attention Is All You Need: papers/vaswaniAttentionAllYou2023.md
           - Transformer: papers/transformer.md

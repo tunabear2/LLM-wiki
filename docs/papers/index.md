@@ -43,6 +43,53 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [EGSP: scFoundation embeddings for survival prediction](liuLeveragingSinglecellFoundation2026.md)
 - [COIN: bulk-single-cell drug sensitivity inference](shangguanDrugSensitivityInference2025.md)
 
+## Bulk RNA-seq
+
+- [Bulk RNA-seq Analysis Paper Notes](bulk-rna-seq.md)
+- [STAR: ultrafast universal RNA-seq aligner](dobinSTARUltrafast2013.md)
+- [kallisto: near-optimal probabilistic RNA-seq quantification](brayKallistoNearOptimal2016.md)
+- [Salmon: fast and bias-aware transcript quantification](patroSalmonFast2017.md)
+- [TMM normalization](robinsonScalingNormalization2010.md)
+- [DESeq2](loveDESeq2Moderated2014.md)
+- [voom-limma](lawVoomPrecision2014.md)
+- [TxFM: masked gene-expression representation learning](kenyonDeanEffectiveBiologicalRepresentation2026.md)
+- [GeneBag](liangGeneBagTrainingCell2024.md)
+- [EGSP: scFoundation embeddings for survival prediction](liuLeveragingSinglecellFoundation2026.md)
+- [COIN: bulk-single-cell drug sensitivity inference](shangguanDrugSensitivityInference2025.md)
+- [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md)
+- [Benchmarking Gene Expression Foundation Models on Bulk RNA-Seq Data](../articles/2026-05-27-bulk-rnaseq-foundation-model-benchmark.md)
+
+## scRNA-seq
+
+- [scRNA-seq Analysis Paper Notes](scrna-seq.md)
+- [scran deconvolution normalization](lunPoolingNormalizeSingleCell2016.md)
+- [Seurat anchor-based integration](stuartComprehensiveIntegration2019.md)
+- [Seurat WNN multimodal integration](haoIntegratedMultimodalSingleCell2021.md)
+- [Single-cell Foundation Models](single-cell-foundation-models.md)
+- [Geneformer](theodorisTransferLearningNetwork2023.md)
+- [scGPT](cuiScGPTFoundation2024.md)
+- [scFoundation](haoLargeScaleFoundation2024.md)
+- [scBERT](yangScBERTLargeScale2022.md)
+- [CellPLM](wenCellPLMPretraining2023.md)
+- [UCE: universal cell embeddings](rosenUniversalCellEmbeddings2023.md)
+- [Nicheformer](tejadaLapuertaNicheformer2025.md)
+- [TranscriptFormer](pearceTranscriptFormer2025.md)
+- [Smart-seq2](picelliSmartSeq2Sensitive2013.md)
+- [Drop-seq](macoskoDropSeq2015.md)
+- [Scanpy](wolfSCANPY2018.md)
+- [scVI](lopezDeepGenerativeSingleCell2018.md)
+- [Harmony](korsunskyHarmony2019.md)
+
+## DNA-seq / Variant Analysis
+
+- [DNA-seq / Variant Analysis Paper Notes](dna-seq-analysis.md)
+- [BWA](liBWAFast2009.md)
+- [SAMtools / SAM-BAM format](liSAMtools2009.md)
+- [GATK Best Practices](vanDerAuweraGATKBestPractices2013.md)
+- [FreeBayes](garrisonFreeBayes2012.md)
+- [Manta](chenMantaRapid2016.md)
+- [Ensembl VEP](mclarenVEP2016.md)
+
 ## Transcriptomics / Platform
 
 - [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md)
