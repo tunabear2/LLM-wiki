@@ -90,6 +90,28 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Manta](chenMantaRapid2016.md)
 - [Ensembl VEP](mclarenVEP2016.md)
 
+## Microarray
+
+- [Microarray Analysis Paper Notes](microarray-analysis.md)
+- [MIAME](brazmaMIAME2001.md)
+- [GEO](barrettGEO2002.md)
+- [RMA](irizarryRMA2003.md)
+- [limma](smythLimma2004.md)
+- [ComBat](johnsonComBat2007.md)
+- [SAM](tusherSAM2001.md)
+- [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md)
+
+## GWAS
+
+- [GWAS Analysis Paper Notes](gwas-analysis.md)
+- [WTCCC GWAS](wtcccGWAS2007.md)
+- [PLINK](purcellPLINK2007.md)
+- [PCA stratification correction](pricePCA2006.md)
+- [IMPUTE2](howieIMPUTE22009.md)
+- [METAL](willerMETAL2010.md)
+- [LD Score regression](bulikSullivanLDSC2015.md)
+- [MAGMA](deLeeuwMAGMA2015.md)
+
 ## Transcriptomics / Platform
 
 - [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md)

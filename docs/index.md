@@ -16,6 +16,8 @@
 - Bulk RNA-seq analysis
 - scRNA-seq analysis
 - DNA-seq / variant analysis
+- Microarray analysis
+- GWAS analysis
 - Single-cell foundation models
 - 장기 이식 예후 예측 모델 설계
 - Microarray-to-scRNA prognosis adapter

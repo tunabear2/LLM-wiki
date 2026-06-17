@@ -63,6 +63,24 @@ nav:
               - FreeBayes: papers/garrisonFreeBayes2012.md
               - Manta: papers/chenMantaRapid2016.md
               - Ensembl VEP: papers/mclarenVEP2016.md
+      - Array / Association Analysis:
+          - Microarray Analysis: papers/microarray-analysis.md
+          - Microarray Core Papers:
+              - MIAME: papers/brazmaMIAME2001.md
+              - GEO: papers/barrettGEO2002.md
+              - RMA: papers/irizarryRMA2003.md
+              - limma: papers/smythLimma2004.md
+              - ComBat: papers/johnsonComBat2007.md
+              - SAM: papers/tusherSAM2001.md
+          - GWAS Analysis: papers/gwas-analysis.md
+          - GWAS Core Papers:
+              - WTCCC GWAS: papers/wtcccGWAS2007.md
+              - PLINK: papers/purcellPLINK2007.md
+              - PCA Stratification: papers/pricePCA2006.md
+              - IMPUTE2: papers/howieIMPUTE22009.md
+              - METAL: papers/willerMETAL2010.md
+              - LD Score Regression: papers/bulikSullivanLDSC2015.md
+              - MAGMA: papers/deLeeuwMAGMA2015.md
       - LLM / Transformer:
           - Attention Is All You Need: papers/vaswaniAttentionAllYou2023.md
           - Transformer: papers/transformer.md
