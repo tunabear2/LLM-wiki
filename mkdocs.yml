@@ -13,14 +13,23 @@ hooks:
 
 theme:
   name: material
+  custom_dir: overrides
   language: ko
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  font: false
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
   features:
-    - navigation.tabs
     - navigation.sections
-    - navigation.expand
+    - navigation.path
     - navigation.top
+    - toc.follow
     - search.highlight
     - search.suggest
+    - search.share
     - content.code.copy
 
 nav:
@@ -156,6 +165,8 @@ nav:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - toc:
       permalink: true
   - tables
@@ -163,3 +174,9 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.details
+
+extra_css:
+  - stylesheets/warm-research-wiki.css
+
+extra_javascript:
+  - javascripts/warm-research-wiki.js

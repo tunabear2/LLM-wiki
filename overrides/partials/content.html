@@ -1,0 +1,32 @@
+{# Article metadata is moved directly below the page title by warm-research-wiki.js. #}
+{% include "partials/actions.html" %}
+{% if not page.is_homepage and page.meta %}
+  {% set tags = page.meta.tags | d([], true) %}
+  {% if page.meta.updated or page.meta.type or tags %}
+    <div class="kb-article-meta" data-kb-article-meta hidden>
+      <div class="kb-article-meta__line">
+        {% if page.meta.type %}
+          <span class="kb-article-type">{{ page.meta.type | replace('-', ' ') }}</span>
+        {% endif %}
+        {% if page.meta.updated %}
+          <span class="kb-article-meta__item">
+            <span class="kb-article-meta__label">Updated</span>
+            <time datetime="{{ page.meta.updated }}">{{ page.meta.updated }}</time>
+          </span>
+        {% endif %}
+        <span class="kb-article-meta__item" data-kb-reading-time aria-label="예상 읽기 시간"></span>
+      </div>
+      {% if tags %}
+        <div class="kb-tags" aria-label="태그">
+          {% for tag in tags %}
+            <span class="kb-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endif %}
+{{ page.content }}
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}

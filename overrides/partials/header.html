@@ -1,0 +1,46 @@
+{# Warm Research Wiki header override for Material for MkDocs 9.x #}
+{% import "partials/language.html" as lang with context %}
+{% set page_url = page.url | d('', true) %}
+<header class="md-header kb-header" data-md-component="header">
+  <nav class="md-header__inner md-grid kb-header__inner" aria-label="{{ lang.t('header') }}">
+    <label class="md-header__button md-icon kb-menu" for="__drawer" aria-label="메뉴 열기">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+       title="{{ config.site_name | e }}"
+       class="md-logo kb-brand"
+       aria-label="{{ config.site_name }}"
+       data-md-component="logo">
+      {% include "partials/logo.html" %}
+      <span class="kb-brand__text">{{ config.site_name }}</span>
+    </a>
+
+    <nav class="kb-topnav" aria-label="주요 섹션">
+      <a href="{{ 'research-questions/' | url }}"
+         class="kb-topnav__link{% if page_url == 'research-questions/' or page_url.startswith('reports/') %} is-active{% endif %}">Research</a>
+      <a href="{{ 'papers/' | url }}"
+         class="kb-topnav__link{% if page_url.startswith('papers/') or page_url.startswith('articles/') %} is-active{% endif %}">Papers</a>
+      <a href="{{ 'bio-ai/scgpt/' | url }}"
+         class="kb-topnav__link{% if page_url.startswith('bio-ai/') %} is-active{% endif %}">Bio AI</a>
+      <a href="{{ 'code/code-log/' | url }}"
+         class="kb-topnav__link{% if page_url.startswith('code/') %} is-active{% endif %}">Code</a>
+    </nav>
+
+    {% if "material/search" in config.plugins %}
+      {% set search = config.plugins["material/search"] | attr("config") %}
+      {% if search.enabled %}
+        <label class="kb-search-trigger" for="__search" aria-label="검색 열기">
+          <span class="md-icon kb-search-trigger__icon">
+            {% set icon = config.theme.icon.search or "material/magnify" %}
+            {% include ".icons/" ~ icon ~ ".svg" %}
+          </span>
+          <span class="kb-search-trigger__text">Search notes, genes, models…</span>
+          <kbd class="kb-search-trigger__key" data-kb-shortcut>⌘ K</kbd>
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+    {% endif %}
+  </nav>
+</header>
