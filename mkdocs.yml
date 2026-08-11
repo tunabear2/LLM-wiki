@@ -176,7 +176,7 @@ markdown_extensions:
   - pymdownx.details
 
 extra_css:
-  - stylesheets/warm-research-wiki.css
+  - stylesheets/warm-research-wiki.css?v=20260811
 
 extra_javascript:
   - javascripts/warm-research-wiki.js
