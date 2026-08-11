@@ -231,6 +231,7 @@ body {
 
 .kb-header .md-search__inner {
   position: fixed;
+  z-index: 2;
   top: 4.7rem;
   left: 50%;
   width: min(40rem, calc(100vw - 2rem));
