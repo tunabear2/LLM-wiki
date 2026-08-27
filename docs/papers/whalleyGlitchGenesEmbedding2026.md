@@ -1,4 +1,13 @@
-# Glitch genes: embedding geometry predicts functional fragility in single-cell foundation models
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-08-10'
+tags:
+- wiki/paper
+---
+
+# Do Geometric Outliers Identify Important Genes in Single-Cell Foundation Models?
 
 ## 기본 정보
 
@@ -6,41 +15,41 @@
 - Item type: preprint
 - Authors: J. P. Whalley
 - DOI: 10.64898/2026.06.22.733850
-- URL: [Link](https://www.biorxiv.org/content/10.64898/2026.06.22.733850v1)
-- Source/date: bioRxiv, 2026-06-27
+- URL: [Link](https://www.biorxiv.org/content/10.64898/2026.06.22.733850v2)
+- Source/date: bioRxiv revised v2, 2026-08-03 (first posted 2026-06-27)
 
 ## Abstract
 
-This paper introduces a weight-only geometric audit for gene embeddings in single-cell foundation models. It scores genes by embedding norm, centroid distance, cosine similarity, and isolation, then applies the audit to Geneformer, scGPT, and scFoundation. The analysis reports outlier enrichment for loss-of-function intolerance and disease association in discrete-tokenization models, and links embedding anomaly to perturbation sensitivity.
+This paper compares gene-embedding outliers in Geneformer, scGPT, and scFoundation using four geometric metrics. The revised analysis finds weak agreement on individual outlier genes, model-dependent class-level patterns, and no standalone evidence that outlier status predicts annotation leverage or ClinVar disease relevance.
 
 ## 1. 한 줄 요약
 
 %% begin one-line-summary %%
-Glitch genes는 Geneformer, scGPT, scFoundation의 gene embedding geometry만으로 representational outlier를 찾아 downstream perturbation 해석에서 취약할 수 있는 gene을 표시하는 audit 방법이다.
+Geneformer, scGPT, scFoundation의 geometric outlier는 model-specific embedding structure를 보여주지만, 그 자체로 downstream leverage나 disease relevance를 뜻하지 않는다.
 %% end one-line-summary %%
 
 ## 2. 핵심 아이디어
 
 %% begin core-idea %%
-scFM의 gene embedding은 downstream perturbation prediction과 GRN inference의 기반이지만, embedding matrix 자체를 사전 점검하는 경우가 드물다. 논문은 norm, centroid distance, cosine similarity, isolation score로 outlier gene을 찾고, tokenization strategy가 어떤 gene을 불안정하게 표현하는지 비교한다.
+Norm, centroid distance, cosine similarity, isolation score를 세 모델에 동일하게 적용한다. Ribosomal gene은 세 모델에서 class-level enrichment를 보이지만 개별 gene 합의는 약하고, mitochondrial enrichment도 Geneformer와 scGPT에 집중된다. Geneformer의 고-anomaly gene 삭제는 matched control보다 annotation을 더 악화시키지 않았고, covariate-adjusted outlier status도 ClinVar membership과 연관되지 않았다.
 %% end core-idea %%
 
 ## 3. 내 연구에 적용할 아이디어
 
 %% begin research-ideas %%
-Rejection marker나 perturbation 후보 gene을 scGPT/Geneformer attribution으로 고를 때 embedding outlier가 과도한 중요도로 보일 수 있다. IFNG, CXCL9/10, HLA genes, endothelial activation markers처럼 임상적으로 중요한 gene에 대해 embedding audit을 먼저 수행하면 false mechanistic claim을 줄일 수 있다.
+IFNG, CXCL9/10, HLA genes, endothelial activation markers가 embedding outlier인지 여부만으로 rejection 중요도를 주장하면 안 된다. Geometry audit은 model-specific representation 구조를 설명하는 보조 분석으로 두고, donor/center holdout, gene ablation, ClinVar·pathway annotation, perturbation evidence로 중요도를 독립 검증해야 한다.
 %% end research-ideas %%
 
 ## 4. 관련 키워드
 
 %% begin keywords %%
-- Glitch genes
+- Geometric outliers
 - Gene embedding audit
 - Single-cell foundation model
 - Geneformer
 - scGPT
 - scFoundation
-- Perturbation sensitivity
+- Downstream leverage
 - Rejection marker validation
 %% end keywords %%
 
@@ -54,4 +63,4 @@ Rejection marker나 perturbation 후보 gene을 scGPT/Geneformer attribution으�
 
 ## 6. Bibliography
 
-Whalley, J. P. "Glitch genes: embedding geometry predicts functional fragility in single-cell foundation models." _bioRxiv_, 2026. [https://doi.org/10.64898/2026.06.22.733850](https://doi.org/10.64898/2026.06.22.733850).
+Whalley, J. P. "Do Geometric Outliers Identify Important Genes in Single-Cell Foundation Models?" _bioRxiv_, 2026. [https://doi.org/10.64898/2026.06.22.733850](https://doi.org/10.64898/2026.06.22.733850).

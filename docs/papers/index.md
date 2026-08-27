@@ -1,3 +1,12 @@
+---
+type: index
+status: reference
+rag_priority: low
+updated: '2026-08-17'
+tags:
+- wiki/index
+---
+
 # Paper Notes
 
 Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간입니다.
@@ -46,7 +55,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Zero-shot robustness benchmark for single-cell transcriptomic FMs](liuSystematicBenchmarkingZeroShot2026.md)
 - [CellOS: cellular state world model](zhouCellOSWorldModel2026.md)
 - [VCBench: virtual-cell benchmark for scFMs](weidenerVCBenchMultiDimensional2026.md)
-- [Glitch genes: embedding geometry audit for scFMs](whalleyGlitchGenesEmbedding2026.md)
+- [Geometric outliers and gene importance in scFMs](whalleyGlitchGenesEmbedding2026.md)
 - [PerturbCellRL: verifier-guided single-cell perturbation prediction](wuPerturbCellRLVerifierGuided2026.md)
 - [Partial-label metric ceilings for scFM-derived GRN evaluation](kendiukhovPartialLabelMetric2026.md)
 - [Causal intervention validation of scGPT regulatory signals](kendiukhovCausalInterventionValidation2026.md)
@@ -56,6 +65,22 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [scVision: vision FM via spatial gene cartography](yesilogluScVision2026.md)
 - [Transcriptome FM links transcription and TADs](liangFoundationModelReveals2026.md)
 - [Topology and geometry in biological FMs](kendiukhovTopologicalGeometric2026.md)
+- [GFCAB: scale and predictive diversity in Geneformer-style models](chenAssessingScalePredictive2026.md)
+- [Inflammation-linked aging signals in frozen scFMs](kendiukhovInflammationLinkedAging2026.md)
+- [Residual-stream geometry for scFM regulatory signals](kendiukhovResidualStreamGeometry2026.md)
+- [scMIR: single-cell microscopy vision-language FM](shangScMIRVisionLanguage2026.md)
+- [ELISA: scGPT-grounded single-cell discovery agent](coserELISAInterpretableHybrid2026.md)
+- [Scaling an autoregressive Transformer for single-cell generation](sharipovScalingAutoregressiveTransformer2026.md)
+- [Clifti-GPT: privacy-preserving federated scGPT](bakhtiariCliftiGPTPrivacyPreserving2026.md)
+- [CellDuality: self-supervised RLVR for single-cell reasoning](chenCellDualityUnlocking2026.md)
+- [Harmonised benchmark of single-cell and spatial FMs](chenHarmonisedBenchmarkingFoundation2026.md)
+- [scContam: auditing scFM pretraining contamination](aliAuditingPretrainingContamination2026.md)
+- [Attention interpretability benchmark for scFMs](kendiukhovSystematicEvaluationSingleCell2026.md)
+- [scYeast: biological-prior single-cell foundation model](fanScYeastBiologicalKnowledge2026.md)
+- [BioM-JEPA: graph-connected gene-block prediction](wangBioMJEPAJointEmbedding2026.md)
+- [CellWorld: latent cell prediction for spatial transcriptomics](liuCellWorldGeneLevel2026.md)
+- [VOICE: H&E-to-single-cell expression foundation model](luoVOICEVisionOmics2026.md)
+- [CytoFormer: molecularly supervised cell FM for histopathology](yaoCytoFormerMolecularlySupervised2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
@@ -110,7 +135,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Zero-shot robustness benchmark for single-cell transcriptomic FMs](liuSystematicBenchmarkingZeroShot2026.md)
 - [CellOS: cellular state world model](zhouCellOSWorldModel2026.md)
 - [VCBench: virtual-cell benchmark for scFMs](weidenerVCBenchMultiDimensional2026.md)
-- [Glitch genes: embedding geometry audit for scFMs](whalleyGlitchGenesEmbedding2026.md)
+- [Geometric outliers and gene importance in scFMs](whalleyGlitchGenesEmbedding2026.md)
 - [PerturbCellRL: verifier-guided single-cell perturbation prediction](wuPerturbCellRLVerifierGuided2026.md)
 - [Partial-label metric ceilings for scFM-derived GRN evaluation](kendiukhovPartialLabelMetric2026.md)
 - [Causal intervention validation of scGPT regulatory signals](kendiukhovCausalInterventionValidation2026.md)
@@ -120,6 +145,21 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [scVision: vision FM via spatial gene cartography](yesilogluScVision2026.md)
 - [Transcriptome FM links transcription and TADs](liangFoundationModelReveals2026.md)
 - [Topology and geometry in biological FMs](kendiukhovTopologicalGeometric2026.md)
+- [GFCAB: scale and predictive diversity in Geneformer-style models](chenAssessingScalePredictive2026.md)
+- [Inflammation-linked aging signals in frozen scFMs](kendiukhovInflammationLinkedAging2026.md)
+- [Residual-stream geometry for scFM regulatory signals](kendiukhovResidualStreamGeometry2026.md)
+- [ELISA: scGPT-grounded single-cell discovery agent](coserELISAInterpretableHybrid2026.md)
+- [Scaling an autoregressive Transformer for single-cell generation](sharipovScalingAutoregressiveTransformer2026.md)
+- [Clifti-GPT: privacy-preserving federated scGPT](bakhtiariCliftiGPTPrivacyPreserving2026.md)
+- [CellDuality: self-supervised RLVR for single-cell reasoning](chenCellDualityUnlocking2026.md)
+- [Harmonised benchmark of single-cell and spatial FMs](chenHarmonisedBenchmarkingFoundation2026.md)
+- [scContam: auditing scFM pretraining contamination](aliAuditingPretrainingContamination2026.md)
+- [Attention interpretability benchmark for scFMs](kendiukhovSystematicEvaluationSingleCell2026.md)
+- [scYeast: biological-prior single-cell foundation model](fanScYeastBiologicalKnowledge2026.md)
+- [BioM-JEPA: graph-connected gene-block prediction](wangBioMJEPAJointEmbedding2026.md)
+- [CellWorld: latent cell prediction for spatial transcriptomics](liuCellWorldGeneLevel2026.md)
+- [VOICE: H&E-to-single-cell expression foundation model](luoVOICEVisionOmics2026.md)
+- [CytoFormer: molecularly supervised cell FM for histopathology](yaoCytoFormerMolecularlySupervised2026.md)
 - [Smart-seq2](picelliSmartSeq2Sensitive2013.md)
 - [Drop-seq](macoskoDropSeq2015.md)
 - [Scanpy](wolfSCANPY2018.md)
