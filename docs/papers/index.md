@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-08-17'
+updated: '2026-08-31'
 tags:
 - wiki/index
 ---
@@ -81,6 +81,15 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [CellWorld: latent cell prediction for spatial transcriptomics](liuCellWorldGeneLevel2026.md)
 - [VOICE: H&E-to-single-cell expression foundation model](luoVOICEVisionOmics2026.md)
 - [CytoFormer: molecularly supervised cell FM for histopathology](yaoCytoFormerMolecularlySupervised2026.md)
+- [Confound diagnostics for scFM in silico perturbation](qiuConfoundDiagnosticToolkit2026.md)
+- [Zero-shot benchmark of single-cell foundation models](gaballaBenchmarkingSingleCell2026.md)
+- [scMaize: GO-guided maize single-cell FM](chengScMaizeSingleCell2026.md)
+- [TissueFormer: whole-slide multimodal FM at single-cell resolution](wuTissueFormerMultiModal2026.md)
+- [TERRA: multi-scale spatial transcriptomics foundation model](birkMultiScaleModeling2026.md)
+- [Cross-species aging signatures in scGPT and Geneformer](alAminSingleCellFoundation2026.md)
+- [Geneformer-guided multiomics identifies Pbx1](kobayashiGeneformerGuidedMultiomics2026.md)
+- [GITIII-scale: interpretable cell state–niche spatial FM](xiaoLearningInterpretableTumor2026.md)
+- [Locked evaluation of Geneformer perturbation transfer](shoeibiLockedEvaluationSurfaces2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
@@ -160,6 +169,15 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [CellWorld: latent cell prediction for spatial transcriptomics](liuCellWorldGeneLevel2026.md)
 - [VOICE: H&E-to-single-cell expression foundation model](luoVOICEVisionOmics2026.md)
 - [CytoFormer: molecularly supervised cell FM for histopathology](yaoCytoFormerMolecularlySupervised2026.md)
+- [Confound diagnostics for scFM in silico perturbation](qiuConfoundDiagnosticToolkit2026.md)
+- [Zero-shot benchmark of single-cell foundation models](gaballaBenchmarkingSingleCell2026.md)
+- [scMaize: GO-guided maize single-cell FM](chengScMaizeSingleCell2026.md)
+- [TissueFormer: whole-slide multimodal FM at single-cell resolution](wuTissueFormerMultiModal2026.md)
+- [TERRA: multi-scale spatial transcriptomics foundation model](birkMultiScaleModeling2026.md)
+- [Cross-species aging signatures in scGPT and Geneformer](alAminSingleCellFoundation2026.md)
+- [Geneformer-guided multiomics identifies Pbx1](kobayashiGeneformerGuidedMultiomics2026.md)
+- [GITIII-scale: interpretable cell state–niche spatial FM](xiaoLearningInterpretableTumor2026.md)
+- [Locked evaluation of Geneformer perturbation transfer](shoeibiLockedEvaluationSurfaces2026.md)
 - [Smart-seq2](picelliSmartSeq2Sensitive2013.md)
 - [Drop-seq](macoskoDropSeq2015.md)
 - [Scanpy](wolfSCANPY2018.md)
