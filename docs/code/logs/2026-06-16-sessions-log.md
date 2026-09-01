@@ -1,3 +1,12 @@
+---
+type: worklog
+status: archive
+rag_priority: low
+updated: '2026-07-20'
+tags:
+- wiki/worklog
+---
+
 # Claude Code 세션 로그
 
 프로젝트별 상세 내용은 각 WORKLOG.md 참조.

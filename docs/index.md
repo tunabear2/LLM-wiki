@@ -1,3 +1,12 @@
+---
+type: index
+status: reference
+rag_priority: low
+updated: '2026-09-01'
+tags:
+- wiki/index
+---
+
 <section class="kb-home-hero">
   <span class="kb-home-eyebrow">Personal research knowledge base</span>
   <h1>LLM Bio Wiki</h1>
@@ -78,32 +87,32 @@
 <p class="kb-home-section__intro">최근 읽은 논문과 진행 중인 연구 흐름에서 다시 볼 가치가 높은 문서입니다.</p>
 
 <div class="kb-article-list">
-  <a class="kb-article-card" href="reports/microarray-to-scrna-prognosis-adapter/">
-    <span class="kb-card__category">My Research</span>
-    <span class="kb-card__title">Microarray-to-scRNA Prognosis Adapter</span>
-    <span class="kb-card__description">Bulk microarray에서 학습한 예후 신호를 single-cell 환자 데이터로 연결하는 adapter 설계와 검증.</span>
-    <time class="kb-card__date" datetime="2026-06-16">2026.06.16</time>
+  <a class="kb-article-card" href="papers/shoeibiLockedEvaluationSurfaces2026/">
+    <span class="kb-card__category">Evaluation</span>
+    <span class="kb-card__title">Locked Evaluation of Geneformer Transfer</span>
+    <span class="kb-card__description">CRISPRi perturbation 예측의 cross-screen transfer failure와 sampling-depth confounding을 검증.</span>
+    <time class="kb-card__date" datetime="2026-08-28">2026.08.28</time>
   </a>
 
-  <a class="kb-article-card" href="reports/scgpt-worklog-summary/">
-    <span class="kb-card__category">Research log</span>
-    <span class="kb-card__title">scGPT Worklog Summary</span>
-    <span class="kb-card__description">scGPT 기반 신장 이식 연구의 실험 흐름과 주요 의사결정을 다시 찾기 쉽게 정리한 기록.</span>
-    <time class="kb-card__date" datetime="2026-06-04">2026.06.04</time>
+  <a class="kb-article-card" href="papers/xiaoLearningInterpretableTumor2026/">
+    <span class="kb-card__category">Spatial FM</span>
+    <span class="kb-card__title">GITIII-scale Cell State–Niche Modeling</span>
+    <span class="kb-card__description">Paired scRNA·spatial data로 cell state–niche와 ligand–receptor mechanism을 학습하는 모델.</span>
+    <time class="kb-card__date" datetime="2026-08-26">2026.08.26</time>
   </a>
 
-  <a class="kb-article-card" href="articles/2026-05-27-bulk-rnaseq-foundation-model-benchmark/">
-    <span class="kb-card__category">Benchmark</span>
-    <span class="kb-card__title">Bulk RNA-seq Foundation Model Benchmark</span>
-    <span class="kb-card__description">Transcriptomics foundation model의 표현과 downstream 성능을 비교하기 위한 벤치마크 정리.</span>
-    <time class="kb-card__date" datetime="2026-05-27">2026.05.27</time>
+  <a class="kb-article-card" href="papers/kobayashiGeneformerGuidedMultiomics2026/">
+    <span class="kb-card__category">Geneformer</span>
+    <span class="kb-card__title">Geneformer-guided Multiomics</span>
+    <span class="kb-card__description">Geneformer 후보를 multiomics와 functional screen으로 검증해 Pbx1 regulatory hub를 규명.</span>
+    <time class="kb-card__date" datetime="2026-08-21">2026.08.21</time>
   </a>
 
-  <a class="kb-article-card" href="reports/scgpt-prognosis-progress-2026-06-16/">
-    <span class="kb-card__category">My Research</span>
-    <span class="kb-card__title">scGPT Prognosis Progress Map</span>
-    <span class="kb-card__description">신장 이식 거부반응과 예후 예측 실험의 현재 구조, 검증 결과, 다음 단계를 연결한 지도.</span>
-    <time class="kb-card__date" datetime="2026-06-16">2026.06.16</time>
+  <a class="kb-article-card" href="papers/birkMultiScaleModeling2026/">
+    <span class="kb-card__category">Kidney Spatial AI</span>
+    <span class="kb-card__title">TERRA Multi-scale Tissue Modeling</span>
+    <span class="kb-card__description">Gene·cell·neighborhood embedding과 kidney in silico perturbation을 연결한 spatial foundation model.</span>
+    <time class="kb-card__date" datetime="2026-08-04">2026.08.04</time>
   </a>
 </div>
 </section>

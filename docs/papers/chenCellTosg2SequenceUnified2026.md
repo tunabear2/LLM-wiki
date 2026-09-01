@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # CellTosg2Sequence: A Unified Text-Omics-Signaling-Graph Large Language Model for Single-Cell Analysis
 
 ## 기본 정보

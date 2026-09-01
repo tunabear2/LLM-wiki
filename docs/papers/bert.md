@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # BERT
 
 ## 1. 한 줄 요약

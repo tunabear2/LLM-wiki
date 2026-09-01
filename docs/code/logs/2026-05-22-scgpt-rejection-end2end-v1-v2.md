@@ -1,3 +1,12 @@
+---
+type: worklog
+status: archive
+rag_priority: low
+updated: '2026-07-20'
+tags:
+- wiki/worklog
+---
+
 # 2026-05-22 - scGPT Rejection End-to-End Fine-tuning v1/v2
 
 작성일: 2026-05-22

@@ -1,3 +1,12 @@
+---
+type: article
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/article
+---
+
 # Benchmarking Gene Expression Foundation Models on Bulk RNA-Seq Data
 
 저장일: 2026-05-27

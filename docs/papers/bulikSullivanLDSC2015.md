@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # LD Score regression distinguishes confounding from polygenicity in GWAS
 
 ## 기본 정보

@@ -1,3 +1,12 @@
+---
+type: index
+status: reference
+rag_priority: low
+updated: '2026-07-20'
+tags:
+- wiki/index
+---
+
 # Article / Report Scraps
 
 논문으로 정식 정리하기 전의 article, conference abstract, report, blog, white paper 스크랩 노트를 모아두는 공간이다.

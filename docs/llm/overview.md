@@ -1,3 +1,12 @@
+---
+type: concept
+status: reference
+rag_priority: high
+updated: '2026-07-20'
+tags:
+- wiki/concept
+---
+
 # LLM Overview
 
 ## 핵심 개념

@@ -1,3 +1,12 @@
+---
+type: workflow
+status: reference
+rag_priority: low
+updated: '2026-07-20'
+tags:
+- wiki/workflow
+---
+
 # Zotero + Obsidian Workflow
 
 ## 목적

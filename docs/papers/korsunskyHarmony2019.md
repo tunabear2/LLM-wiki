@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Fast, sensitive and accurate integration of single-cell data with Harmony
 
 ## 기본 정보

@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
 
 ## 기본 정보

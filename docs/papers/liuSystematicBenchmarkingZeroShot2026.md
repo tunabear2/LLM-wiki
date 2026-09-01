@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Systematic benchmarking of zero-shot utility and robustness in single-cell transcriptomic foundation models
 
 ## 기본 정보

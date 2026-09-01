@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # PLINK: a tool set for whole-genome association and population-based linkage analyses
 
 ## 기본 정보

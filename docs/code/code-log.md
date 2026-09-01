@@ -1,3 +1,12 @@
+---
+type: code-note
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/code-note
+---
+
 # Code Log
 
 이 문서는 연구 과정에서 실제로 사용한 코드, 명령어, notebook, script를 정리하기 위한 공간이다.

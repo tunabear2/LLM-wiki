@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # FreeBayes: haplotype-based variant detection from short-read sequencing
 
 ## 기본 정보

@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # scRNA-seq Analysis Paper Notes
 
 scRNA-seq 논문은 cell-level expression, cell-state representation, batch/platform integration, multimodal analysis, foundation model transfer를 중심으로 모아둔다. Kidney transplant biopsy에서는 cell type annotation 자체보다 rejection-associated cell state를 patient-level outcome과 어떻게 연결할지가 핵심이다.

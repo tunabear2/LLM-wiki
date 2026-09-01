@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # A scaling normalization method for differential expression analysis of RNA-seq data
 
 ## 기본 정보

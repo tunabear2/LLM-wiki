@@ -1,3 +1,12 @@
+---
+type: worklog
+status: archive
+rag_priority: low
+updated: '2026-07-20'
+tags:
+- wiki/worklog
+---
+
 # 2026-05-18 - LLM-wiki 배포
 
 ## 목적

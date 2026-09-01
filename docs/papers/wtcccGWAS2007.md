@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # WTCCC: genome-wide association study of 14,000 cases and 3,000 controls
 
 ## 기본 정보

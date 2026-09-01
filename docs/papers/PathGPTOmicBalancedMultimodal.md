@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Path-GPTOmic: A Balanced Multi-modal Learning Framework for Survival Outcome Prediction
 
 ## 기본 정보

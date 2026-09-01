@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Smart-seq2 for sensitive full-length transcriptome profiling in single cells
 
 ## 기본 정보

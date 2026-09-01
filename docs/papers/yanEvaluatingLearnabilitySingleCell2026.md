@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Evaluating the learnability of single-cell large language models on multiple tasks
 
 ## 기본 정보

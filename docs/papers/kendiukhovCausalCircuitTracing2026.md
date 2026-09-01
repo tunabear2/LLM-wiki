@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Causal circuit tracing reveals distinct computational architectures in single-cell foundation models
 
 ## 기본 정보

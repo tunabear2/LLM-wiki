@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Microarray Analysis Paper Notes
 
 Microarray 분석 섹션은 probe-level intensity에서 normalized expression matrix, differential expression, batch correction, public cohort reuse까지 이어지는 흐름을 공부하기 위한 공간이다. Kidney transplant 자료에서는 오래된 public cohort가 microarray인 경우가 많으므로, bulk RNA-seq/scRNA-seq와 함께 쓰려면 platform-specific bias를 먼저 이해해야 한다.

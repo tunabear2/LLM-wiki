@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution
 
 ## 기본 정보

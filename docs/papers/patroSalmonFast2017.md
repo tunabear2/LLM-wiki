@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Salmon: fast and bias-aware quantification of transcript expression
 
 ## 기본 정보

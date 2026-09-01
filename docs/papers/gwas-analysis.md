@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # GWAS Analysis Paper Notes
 
 GWAS 분석 섹션은 genotype array 또는 sequencing-derived variants에서 genotype QC, population structure correction, imputation, association testing, meta-analysis, post-GWAS interpretation으로 이어지는 흐름을 공부하기 위한 공간이다. Transplant 연구에서는 recipient/donor genotype, HLA/KIR, immune response loci, expression QTL과 rejection phenotype을 연결할 수 있다.

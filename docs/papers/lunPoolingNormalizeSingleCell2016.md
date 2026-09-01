@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Pooling across cells to normalize single-cell RNA sequencing data with many zero counts
 
 ## 기본 정보

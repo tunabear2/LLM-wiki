@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Gene Expression Omnibus: NCBI gene expression and hybridization array data repository
 
 ## 기본 정보

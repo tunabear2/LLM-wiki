@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # GeneBag: training a cell foundation model for broad-spectrum cancer diagnosis and prognosis with bulk RNA-seq data
 
 ## 기본 정보

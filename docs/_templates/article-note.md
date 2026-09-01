@@ -1,3 +1,16 @@
+---
+type: article
+status: draft
+rag_priority: medium
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+topics: []
+tags:
+- wiki/article
+- wiki/template
+- rag/exclude
+---
+
 # {{ title }}
 
 ## 기본 정보

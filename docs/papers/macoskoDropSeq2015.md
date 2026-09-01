@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Highly Parallel Genome-wide Expression Profiling of Individual Cells Using Nanoliter Droplets
 
 ## 기본 정보

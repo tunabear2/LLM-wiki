@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # From FastQ data to high-confidence variant calls: the GATK Best Practices pipeline
 
 ## 기본 정보

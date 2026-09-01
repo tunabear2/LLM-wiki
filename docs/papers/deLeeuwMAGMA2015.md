@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # MAGMA: generalized gene-set analysis of GWAS data
 
 ## 기본 정보

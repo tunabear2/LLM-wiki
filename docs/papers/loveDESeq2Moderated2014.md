@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # DESeq2: moderated estimation of fold change and dispersion for RNA-seq data
 
 ## 기본 정보

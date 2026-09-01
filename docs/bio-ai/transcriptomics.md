@@ -1,3 +1,12 @@
+---
+type: concept
+status: reference
+rag_priority: high
+updated: '2026-07-20'
+tags:
+- wiki/concept
+---
+
 # Transcriptomics Preprocessing
 
 ## 핵심 요약

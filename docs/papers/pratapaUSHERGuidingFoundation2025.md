@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # USHER: Guiding Foundation Model Representations through Distribution Shifts
 
 ## 기본 정보

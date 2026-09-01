@@ -1,3 +1,12 @@
+---
+type: report
+status: active
+rag_priority: high
+updated: '2026-07-20'
+tags:
+- wiki/report
+---
+
 # Microarray-to-scRNA Prognosis Adapter
 
 작성일: 2026-06-01

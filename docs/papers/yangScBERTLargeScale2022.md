@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data
 
 ## 기본 정보

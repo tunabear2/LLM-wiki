@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # What topological and geometric structure do biological foundation models learn? Evidence from 141 hypotheses
 
 ## 기본 정보

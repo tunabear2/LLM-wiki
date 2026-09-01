@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # CellOS: Learning a World Model of Cellular State through Joint Embedding Prediction
 
 ## 기본 정보

@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # CellPLM: Pre-training of Cell Language Model Beyond Single Cells
 
 ## 기본 정보

@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Universal Cell Embeddings: A Foundation Model for Cell Biology
 
 ## 기본 정보

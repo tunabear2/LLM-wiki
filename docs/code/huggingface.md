@@ -1,3 +1,12 @@
+---
+type: code-note
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/code-note
+---
+
 # Hugging Face
 
 ## 핵심 요약

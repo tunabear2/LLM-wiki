@@ -1,3 +1,13 @@
+---
+type: worklog
+status: archive
+rag_priority: low
+updated: '2026-07-20'
+tags:
+- wiki/worklog
+- rag/exclude
+---
+
 # scGPT WORKLOG
 
 ## predict-cell 결과 통합 (E-MTAB + 외부 scRNA-seq 4) + bar plot (2026-06-16)

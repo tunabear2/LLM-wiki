@@ -5,6 +5,9 @@ site_url: https://tunabear2.github.io/LLM-wiki/
 
 exclude_docs: |
   _templates/*
+  copilot/**
+  rag/**
+  code/rag-sources/**
   papers/template.md
   LLM-wiki/*
 
@@ -162,6 +165,7 @@ nav:
       - Terms: glossary/terms.md
   - Workflows:
       - Zotero + Obsidian: workflows/zotero-obsidian.md
+      - Obsidian LLM/RAG: workflows/obsidian-llm-rag.md
 
 markdown_extensions:
   - admonition

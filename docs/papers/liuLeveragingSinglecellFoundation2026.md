@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Leveraging single-cell foundation models for accurate survival outcome prediction
 
 ## 기본 정보

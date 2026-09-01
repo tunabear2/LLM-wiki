@@ -1,3 +1,13 @@
+---
+type: worklog
+status: archive
+rag_priority: low
+updated: '2026-07-20'
+tags:
+- wiki/worklog
+- rag/exclude
+---
+
 # scGPT WORKLOG
 
 ## 완료: pretrain_human 인코더로 adapter_8000 재현 — kidney vs human backbone 비교 (2026-06-02)

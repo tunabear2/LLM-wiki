@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # ComBat: adjusting batch effects in microarray expression data using empirical Bayes methods
 
 ## 기본 정보

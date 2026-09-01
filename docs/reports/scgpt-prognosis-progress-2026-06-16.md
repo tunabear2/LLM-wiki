@@ -1,3 +1,12 @@
+---
+type: report
+status: active
+rag_priority: high
+updated: '2026-07-20'
+tags:
+- wiki/report
+---
+
 # scGPT Prognosis Progress Map
 
 작성일: 2026-06-16

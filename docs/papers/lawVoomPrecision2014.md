@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # voom: precision weights unlock linear model analysis tools for RNA-seq read counts
 
 ## 기본 정보

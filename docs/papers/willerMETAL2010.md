@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # METAL: fast and efficient meta-analysis of genomewide association scans
 
 ## 기본 정보

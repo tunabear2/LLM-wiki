@@ -1,3 +1,12 @@
+---
+type: worklog
+status: archive
+rag_priority: low
+updated: '2026-07-20'
+tags:
+- wiki/worklog
+---
+
 # 2026-05-20 - scGPT Rejection Classification Worklog
 
 작성일: 2026-05-20

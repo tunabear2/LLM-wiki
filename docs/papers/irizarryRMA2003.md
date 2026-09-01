@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # RMA: exploration, normalization, and summaries of high density oligonucleotide array probe level data
 
 ## 기본 정보

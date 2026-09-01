@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Benchmarking gene expression reconstruction from single-cell latent representations
 
 ## 기본 정보

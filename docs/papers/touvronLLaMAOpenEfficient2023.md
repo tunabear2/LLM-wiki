@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # LLaMA: Open and Efficient Foundation Language Models
 
 ## 기본 정보

@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # VCBench: A Multi-Dimensional Benchmark for Single-Cell Foundation Models
 
 ## 기본 정보

@@ -1,3 +1,12 @@
+---
+type: research-question
+status: active
+rag_priority: high
+updated: '2026-07-20'
+tags:
+- wiki/research-question
+---
+
 # Research Questions
 
 이 문서는 현재 연구에서 가장 중요한 질문들을 정리하고, 관련 논문/개념/실험 아이디어를 연결하기 위한 공간이다.

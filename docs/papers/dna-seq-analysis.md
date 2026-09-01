@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # DNA-seq / Variant Analysis Paper Notes
 
 DNA 분석 섹션은 WGS/WES/targeted sequencing에서 FASTQ를 variant interpretation으로 바꾸는 기본 흐름을 공부하기 위한 공간이다. 우선 short-read DNA-seq variant analysis를 중심으로 두고, 나중에 methylation, ATAC-seq, long-read, HLA typing은 별도 섹션으로 확장한다.

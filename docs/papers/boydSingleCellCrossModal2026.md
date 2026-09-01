@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Single-Cell Cross-Modal Transfer by Adversarial Fine-Tuning of Foundation Models
 
 ## 기본 정보

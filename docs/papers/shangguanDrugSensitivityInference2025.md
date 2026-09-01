@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Drug Sensitivity Inference Through Foundation Model–Driven Contrastive Integration of Bulk and Single-Cell Omics
 
 ## 기본 정보

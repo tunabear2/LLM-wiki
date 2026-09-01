@@ -1,3 +1,19 @@
+---
+type: paper
+status: reading
+rag_priority: medium
+created: '{{ importDate | format("YYYY-MM-DD") }}'
+updated: '{{ importDate | format("YYYY-MM-DD") }}'
+citation_key: '{{ citekey }}'
+topics: []
+models: []
+datasets: []
+tags:
+- wiki/paper
+- wiki/template
+- rag/exclude
+---
+
 # {{ title }}
 
 ## 기본 정보

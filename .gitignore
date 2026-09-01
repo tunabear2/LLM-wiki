@@ -3,6 +3,11 @@ site/
 .mkdocs-serve.log
 docs/.obsidian/
 docs/**/.obsidian/
+docs/.copilot/
+docs/.copilot-index/
+docs/copilot/copilot-log.md
+docs/copilot/copilot-conversations/
+docs/copilot/memory/
 docs/LLM-wiki/
 *.base
 __pycache__/

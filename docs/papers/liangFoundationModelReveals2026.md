@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Foundation model reveals the shared organization of transcription and topologically associating domains
 
 ## 기본 정보

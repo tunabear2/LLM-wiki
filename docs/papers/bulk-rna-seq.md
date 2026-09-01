@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Bulk RNA-seq Analysis Paper Notes
 
 Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, survival, drug response, platform transfer와 연결하는 관점에서 모아둔다. 분석 기본기는 read alignment/quantification, normalization, differential expression, pathway interpretation, patient-level modeling 순서로 공부한다.

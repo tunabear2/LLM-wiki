@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Partial-label metric ceilings for evaluating gene regulatory networks inferred from single-cell foundation models
 
 ## 기본 정보

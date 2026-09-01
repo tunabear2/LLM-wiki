@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # Nicheformer: a foundation model for single-cell and spatial omics
 
 ## 기본 정보

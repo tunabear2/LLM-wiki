@@ -1,3 +1,12 @@
+---
+type: paper
+status: reference
+rag_priority: medium
+updated: '2026-07-20'
+tags:
+- wiki/paper
+---
+
 # HoloCell: A Generative Foundation Model for Holistic Cellular Modeling
 
 ## 기본 정보
