@@ -1,8 +1,8 @@
 ---
 type: report
-status: active
+status: reference
 rag_priority: high
-updated: '2026-07-20'
+updated: '2026-09-07'
 tags:
 - wiki/report
 ---
@@ -10,6 +10,9 @@ tags:
 # Transplant Prognosis Model Notes
 
 작성일: 2026-05-26
+
+!!! note "초기 설계 메모"
+    이 문서는 2026-05 시점의 설계 가설을 보존한다. 6개 foundation model 생존평가, adapter·block expansion 반증, Geneformer GEP까지 반영한 현재 결론은 [Single-cell FM Kidney Transplant Project](single-cell-fm-kidney-transplant-project-history.md)를 기준으로 본다.
 
 이 문서는 장기 이식 예후 예측 모델을 만들 때, scGPT 기반 encoder를 어떻게 다루고 어떤 입력 전처리와 prediction head를 비교할지 정리한 설계 메모이다. 현재 맥락은 신장 이식 거부반응 및 graft outcome risk score 예측이다.
 

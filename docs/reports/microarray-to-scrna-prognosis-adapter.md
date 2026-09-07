@@ -1,8 +1,8 @@
 ---
 type: report
-status: active
+status: reference
 rag_priority: high
-updated: '2026-07-20'
+updated: '2026-09-07'
 tags:
 - wiki/report
 ---
@@ -10,6 +10,9 @@ tags:
 # Microarray-to-scRNA Prognosis Adapter
 
 작성일: 2026-06-01
+
+!!! note "2026-06 실험 스냅샷"
+    이 문서는 초기 scGPT adapter 실험을 보존한다. 이후 full fine-tuning, side-adapter, block expansion과 6개 모델 생존 벤치마크까지 포함한 현재 판정은 [Single-cell FM Kidney Transplant Project](single-cell-fm-kidney-transplant-project-history.md)를 참고한다.
 
 이 문서는 `prognosis_microarray_adapter.py`로 정리한 최종 microarray-to-scRNA 예후 예측 모델을 요약한다. 목표는 bulk microarray에서 학습한 rejection/prognosis signal을 scGPT kidney pretrained encoder의 single-cell 표현 공간으로 옮기고, single-cell 환자 데이터에서는 세포별 risk를 환자 수준 score로 집계하는 것이다.
 

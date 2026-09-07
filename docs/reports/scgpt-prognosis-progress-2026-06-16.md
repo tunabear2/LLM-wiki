@@ -1,8 +1,8 @@
 ---
 type: report
-status: active
+status: reference
 rag_priority: high
-updated: '2026-07-20'
+updated: '2026-09-07'
 tags:
 - wiki/report
 ---
@@ -10,6 +10,9 @@ tags:
 # scGPT Prognosis Progress Map
 
 작성일: 2026-06-16
+
+!!! note "2026-06 진행 상황 스냅샷"
+    이 문서의 “현재”는 2026-06-16을 뜻한다. 이후 다중 코호트 반증, 6개 scFM 생존평가와 Geneformer GEP까지 포함한 최신 종합 기록은 [Single-cell FM Kidney Transplant Project](single-cell-fm-kidney-transplant-project-history.md)에 있다.
 
 이 문서는 server에서 가져온 `WORKLOG.md`와 `SESSIONS.md`를 바탕으로, 신장 이식 거부반응/예후 예측 작업의 현재 상태를 위키용으로 재정리한 최신 요약이다. 원문은 [2026-06-16 scGPT prognosis worklog](../code/logs/2026-06-16-scgpt-prognosis-worklog.md)와 [2026-06-16 sessions log](../code/logs/2026-06-16-sessions-log.md)에 보존했다.
 

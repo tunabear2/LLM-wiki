@@ -39,6 +39,7 @@ nav:
   - Home: index.md
   - Research Questions: research-questions.md
   - Reports:
+      - Single-cell FM Kidney Transplant Project: reports/single-cell-fm-kidney-transplant-project-history.md
       - Kidney Transplant Rejection: reports/kidney-transplant-rejection-classification-summary.md
       - Transplant Prognosis Model Notes: reports/transplant-prognosis-model-notes.md
       - Microarray-to-scRNA Prognosis Adapter: reports/microarray-to-scrna-prognosis-adapter.md

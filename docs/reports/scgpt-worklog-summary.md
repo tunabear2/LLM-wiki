@@ -1,8 +1,8 @@
 ---
 type: report
-status: active
+status: reference
 rag_priority: high
-updated: '2026-07-20'
+updated: '2026-09-07'
 tags:
 - wiki/report
 ---
@@ -11,8 +11,8 @@ tags:
 
 작성일: 2026-06-04
 
-!!! note "최신 업데이트"
-    2026-06-16에 server의 `WORKLOG.md`와 `SESSIONS.md`를 반영한 최신 종합 정리는 [scGPT Prognosis Progress Map](scgpt-prognosis-progress-2026-06-16.md)에 따로 정리했다. 이 문서는 2026-06-04 시점의 이전 요약으로 보존한다.
+!!! note "2026-06 실험 스냅샷"
+    이 문서는 2026-06-04 시점의 scGPT 연구를 보존한다. 6개 모델 생존 벤치마크와 2026-09-05까지의 후속 결론은 [Single-cell FM Kidney Transplant Project](single-cell-fm-kidney-transplant-project-history.md)를 기준으로 본다.
 
 이 문서는 `/Users/dwyun/WORKLOG.md`에 누적된 scGPT 기반 신장 이식 거부반응/예후 예측 실험을 위키용으로 정리한 요약 보고서다. 원본 전체 로그는 [scGPT full worklog](../code/logs/2026-06-04-scgpt-worklog.md)에 보존했다.
 

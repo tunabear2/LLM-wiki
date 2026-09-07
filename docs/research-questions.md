@@ -2,70 +2,90 @@
 type: research-question
 status: active
 rag_priority: high
-updated: '2026-07-20'
+updated: '2026-09-07'
 tags:
 - wiki/research-question
 ---
 
 # Research Questions
 
-이 문서는 현재 연구에서 가장 중요한 질문들을 정리하고, 관련 논문/개념/실험 아이디어를 연결하기 위한 공간이다.
+이 문서는 single-cell foundation model을 신장이식 발현 데이터에 적용하면서 남은 핵심 질문과 현재까지의 답을 연결한다. 상세한 실험 근거와 수치는 [최신 프로젝트 종합 보고서](reports/single-cell-fm-kidney-transplant-project-history.md)에 정리했다.
 
-## Q1. Domain shift를 어떻게 해결할 것인가?
+## Q1. Domain shift는 전처리나 fine-tuning으로 해결할 수 있는가?
 
 ### 핵심 질문
 
-Single-cell foundation model이나 LLM 기반 bio-AI 모델을 실제 연구 데이터에 적용할 때, pretraining 데이터와 target dataset 사이의 domain shift를 어떻게 줄일 수 있을까?
+Single-cell foundation model을 microarray, bulk RNA-seq, scRNA-seq에 함께 적용할 때 조직·플랫폼·코호트 차이를 어떻게 통제할 수 있는가?
 
-특히 다음과 같은 차이가 모델 성능에 어떤 영향을 주는지 확인해야 한다.
+### 현재까지의 답
 
-- 조직 또는 세포 타입 차이
-- 질병 상태 차이
-- 실험 플랫폼 차이
-- 전처리 방식 차이
-- cohort, batch, lab effect 차이
+- Bulk microarray → scRNA-seq에서는 kidney-pretrained frozen backbone과 단순한 patient aggregation이 가장 안정적이었다.
+- Full fine-tuning, last-layer fine-tuning, side-adapter, block expansion은 in-domain 성능을 높일 수 있지만 cross-domain 일반화를 일관되게 개선하지 못했다.
+- 19개 데이터셋의 2,179 샘플 병합보다 비교적 동질적인 kidney 627 샘플이 더 잘 전이됐다.
+- 값의 단조 변환보다 0 집합, gene panel, 시퀀스 예산, 절단 seed가 더 중요한 경우가 많았다.
+- Gqmap은 array → RNA-seq처럼 기술이 다른 경우에만 후보이며, 같은 기술 코호트 사이에서는 생물학적 차이까지 제거했다.
 
-### 왜 중요한가?
+따라서 “도메인을 지운다”는 하나의 처방보다 source·target의 기술과 조직을 먼저 구분하고, frozen baseline을 기준으로 각 개입을 외부 코호트에서 판정해야 한다.
 
-Pretrained model은 대규모 데이터에서 일반적인 표현을 학습하지만, 실제 downstream task에서는 target dataset의 분포가 pretraining 데이터와 다를 수 있다. 이 경우 embedding 품질이 떨어지거나, 특정 cohort 또는 batch에 과적합된 예측이 나올 수 있다.
+### 다음 검증
 
-따라서 domain shift를 줄이거나 견고하게 만드는 전략은 모델의 실제 연구 활용 가능성을 결정하는 핵심 문제다.
+1. Adapt 코퍼스와 외부 평가 코호트의 배열 단위 중복을 제거한다.
+2. 동일한 fold에서 frozen과 adapted representation을 paired 비교한다.
+3. 기술이 다른 전이와 같은 기술의 cohort transfer를 별도 과제로 유지한다.
 
-### 관련 개념
+## Q2. Foundation model은 강한 비-FM 기준선을 넘는가?
 
-- [[single-cell-llm]]
-- [[single-cell-foundation-models]]
-- [[geneformer]]
-- [[scgpt]]
-- [[fine-tuning]]
-- [[transcriptomics]]
+### 현재까지의 답
 
-### 관련 보고서
+환자 단위 표준 평가에서 ElasticNet-Cox의 Uno's C는 0.799였다. Survival MLP는 0.795였고, 6개 FM의 frozen 또는 adapted arm 중 ElasticNet보다 우세하다고 주장할 수 있는 모델은 없었다. 이는 “FM이 쓸모없다”는 결론이 아니라, 사건 30건 규모에서 일반 cell embedding이 추가 복잡도를 정당화하지 못했다는 뜻이다.
 
-- [Kidney Transplant Rejection Classification - Full Work Summary](reports/kidney-transplant-rejection-classification-summary.md)
+### 다음 검증
 
-### 가능한 접근
+1. GSE21374 전체 282 생검·221 환자를 환자 단위로 정리해 T1b를 평가한다.
+2. 모든 arm에 같은 환자 fold와 bootstrap index를 사용한다.
+3. Uno's C를 주 지표로 두고 Harrell's C, IBS, 관측 KM을 함께 보고한다.
+4. 포화된 calibration slope와 절대 생존확률은 임상적 결과처럼 보고하지 않는다.
 
-1. Pretrained embedding을 그대로 사용하고, target task classifier만 학습한다.
-2. Target dataset에서 일부 layer만 fine-tuning한다.
-3. Batch correction 또는 data integration을 먼저 수행한 뒤 모델에 입력한다.
-4. Domain-adversarial training으로 batch/cohort 정보를 제거한다.
-5. Source domain과 target domain을 나누어 cross-domain validation을 수행한다.
-6. Cell type별로 domain shift 영향을 따로 평가한다.
-
-### 먼저 해볼 실험
-
-1. 같은 task에서 random split과 cohort split 성능을 비교한다.
-2. Pretrained embedding이 batch, platform, disease status를 얼마나 분리하는지 UMAP으로 확인한다.
-3. Fine-tuning 전후 embedding space가 target domain에 맞게 이동하는지 비교한다.
-4. Cell type별 성능 차이를 확인해 어떤 세포군에서 domain shift가 가장 큰지 찾는다.
+## Q3. 사건 수가 현재 성능의 천장인가?
 
 ### 현재 가설
 
-Domain shift는 전체 데이터에서 균일하게 나타나지 않고, 특정 cell type이나 특정 disease state에서 더 크게 나타날 가능성이 있다. 따라서 전체 성능 지표 하나만 보는 것보다, cell type별/condition별/domain별 성능을 분해해서 보는 것이 중요하다.
+서로 다른 표현 적응과 Cox head 재설계가 비슷한 위치에서 포화됐고, 고차원 adapter는 위험점수 스케일과 calibration만 악화했다. 현재 가장 간결한 설명은 backbone이나 head보다 작은 사건 수가 병목이라는 것이다.
 
-### 다음에 읽을 논문
+### 판정 실험
 
-- Geneformer 관련 downstream transfer 논문
-- scGPT 관련 perturbation 또는 cell annotation 논문
-- Single-cell domain adaptation 또는 batch correction 관련 논문
+GSE21374 주 분석 105명·사건 30에서 전체 환자 코호트로 확장했을 때 다음을 본다.
+
+- FM과 ElasticNet의 paired Δ 신뢰구간이 좁아지는가?
+- Geneformer GEP 이득이 유지되는가?
+- Calibration slope와 위험점수 스케일이 회복되는가?
+- 반복 생검을 어떤 환자 단위 규칙으로 대표할 때 결과가 안정적인가?
+
+## Q4. Cell embedding보다 gene embedding prior가 더 적합한가?
+
+### 현재까지의 답
+
+Foundation model을 샘플 인코더로 사용할 때보다 유전자 임베딩을 `X @ E → PCA(k) → Cox`로 사용하는 Geneformer GEP가 더 강했다. Harrell's C 0.8471로 현재 최고 결과지만, zeroing 행렬에서는 0.60 안팎으로 무너졌다. 이득은 `β = Ew`라는 직접 계수 제약보다 임베딩이 유도한 저차원 부분공간에서 나타났다.
+
+### 다음 검증
+
+1. Zero 없는 log2 RMA를 GEP 입력 계약으로 고정한다.
+2. `β = E V_k u + δ`로 저차원 prior와 residual gene effect를 분리한다.
+3. 실제 embedding, 유전자 순열 embedding, random embedding을 같은 fold에서 비교한다.
+4. GSE21374 전체 코호트와 독립 time-to-event 데이터 GSE112927에서 재검증한다.
+
+## 공통 판정 원칙
+
+- 환자 단위 split·bootstrap을 사용한다.
+- In-domain CV와 cross-domain transfer를 분리해 보고한다.
+- Pretrained, random-init, label shuffle, 유전자 치환 대조를 함께 둔다.
+- 체크포인트·전처리·readout·adapter 조합을 지문으로 고정한다.
+- 하류 지표 하나로 embedding collapse나 조용한 로딩 실패를 판단하지 않는다.
+
+## 관련 문서
+
+- [Single-cell FM Kidney Transplant Project](reports/single-cell-fm-kidney-transplant-project-history.md)
+- [Kidney Transplant Rejection Classification](reports/kidney-transplant-rejection-classification-summary.md)
+- [Single-cell Foundation Models](papers/single-cell-foundation-models.md)
+- [scGPT](bio-ai/scgpt.md)
+- [Geneformer](bio-ai/geneformer.md)

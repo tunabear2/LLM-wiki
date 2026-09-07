@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-09-01'
+updated: '2026-09-07'
 tags:
 - wiki/index
 ---
@@ -15,9 +15,9 @@ tags:
     Single-cell foundation model부터 transcriptomics 분석과 신장 이식 연구 기록까지 한곳에 축적합니다.
   </p>
   <div class="kb-home-hero__links">
+    <a href="reports/single-cell-fm-kidney-transplant-project-history/">Latest project report →</a>
     <a href="research-questions/">Research questions →</a>
     <a href="papers/">Browse papers →</a>
-    <a href="papers/single-cell-foundation-models/">Single-cell FM map →</a>
   </div>
 </section>
 
@@ -68,6 +68,7 @@ tags:
   <section class="kb-topic">
   <h3>My Research</h3>
   <ul>
+    <li><a href="reports/single-cell-fm-kidney-transplant-project-history/">Single-cell FM kidney transplant project</a></li>
     <li><a href="research-questions/">Research questions</a></li>
     <li><a href="reports/kidney-transplant-rejection-classification-summary/">Kidney transplant rejection</a></li>
     <li><a href="reports/microarray-to-scrna-prognosis-adapter/">Microarray-to-scRNA adapter</a></li>
@@ -87,6 +88,13 @@ tags:
 <p class="kb-home-section__intro">최근 읽은 논문과 진행 중인 연구 흐름에서 다시 볼 가치가 높은 문서입니다.</p>
 
 <div class="kb-article-list">
+  <a class="kb-article-card" href="reports/single-cell-fm-kidney-transplant-project-history/">
+    <span class="kb-card__category">Project Report</span>
+    <span class="kb-card__title">Single-cell FM for Kidney Transplant Prognosis</span>
+    <span class="kb-card__description">6개 foundation model, cross-domain transfer, survival benchmark, Geneformer GEP까지 2026년 4~9월 연구를 통합한 최신 보고서.</span>
+    <time class="kb-card__date" datetime="2026-09-07">2026.09.07</time>
+  </a>
+
   <a class="kb-article-card" href="papers/shoeibiLockedEvaluationSurfaces2026/">
     <span class="kb-card__category">Evaluation</span>
     <span class="kb-card__title">Locked Evaluation of Geneformer Transfer</span>

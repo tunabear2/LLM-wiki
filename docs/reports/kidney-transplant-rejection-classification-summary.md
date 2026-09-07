@@ -1,8 +1,8 @@
 ---
 type: report
-status: active
+status: reference
 rag_priority: high
-updated: '2026-07-20'
+updated: '2026-09-07'
 tags:
 - wiki/report
 ---
@@ -10,6 +10,9 @@ tags:
 # Kidney Transplant Rejection Classification - Full Work Summary
 
 작성일: 2026-05-18
+
+!!! note "초기 분류 단계 기록"
+    이 문서는 bulk microarray → scRNA-seq rejection 분류의 초기 결과를 보존한다. 이후 6개 foundation model과 time-to-event 생존분석으로 확장된 전체 흐름은 [Single-cell FM Kidney Transplant Project](single-cell-fm-kidney-transplant-project-history.md)를 참고한다.
 
 이 문서는 신장 이식 거부반응 예측 모델 개발 과정에서 수행한 데이터 정리, domain transfer 실험, scGPT embedding 실험, MIL/ensemble 실험, 최종 성능 비교, 향후 확장 방향을 정리한 전체 작업 요약 보고서이다.
 
