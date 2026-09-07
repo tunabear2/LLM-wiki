@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-08-10'
+updated: '2026-09-07'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: Aleksandr Sharipov; Yusif Mukhtarov; Igor Molybog
 - DOI: 10.48550/arXiv.2608.02961
 - URL: [Link](https://arxiv.org/abs/2608.02961)
-- Source/date: arXiv v1, 2026-08-03
+- Source/date: arXiv revised v2, 2026-09-01
 
 ## 1. 한 줄 요약
 
@@ -32,4 +32,4 @@ Kidney transplant rejection용 모델을 처음부터 크게 pretrain하기보�
 
 ## 4. Bibliography
 
-Sharipov, Aleksandr, Yusif Mukhtarov, and Igor Molybog. "Scaling an Autoregressive Transformer for Single-Cell Generation." _arXiv_, 2026. [https://doi.org/10.48550/arXiv.2608.02961](https://doi.org/10.48550/arXiv.2608.02961).
+Sharipov, Aleksandr, Yusif Mukhtarov, and Igor Molybog. "Scaling an Autoregressive Transformer for Single-Cell Generation." _arXiv_, revised 2026. [https://doi.org/10.48550/arXiv.2608.02961](https://doi.org/10.48550/arXiv.2608.02961).

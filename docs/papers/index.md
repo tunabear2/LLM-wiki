@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-08-31'
+updated: '2026-09-07'
 tags:
 - wiki/index
 ---
@@ -90,6 +90,15 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Geneformer-guided multiomics identifies Pbx1](kobayashiGeneformerGuidedMultiomics2026.md)
 - [GITIII-scale: interpretable cell state–niche spatial FM](xiaoLearningInterpretableTumor2026.md)
 - [Locked evaluation of Geneformer perturbation transfer](shoeibiLockedEvaluationSurfaces2026.md)
+- [AdaGeneBudget: cell-adaptive gene-token allocation](kimAdaGeneBudget2026.md)
+- [bento-sc: systematic scLM configuration assessment](deWaeleSystematicAssessment2026.md)
+- [Pre-registered external evaluation of three transcriptomic FMs](shoeibiPreRegisteredExternal2026.md)
+- [Temporal clinical transcriptomics with fine-tuned FM embeddings](mathurFinetuningFoundationModels2026.md)
+- [scProtoTransformer: multi-resolution reference mapping](tangScProtoTransformer2026.md)
+- [PROSPECTor: open-ended discovery across single-cell representations](zhangOperationalizingOpenEnded2026.md)
+- [Reproducible deployment and practical boundaries of scFMs](houAccessibleReproducibleDeployment2026.md)
+- [scRep: latent-space self-distilled single-cell FM](wangScRepLatentSpace2026.md)
+- [Gene-Chronos: Geneformer-based biological time inference](liuGeneChronos2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
@@ -178,6 +187,15 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Geneformer-guided multiomics identifies Pbx1](kobayashiGeneformerGuidedMultiomics2026.md)
 - [GITIII-scale: interpretable cell state–niche spatial FM](xiaoLearningInterpretableTumor2026.md)
 - [Locked evaluation of Geneformer perturbation transfer](shoeibiLockedEvaluationSurfaces2026.md)
+- [AdaGeneBudget: cell-adaptive gene-token allocation](kimAdaGeneBudget2026.md)
+- [bento-sc: systematic scLM configuration assessment](deWaeleSystematicAssessment2026.md)
+- [Pre-registered external evaluation of three transcriptomic FMs](shoeibiPreRegisteredExternal2026.md)
+- [Temporal clinical transcriptomics with fine-tuned FM embeddings](mathurFinetuningFoundationModels2026.md)
+- [scProtoTransformer: multi-resolution reference mapping](tangScProtoTransformer2026.md)
+- [PROSPECTor: open-ended discovery across single-cell representations](zhangOperationalizingOpenEnded2026.md)
+- [Reproducible deployment and practical boundaries of scFMs](houAccessibleReproducibleDeployment2026.md)
+- [scRep: latent-space self-distilled single-cell FM](wangScRepLatentSpace2026.md)
+- [Gene-Chronos: Geneformer-based biological time inference](liuGeneChronos2026.md)
 - [Smart-seq2](picelliSmartSeq2Sensitive2013.md)
 - [Drop-seq](macoskoDropSeq2015.md)
 - [Scanpy](wolfSCANPY2018.md)
