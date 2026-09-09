@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-09-07'
+updated: '2026-09-09'
 tags:
 - wiki/index
 ---
@@ -25,6 +25,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [InstructGPT / RLHF](ouyangTrainingLanguageModels2022.md)
 - [LoRA: low-rank adaptation](huLoRALowRank2021.md)
 - [LLaMA: open and efficient foundation language models](touvronLLaMAOpenEfficient2023.md)
+- [Prefix Sliding: efficient test-time scaling](muennighoffPrefixSlidingEfficient2026.md)
 
 ## Bio AI
 
@@ -103,11 +104,14 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
 - [USHER](pratapaUSHERGuidingFoundation2025.md)
+- [PARNET: CLIP-seq RNA foundation model](moyonPARNETCLIPSeq2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
 - [EGSP: scFoundation embeddings for survival prediction](liuLeveragingSinglecellFoundation2026.md)
 - [COIN: bulk-single-cell drug sensitivity inference](shangguanDrugSensitivityInference2025.md)
+- [Mouse mammary transcriptomics for human breast-cancer prediction](sutcliffeTranscriptomicProfilingMouse2026.md)
+- [Spatial transcriptomics CNA inference benchmark](hanBenchmarkingCopyNumberSpatial2026.md)
 
 ## Bulk RNA-seq
 
@@ -124,6 +128,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [COIN: bulk-single-cell drug sensitivity inference](shangguanDrugSensitivityInference2025.md)
 - [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md)
 - [Benchmarking Gene Expression Foundation Models on Bulk RNA-Seq Data](../articles/2026-05-27-bulk-rnaseq-foundation-model-benchmark.md)
+- [Mouse mammary transcriptomics for human breast-cancer prediction](sutcliffeTranscriptomicProfilingMouse2026.md)
+- [Quartet/MAQC alternative-splicing benchmark](wangBenchmarkingRNASeqAlternative2026.md)
+- [cellGeometry: ultra-fast single-cell deconvolution](lauCellGeometryUltraFast2026.md)
+- [Preprocessing stability beyond AUROC](zhengHighAUROCMask2026.md)
 
 ## scRNA-seq
 
@@ -201,6 +209,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Scanpy](wolfSCANPY2018.md)
 - [scVI](lopezDeepGenerativeSingleCell2018.md)
 - [Harmony](korsunskyHarmony2019.md)
+- [cellGeometry: ultra-fast single-cell deconvolution](lauCellGeometryUltraFast2026.md)
+- [scDiagnostics: annotation QC](christidisScDiagnosticsSystematic2026.md)
+- [Ambient-RNA decontamination benchmark](cargnelliBenchmarkingComputationalDecontamination2026.md)
+- [Single-cell spatial isoform sequencing](michielsenSpatialIsoformSequencing2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -211,6 +223,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [FreeBayes](garrisonFreeBayes2012.md)
 - [Manta](chenMantaRapid2016.md)
 - [Ensembl VEP](mclarenVEP2016.md)
+- [PARNET: CLIP-seq RNA foundation model](moyonPARNETCLIPSeq2026.md)
+- [Pangenome-assisted long-read somatic SV calling](qinImprovingLongReadSomatic2026.md)
+- [Spatial transcriptomics CNA inference benchmark](hanBenchmarkingCopyNumberSpatial2026.md)
 
 ## Microarray
 
@@ -222,6 +237,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [ComBat](johnsonComBat2007.md)
 - [SAM](tusherSAM2001.md)
 - [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md)
+- [Mouse mammary transcriptomics for human breast-cancer prediction](sutcliffeTranscriptomicProfilingMouse2026.md)
+- [Preprocessing stability beyond AUROC](zhengHighAUROCMask2026.md)
 
 ## GWAS
 
@@ -233,6 +250,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [METAL](willerMETAL2010.md)
 - [LD Score regression](bulikSullivanLDSC2015.md)
 - [MAGMA](deLeeuwMAGMA2015.md)
+- [FELIX: local-ancestry-aware biobank association](huUnifiedFrameworkLocalAncestry2026.md)
 
 ## Transcriptomics / Platform
 
@@ -245,6 +263,11 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Scanpy](wolfSCANPY2018.md)
 - [scVI](lopezDeepGenerativeSingleCell2018.md)
 - [Harmony](korsunskyHarmony2019.md)
+- [PARNET: CLIP-seq RNA foundation model](moyonPARNETCLIPSeq2026.md)
+- [Quartet/MAQC alternative-splicing benchmark](wangBenchmarkingRNASeqAlternative2026.md)
+- [Preprocessing stability beyond AUROC](zhengHighAUROCMask2026.md)
+- [Spatial transcriptomics CNA inference benchmark](hanBenchmarkingCopyNumberSpatial2026.md)
+- [Single-cell spatial isoform sequencing](michielsenSpatialIsoformSequencing2026.md)
 
 ## 사용 흐름
 

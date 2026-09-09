@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-07-20'
+updated: '2026-09-09'
 tags:
 - wiki/paper
 ---
@@ -29,6 +29,7 @@ DNA 분석 섹션은 WGS/WES/targeted sequencing에서 FASTQ를 variant interpre
 | [FreeBayes](garrisonFreeBayes2012.md) | Haplotype-based small variant calling | GATK 외 Bayesian/haplotype variant caller 비교 후보 |
 | [Manta](chenMantaRapid2016.md) | Structural variant와 medium-sized indel detection | Paired-end/split-read evidence로 deletion, duplication, inversion 등을 찾는 방법 |
 | [Ensembl VEP](mclarenVEP2016.md) | Variant consequence annotation | VCF를 gene/transcript/protein-level consequence로 해석하는 기본 도구 |
+| [Pangenome-assisted long-read somatic SV calling](qinImprovingLongReadSomatic2026.md) | Pangenome·personal assembly로 reference mismatch 유래 false positive 제거 | 이식 후 종양·클론성 질환 또는 donor–recipient 차이의 거짓 somatic call을 줄이는 참고 |
 
 ## 분석 체크리스트
 

@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-07-20'
+updated: '2026-09-09'
 tags:
 - wiki/paper
 ---
@@ -38,6 +38,13 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | [EGSP: scFoundation embeddings for survival prediction](liuLeveragingSinglecellFoundation2026.md) | TCGA bulk RNA-seq에서 scFoundation embedding, gene expression, clinical variables를 결합한 survival model | Graft survival, rejection-free survival, eGFR decline 예측에서 embedding+gene+clinical 구조를 이식 가능 |
 | [COIN: bulk-single-cell drug sensitivity inference](shangguanDrugSensitivityInference2025.md) | Labeled bulk RNA-seq와 unlabeled scRNA-seq를 contrastive learning으로 연결 | Bulk rejection label을 scRNA-seq cell state score로 전이하는 bridge model 아이디어 |
 | [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md) | RNA-seq와 microarray의 dynamic range, low-expression, isoform 차이 | Microarray/bulk RNA-seq/scRNA-seq transfer에서 platform shift를 해석하는 기본 근거 |
+
+## 최근 방법 / Benchmark
+
+| Paper | 초점 | 내 연구와 연결 |
+| --- | --- | --- |
+| [Quartet/MAQC alternative-splicing benchmark](wangBenchmarkingRNASeqAlternative2026.md) | 42개 실험실·207개 pipeline에서 isoform·splicing event 정확도와 best practice 평가 | Rejection-associated isoform 후보는 short-read discovery 뒤 long-read 또는 targeted PCR로 검증해야 한다는 기준 |
+| [cellGeometry](lauCellGeometryUltraFast2026.md) | 대규모 single-cell reference를 이용한 초고속 bulk RNA-seq deconvolution | Allograft atlas를 reference로 legacy biopsy cohort의 immune·tubular fraction을 추정하는 후보 |
 
 ## 관련 Article / Report Scraps
 

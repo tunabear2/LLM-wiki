@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-07-20'
+updated: '2026-09-09'
 tags:
 - wiki/paper
 ---
@@ -30,6 +30,7 @@ GWAS 분석 섹션은 genotype array 또는 sequencing-derived variants에서 ge
 | [METAL](willerMETAL2010.md) | GWAS summary statistics meta-analysis | 여러 cohort의 transplant phenotype GWAS를 합치는 기본 전략 |
 | [LD Score regression](bulikSullivanLDSC2015.md) | Test statistic inflation에서 polygenicity와 confounding 분리 | GWAS signal 품질, heritability, genetic correlation 해석 |
 | [MAGMA](deLeeuwMAGMA2015.md) | Gene/gene-set analysis of GWAS data | SNP-level result를 immune pathway, kidney cell type gene set과 연결 |
+| [FELIX local-ancestry-aware association](huUnifiedFrameworkLocalAncestry2026.md) | Admixed participant를 보존하는 local-ancestry GLMM과 적응 결합 검정 | 다양한 donor·recipient ancestry의 rejection·graft-outcome GWAS 설계 후보 |
 
 ## 분석 체크리스트
 

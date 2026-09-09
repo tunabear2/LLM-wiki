@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-07-20'
+updated: '2026-09-09'
 tags:
 - wiki/paper
 ---
@@ -30,6 +30,7 @@ Microarray 분석 섹션은 probe-level intensity에서 normalized expression ma
 | [ComBat](johnsonComBat2007.md) | Empirical Bayes batch-effect correction | 여러 GEO cohort 또는 platform batch를 합칠 때 기본 보정법 |
 | [SAM](tusherSAM2001.md) | Permutation/FDR 기반 microarray DEG scoring | 초기 high-dimensional DEG 분석과 FDR 사고방식 이해 |
 | [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md) | Microarray와 RNA-seq platform 차이 | Microarray-to-RNA-seq/scRNA-seq transfer에서 dynamic range와 low-expression 차이 해석 |
+| [Preprocessing stability beyond AUROC](zhengHighAUROCMask2026.md) | Cohort·platform shift에서 fixed-threshold failure와 sample-wise rank normalization 평가 | Rejection classifier의 AUROC와 실제 single-biopsy 의사결정 안정성을 분리해 검증 |
 
 ## 분석 체크리스트
 

@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-07-20'
+updated: '2026-09-09'
 tags:
 - wiki/paper
 ---
@@ -63,6 +63,8 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [CITE-seq](stoeckiusCITESeq2017.md) | Single-cell RNA + surface protein measurement | Transcriptome만으로 부족한 immune phenotype 보완 |
 | [Seurat spatial reconstruction](satijaSpatialReconstruction2015.md) | Single-cell expression과 spatial pattern 연결 | scRNA-seq cell state를 tissue context로 해석하는 배경 |
 | [Spatial transcriptomics](stahlSpatialTranscriptomics2016.md) | Tissue section gene expression mapping | Rejection lesion 위치와 cell state를 연결하는 후속 축 |
+| [scDiagnostics](christidisScDiagnosticsSystematic2026.md) | Reference–query mismatch와 label-transfer anomaly 진단 | 정상 신장 reference가 activated·희귀 rejection state를 잘못 강제 배정하는지 점검 |
+| [Ambient-RNA decontamination benchmark](cargnelliBenchmarkingComputationalDecontamination2026.md) | 7개 정제법의 오염 제거·endogenous signal 보존·downstream 영향 비교 | 염증·괴사가 많은 biopsy에서 ambient immune/tubular RNA 교정법 선택 |
 
 ## 읽을 때 체크할 것
 
