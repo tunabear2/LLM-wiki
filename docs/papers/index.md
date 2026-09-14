@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-09-09'
+updated: '2026-09-14'
 tags:
 - wiki/index
 ---
@@ -70,7 +70,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Inflammation-linked aging signals in frozen scFMs](kendiukhovInflammationLinkedAging2026.md)
 - [Residual-stream geometry for scFM regulatory signals](kendiukhovResidualStreamGeometry2026.md)
 - [scMIR: single-cell microscopy vision-language FM](shangScMIRVisionLanguage2026.md)
-- [ELISA: scGPT-grounded single-cell discovery agent](coserELISAInterpretableHybrid2026.md)
+- [ELISA: scGPT-grounded single-cell discovery agent (journal version)](coserELISAInterpretableHybrid2026.md)
 - [Scaling an autoregressive Transformer for single-cell generation](sharipovScalingAutoregressiveTransformer2026.md)
 - [Clifti-GPT: privacy-preserving federated scGPT](bakhtiariCliftiGPTPrivacyPreserving2026.md)
 - [CellDuality: self-supervised RLVR for single-cell reasoning](chenCellDualityUnlocking2026.md)
@@ -100,6 +100,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Reproducible deployment and practical boundaries of scFMs](houAccessibleReproducibleDeployment2026.md)
 - [scRep: latent-space self-distilled single-cell FM](wangScRepLatentSpace2026.md)
 - [Gene-Chronos: Geneformer-based biological time inference](liuGeneChronos2026.md)
+- [Cross-domain confidence calibration for frozen scFM classifiers](wengCrossDomainConfidence2026.md)
+- [Systematic comparison of single-cell perturbation-response models](liSystematicComparisonSingleCell2026.md)
+- [PHAROS: target-directed drug-combination search with a single-cell FM](bezneyPHAROSTurningSingleCell2026.md)
+- [Independent benchmark of H&E-to-single-cell expression prediction](shaikhutdinovaIndependentBenchmarkGeneExpression2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
@@ -174,7 +178,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [GFCAB: scale and predictive diversity in Geneformer-style models](chenAssessingScalePredictive2026.md)
 - [Inflammation-linked aging signals in frozen scFMs](kendiukhovInflammationLinkedAging2026.md)
 - [Residual-stream geometry for scFM regulatory signals](kendiukhovResidualStreamGeometry2026.md)
-- [ELISA: scGPT-grounded single-cell discovery agent](coserELISAInterpretableHybrid2026.md)
+- [ELISA: scGPT-grounded single-cell discovery agent (journal version)](coserELISAInterpretableHybrid2026.md)
 - [Scaling an autoregressive Transformer for single-cell generation](sharipovScalingAutoregressiveTransformer2026.md)
 - [Clifti-GPT: privacy-preserving federated scGPT](bakhtiariCliftiGPTPrivacyPreserving2026.md)
 - [CellDuality: self-supervised RLVR for single-cell reasoning](chenCellDualityUnlocking2026.md)
@@ -204,6 +208,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Reproducible deployment and practical boundaries of scFMs](houAccessibleReproducibleDeployment2026.md)
 - [scRep: latent-space self-distilled single-cell FM](wangScRepLatentSpace2026.md)
 - [Gene-Chronos: Geneformer-based biological time inference](liuGeneChronos2026.md)
+- [Cross-domain confidence calibration for frozen scFM classifiers](wengCrossDomainConfidence2026.md)
+- [Systematic comparison of single-cell perturbation-response models](liSystematicComparisonSingleCell2026.md)
+- [PHAROS: target-directed drug-combination search with a single-cell FM](bezneyPHAROSTurningSingleCell2026.md)
+- [Independent benchmark of H&E-to-single-cell expression prediction](shaikhutdinovaIndependentBenchmarkGeneExpression2026.md)
 - [Smart-seq2](picelliSmartSeq2Sensitive2013.md)
 - [Drop-seq](macoskoDropSeq2015.md)
 - [Scanpy](wolfSCANPY2018.md)

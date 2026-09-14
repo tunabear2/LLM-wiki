@@ -2,21 +2,23 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-08-24'
+updated: '2026-09-14'
 tags:
 - wiki/paper
 ---
 
-# ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics
+# ELISA (Embedding-Linked Interactive Single-cell Agent): an interpretable hybrid generative AI agent for expression-grounded discovery in single-cell genomics
 
 ## 기본 정보
 
 - Citation key: `coserELISAInterpretableHybrid2026`
-- Item type: preprint
+- Item type: journalArticle
 - Authors: Omar Coser
-- DOI: 10.48550/arXiv.2603.11872
-- URL: [Link](https://arxiv.org/abs/2603.11872)
-- Source/date: arXiv v3, revised 2026-07-31 (v1 2026-03-12)
+- DOI: 10.1093/bib/bbag501
+- PMID: 42721440
+- URL: [Link](https://pubmed.ncbi.nlm.nih.gov/42721440/)
+- Preprint: [arXiv:2603.11872](https://arxiv.org/abs/2603.11872)
+- Source/date: Briefings in Bioinformatics, published 2026-09-01; indexed 2026-09-10
 
 ## 1. 한 줄 요약
 
@@ -32,4 +34,4 @@ Kidney transplant rejection에서 HLA, IFN, cytotoxicity, endothelial injury sig
 
 ## 4. Bibliography
 
-Coser, Omar. "ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics." _arXiv_, 2026. [https://doi.org/10.48550/arXiv.2603.11872](https://doi.org/10.48550/arXiv.2603.11872).
+Coser, Omar. "ELISA (Embedding-Linked Interactive Single-cell Agent): an interpretable hybrid generative Artificial Intelligence agent for expression-grounded discovery in single-cell genomics." _Briefings in Bioinformatics_ 27, no. 5 (2026): bbag501. [https://doi.org/10.1093/bib/bbag501](https://doi.org/10.1093/bib/bbag501).
