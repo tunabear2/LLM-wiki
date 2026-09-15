@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-09'
+updated: '2026-09-15'
 tags:
 - wiki/paper
 ---
@@ -65,6 +65,9 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [Spatial transcriptomics](stahlSpatialTranscriptomics2016.md) | Tissue section gene expression mapping | Rejection lesion 위치와 cell state를 연결하는 후속 축 |
 | [scDiagnostics](christidisScDiagnosticsSystematic2026.md) | Reference–query mismatch와 label-transfer anomaly 진단 | 정상 신장 reference가 activated·희귀 rejection state를 잘못 강제 배정하는지 점검 |
 | [Ambient-RNA decontamination benchmark](cargnelliBenchmarkingComputationalDecontamination2026.md) | 7개 정제법의 오염 제거·endogenous signal 보존·downstream 영향 비교 | 염증·괴사가 많은 biopsy에서 ambient immune/tubular RNA 교정법 선택 |
+| [IRIS signaling-history inference](hutchinsReconstructingSignalingHistories2026.md) | Perturbation atlas에서 배운 신호반응을 in-vivo single-cell atlas로 전이 | 현재 pathway activity와 과거 cytokine exposure를 구분하는 분석 후보 |
+| [DiffusionOT](liuLearningStochasticDynamics2026.md) | 여러 시점 snapshot에서 stochastic trajectory와 cell-fate landscape 추론 | 치료 전후 rejection cell-state 전이와 in-silico perturbation 가설 생성 후보 |
+| [GWAS–single-cell integration benchmark](liBenchmarkingGWASSingleCell2026.md) | 20개 trait–cell-type mapping 방법과 CATCH 결합법 비교 | Donor·recipient GWAS 신호를 rejection 관련 세포 유형에 연결하는 방법 선택 기준 |
 
 ## 읽을 때 체크할 것
 

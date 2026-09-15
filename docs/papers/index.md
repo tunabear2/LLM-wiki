@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-09-14'
+updated: '2026-09-15'
 tags:
 - wiki/index
 ---
@@ -26,6 +26,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [LoRA: low-rank adaptation](huLoRALowRank2021.md)
 - [LLaMA: open and efficient foundation language models](touvronLLaMAOpenEfficient2023.md)
 - [Prefix Sliding: efficient test-time scaling](muennighoffPrefixSlidingEfficient2026.md)
+- [Why post-training quantization works](chenWhyPostTrainingQuantization2026.md)
 
 ## Bio AI
 
@@ -109,6 +110,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
 - [USHER](pratapaUSHERGuidingFoundation2025.md)
 - [PARNET: CLIP-seq RNA foundation model](moyonPARNETCLIPSeq2026.md)
+- [DNT: diploid genomic foundation model](leibDNTDiploidGenomic2026.md)
+- [OmniTCR: unified TCR recognition and generation foundation model](zengOmniTCRFoundationModel2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
@@ -116,6 +119,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [COIN: bulk-single-cell drug sensitivity inference](shangguanDrugSensitivityInference2025.md)
 - [Mouse mammary transcriptomics for human breast-cancer prediction](sutcliffeTranscriptomicProfilingMouse2026.md)
 - [Spatial transcriptomics CNA inference benchmark](hanBenchmarkingCopyNumberSpatial2026.md)
+- [LymphGen-Sig: genetic and transcriptional DLBCL classification](tumuluruLymphGenSigIntegrating2026.md)
 
 ## Bulk RNA-seq
 
@@ -136,6 +140,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Quartet/MAQC alternative-splicing benchmark](wangBenchmarkingRNASeqAlternative2026.md)
 - [cellGeometry: ultra-fast single-cell deconvolution](lauCellGeometryUltraFast2026.md)
 - [Preprocessing stability beyond AUROC](zhengHighAUROCMask2026.md)
+- [LymphGen-Sig: trial-tested DLBCL expression classifier](tumuluruLymphGenSigIntegrating2026.md)
+- [CellMAGE: genetics-aware bulk deconvolution](ballCellMAGEDeconvolution2026.md)
+- [UCResponNet-X: microarray-to-RNA-seq response prediction](topkaraogluUCResponNetXCrossPlatform2026.md)
 
 ## scRNA-seq
 
@@ -221,6 +228,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [scDiagnostics: annotation QC](christidisScDiagnosticsSystematic2026.md)
 - [Ambient-RNA decontamination benchmark](cargnelliBenchmarkingComputationalDecontamination2026.md)
 - [Single-cell spatial isoform sequencing](michielsenSpatialIsoformSequencing2026.md)
+- [IRIS: reconstructing single-cell signaling histories](hutchinsReconstructingSignalingHistories2026.md)
+- [DiffusionOT: stochastic cell-fate landscapes](liuLearningStochasticDynamics2026.md)
+- [GWAS–single-cell trait-to-cell-type integration benchmark](liBenchmarkingGWASSingleCell2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -234,6 +244,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [PARNET: CLIP-seq RNA foundation model](moyonPARNETCLIPSeq2026.md)
 - [Pangenome-assisted long-read somatic SV calling](qinImprovingLongReadSomatic2026.md)
 - [Spatial transcriptomics CNA inference benchmark](hanBenchmarkingCopyNumberSpatial2026.md)
+- [DNT: diploid genotype encoding for genomic foundation models](leibDNTDiploidGenomic2026.md)
+- [ContextSV: context-aware long-read SV calling](perdomoLongReadDetection2026.md)
 
 ## Microarray
 
@@ -247,6 +259,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [RNA-Seq vs Microarray in Activated T Cells](zhaoComparisonRNASeqMicroarray2014.1.16..md)
 - [Mouse mammary transcriptomics for human breast-cancer prediction](sutcliffeTranscriptomicProfilingMouse2026.md)
 - [Preprocessing stability beyond AUROC](zhengHighAUROCMask2026.md)
+- [Pancreas-biopsy molecular rejection signatures](girmanovaMolecularRejectionSignatures2026.md)
+- [UCResponNet-X: cross-platform drug-response modeling](topkaraogluUCResponNetXCrossPlatform2026.md)
 
 ## GWAS
 
@@ -259,6 +273,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [LD Score regression](bulikSullivanLDSC2015.md)
 - [MAGMA](deLeeuwMAGMA2015.md)
 - [FELIX: local-ancestry-aware biobank association](huUnifiedFrameworkLocalAncestry2026.md)
+- [GWAS–single-cell trait-to-cell-type integration benchmark](liBenchmarkingGWASSingleCell2026.md)
 
 ## Transcriptomics / Platform
 
@@ -276,6 +291,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Preprocessing stability beyond AUROC](zhengHighAUROCMask2026.md)
 - [Spatial transcriptomics CNA inference benchmark](hanBenchmarkingCopyNumberSpatial2026.md)
 - [Single-cell spatial isoform sequencing](michielsenSpatialIsoformSequencing2026.md)
+- [Pancreas-biopsy molecular rejection signatures](girmanovaMolecularRejectionSignatures2026.md)
+- [UCResponNet-X: microarray-to-RNA-seq response prediction](topkaraogluUCResponNetXCrossPlatform2026.md)
+- [Isocall: cohort-scale long-read transcript calling](dolzhenkoIsocallScalableTranscript2026.md)
 
 ## 사용 흐름
 

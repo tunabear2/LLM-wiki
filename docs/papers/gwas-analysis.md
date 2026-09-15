@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-09'
+updated: '2026-09-15'
 tags:
 - wiki/paper
 ---
@@ -31,6 +31,7 @@ GWAS 분석 섹션은 genotype array 또는 sequencing-derived variants에서 ge
 | [LD Score regression](bulikSullivanLDSC2015.md) | Test statistic inflation에서 polygenicity와 confounding 분리 | GWAS signal 품질, heritability, genetic correlation 해석 |
 | [MAGMA](deLeeuwMAGMA2015.md) | Gene/gene-set analysis of GWAS data | SNP-level result를 immune pathway, kidney cell type gene set과 연결 |
 | [FELIX local-ancestry-aware association](huUnifiedFrameworkLocalAncestry2026.md) | Admixed participant를 보존하는 local-ancestry GLMM과 적응 결합 검정 | 다양한 donor·recipient ancestry의 rejection·graft-outcome GWAS 설계 후보 |
+| [GWAS–single-cell integration benchmark](liBenchmarkingGWASSingleCell2026.md) | 20개 trait–cell-type mapping 방법과 CATCH 결합법 비교 | 이식 GWAS 신호를 immune·endothelial·tubular cell type에 연결할 때 power와 오탐을 함께 점검 |
 
 ## 분석 체크리스트
 

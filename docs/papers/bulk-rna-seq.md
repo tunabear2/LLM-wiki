@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-09'
+updated: '2026-09-15'
 tags:
 - wiki/paper
 ---
@@ -45,6 +45,9 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | --- | --- | --- |
 | [Quartet/MAQC alternative-splicing benchmark](wangBenchmarkingRNASeqAlternative2026.md) | 42개 실험실·207개 pipeline에서 isoform·splicing event 정확도와 best practice 평가 | Rejection-associated isoform 후보는 short-read discovery 뒤 long-read 또는 targeted PCR로 검증해야 한다는 기준 |
 | [cellGeometry](lauCellGeometryUltraFast2026.md) | 대규모 single-cell reference를 이용한 초고속 bulk RNA-seq deconvolution | Allograft atlas를 reference로 legacy biopsy cohort의 immune·tubular fraction을 추정하는 후보 |
+| [LymphGen-Sig](tumuluruLymphGenSigIntegrating2026.md) | 294-gene expression classifier를 독립 임상시험 RNA-seq에 적용 | Locked subtype classifier와 치료효과 검증을 rejection subtype 연구에 옮기는 설계 참고 |
+| [CellMAGE](ballCellMAGEDeconvolution2026.md) | 알려진 parental genotype 비율과 parental scRNA profile을 이용한 bulk deconvolution | Genetics-aware mixture 분해의 장점과 환자 cohort 적용 조건을 구분하는 사례 |
+| [UCResponNet-X](topkaraogluUCResponNetXCrossPlatform2026.md) | 세 microarray cohort에서 학습하고 외부 RNA-seq로 검증한 치료반응 모델 | Legacy array와 RNA-seq 사이 normalization·external validation 설계 참고 |
 
 ## 관련 Article / Report Scraps
 
