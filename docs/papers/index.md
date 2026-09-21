@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-09-15'
+updated: '2026-09-21'
 tags:
 - wiki/index
 ---
@@ -105,6 +105,14 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Systematic comparison of single-cell perturbation-response models](liSystematicComparisonSingleCell2026.md)
 - [PHAROS: target-directed drug-combination search with a single-cell FM](bezneyPHAROSTurningSingleCell2026.md)
 - [Independent benchmark of H&E-to-single-cell expression prediction](shaikhutdinovaIndependentBenchmarkGeneExpression2026.md)
+- [scKITE: knowledge-enhanced single-cell foundation model](zhangTowardsKnowledgeEnhanced2026.md)
+- [LucaCell: sequence-centric cross-species single-cell FM](sunLucaCellSequenceCentric2026.md)
+- [REN-former: Geneformer-guided kidney state transitions](mimuraRENFormerPrioritizesCandidate2026.md)
+- [SAFFRON: multi-scale spatial-FM evaluation](handaEvaluatingAbilitySpatial2026.md)
+- [Gene-representation transfer in virtual spatial transcriptomics](chenPretrainedGeneRepresentations2026.md)
+- [scE2TM: interpretable topic modeling with scGPT knowledge](chenScE2TMImprovesSingleCell2026.md)
+- [AI virtual cells for hepatology](choiTowardAIVirtual2026.md)
+- [scGPA: directional virtual perturbation with LLM assistance](tangScGPALLMAssistedWorkflow2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
@@ -219,6 +227,14 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Systematic comparison of single-cell perturbation-response models](liSystematicComparisonSingleCell2026.md)
 - [PHAROS: target-directed drug-combination search with a single-cell FM](bezneyPHAROSTurningSingleCell2026.md)
 - [Independent benchmark of H&E-to-single-cell expression prediction](shaikhutdinovaIndependentBenchmarkGeneExpression2026.md)
+- [scKITE: knowledge-enhanced single-cell foundation model](zhangTowardsKnowledgeEnhanced2026.md)
+- [LucaCell: sequence-centric cross-species single-cell FM](sunLucaCellSequenceCentric2026.md)
+- [REN-former: Geneformer-guided kidney state transitions](mimuraRENFormerPrioritizesCandidate2026.md)
+- [SAFFRON: multi-scale spatial-FM evaluation](handaEvaluatingAbilitySpatial2026.md)
+- [Gene-representation transfer in virtual spatial transcriptomics](chenPretrainedGeneRepresentations2026.md)
+- [scE2TM: interpretable topic modeling with scGPT knowledge](chenScE2TMImprovesSingleCell2026.md)
+- [AI virtual cells for hepatology](choiTowardAIVirtual2026.md)
+- [scGPA: directional virtual perturbation with LLM assistance](tangScGPALLMAssistedWorkflow2026.md)
 - [Smart-seq2](picelliSmartSeq2Sensitive2013.md)
 - [Drop-seq](macoskoDropSeq2015.md)
 - [Scanpy](wolfSCANPY2018.md)

@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-08-17'
+updated: '2026-09-21'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: Sally Chen; Roxana Zahedi; Lucy Chhuo; Ricky Nguyen; Marjan BaghGolshani; Amin Beheshti; Mark Grosser; Min Yang; Nona Farbehi; Nigel Lovell; Ahmadreza Argha; Fatemeh Vafaee; Youqiong Ye; Hamid Alinejad-Rokny
 - DOI: 10.48550/arXiv.2607.17227
 - URL: [Link](https://arxiv.org/abs/2607.17227)
-- Source/date: arXiv v1, 2026-07-19
+- Source/date: arXiv revised v2, 2026-09-17
 
 ## 1. 한 줄 요약
 
