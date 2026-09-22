@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-09-21'
+updated: '2026-09-22'
 tags:
 - wiki/index
 ---
@@ -27,6 +27,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [LLaMA: open and efficient foundation language models](touvronLLaMAOpenEfficient2023.md)
 - [Prefix Sliding: efficient test-time scaling](muennighoffPrefixSlidingEfficient2026.md)
 - [Why post-training quantization works](chenWhyPostTrainingQuantization2026.md)
+- [ValueDiff: value-geometric KV-cache eviction](parkValueDiffValueGeometric2026.md)
+- [Attention abstention and noise filtering](wangAbstentionNoiseFiltering2026.md)
 
 ## Bio AI
 
@@ -120,6 +122,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [PARNET: CLIP-seq RNA foundation model](moyonPARNETCLIPSeq2026.md)
 - [DNT: diploid genomic foundation model](leibDNTDiploidGenomic2026.md)
 - [OmniTCR: unified TCR recognition and generation foundation model](zengOmniTCRFoundationModel2026.md)
+- [LongevityBench: language models for aging biology](zhavoronkovOpenBenchmarkLanguage2026.md)
+- [CUBE: H&E-bridged multimodal tissue representation](geCUBEMultimodalRepresentation2026.md)
+- [scHPGT: regulatory-prior RNA–ATAC integration](chengRegulatoryPriorGuidedAttention2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
@@ -128,6 +133,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Mouse mammary transcriptomics for human breast-cancer prediction](sutcliffeTranscriptomicProfilingMouse2026.md)
 - [Spatial transcriptomics CNA inference benchmark](hanBenchmarkingCopyNumberSpatial2026.md)
 - [LymphGen-Sig: genetic and transcriptional DLBCL classification](tumuluruLymphGenSigIntegrating2026.md)
+- [Incremental transcriptomic value for immunotherapy response](hanIncrementalPredictiveValue2026.md)
+- [CUBE: multimodal colorectal-tissue representation](geCUBEMultimodalRepresentation2026.md)
+- [ComboBatch: multi-platform lymphoma harmonization](nikitinBenchmarkingBulkTranscriptomic2026.md)
+- [CellDot: imaging-ST molecule decontamination](chenCellDotAccurateScalable2026.md)
 
 ## Bulk RNA-seq
 
@@ -151,6 +160,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [LymphGen-Sig: trial-tested DLBCL expression classifier](tumuluruLymphGenSigIntegrating2026.md)
 - [CellMAGE: genetics-aware bulk deconvolution](ballCellMAGEDeconvolution2026.md)
 - [UCResponNet-X: microarray-to-RNA-seq response prediction](topkaraogluUCResponNetXCrossPlatform2026.md)
+- [Incremental transcriptomic value for immunotherapy response](hanIncrementalPredictiveValue2026.md)
+- [ComboBatch: multi-platform transcriptomic harmonization](nikitinBenchmarkingBulkTranscriptomic2026.md)
+- [Real-data benchmark for differential transcript usage](zhangRealDataDrivenFramework2026.md)
 
 ## scRNA-seq
 
@@ -247,6 +259,11 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [IRIS: reconstructing single-cell signaling histories](hutchinsReconstructingSignalingHistories2026.md)
 - [DiffusionOT: stochastic cell-fate landscapes](liuLearningStochasticDynamics2026.md)
 - [GWAS–single-cell trait-to-cell-type integration benchmark](liBenchmarkingGWASSingleCell2026.md)
+- [scHPGT: regulatory-prior RNA–ATAC integration](chengRegulatoryPriorGuidedAttention2026.md)
+- [Gravlax: annotation-independent molecular archive](patroGravlaxAnnotationIndependent2026.md)
+- [SUSD1 renal-impairment GWAS with single-cell mapping](sanchezGeneticVariantsRisk2026.md)
+- [Real-data benchmark for differential transcript usage](zhangRealDataDrivenFramework2026.md)
+- [CellDot: imaging-ST molecule decontamination](chenCellDotAccurateScalable2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -262,6 +279,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Spatial transcriptomics CNA inference benchmark](hanBenchmarkingCopyNumberSpatial2026.md)
 - [DNT: diploid genotype encoding for genomic foundation models](leibDNTDiploidGenomic2026.md)
 - [ContextSV: context-aware long-read SV calling](perdomoLongReadDetection2026.md)
+- [dicast: machine-learning short-read SV detection](alaviDicastMachineLearning2026.md)
 
 ## Microarray
 
@@ -277,6 +295,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Preprocessing stability beyond AUROC](zhengHighAUROCMask2026.md)
 - [Pancreas-biopsy molecular rejection signatures](girmanovaMolecularRejectionSignatures2026.md)
 - [UCResponNet-X: cross-platform drug-response modeling](topkaraogluUCResponNetXCrossPlatform2026.md)
+- [ComboBatch: multi-platform transcriptomic harmonization](nikitinBenchmarkingBulkTranscriptomic2026.md)
 
 ## GWAS
 
@@ -290,6 +309,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [MAGMA](deLeeuwMAGMA2015.md)
 - [FELIX: local-ancestry-aware biobank association](huUnifiedFrameworkLocalAncestry2026.md)
 - [GWAS–single-cell trait-to-cell-type integration benchmark](liBenchmarkingGWASSingleCell2026.md)
+- [SUSD1 locus for renal impairment in decompensated cirrhosis](sanchezGeneticVariantsRisk2026.md)
 
 ## Transcriptomics / Platform
 
@@ -310,6 +330,12 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Pancreas-biopsy molecular rejection signatures](girmanovaMolecularRejectionSignatures2026.md)
 - [UCResponNet-X: microarray-to-RNA-seq response prediction](topkaraogluUCResponNetXCrossPlatform2026.md)
 - [Isocall: cohort-scale long-read transcript calling](dolzhenkoIsocallScalableTranscript2026.md)
+- [CUBE: H&E-bridged multimodal tissue representation](geCUBEMultimodalRepresentation2026.md)
+- [Gravlax: annotation-independent molecular archive](patroGravlaxAnnotationIndependent2026.md)
+- [ComboBatch: multi-platform transcriptomic harmonization](nikitinBenchmarkingBulkTranscriptomic2026.md)
+- [SUSD1 GWAS with single-cell and spatial mapping](sanchezGeneticVariantsRisk2026.md)
+- [Real-data benchmark for differential transcript usage](zhangRealDataDrivenFramework2026.md)
+- [CellDot: imaging-ST molecule decontamination](chenCellDotAccurateScalable2026.md)
 
 ## 사용 흐름
 

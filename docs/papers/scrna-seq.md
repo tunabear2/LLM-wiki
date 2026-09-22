@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-15'
+updated: '2026-09-22'
 tags:
 - wiki/paper
 ---
@@ -68,6 +68,10 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [IRIS signaling-history inference](hutchinsReconstructingSignalingHistories2026.md) | Perturbation atlas에서 배운 신호반응을 in-vivo single-cell atlas로 전이 | 현재 pathway activity와 과거 cytokine exposure를 구분하는 분석 후보 |
 | [DiffusionOT](liuLearningStochasticDynamics2026.md) | 여러 시점 snapshot에서 stochastic trajectory와 cell-fate landscape 추론 | 치료 전후 rejection cell-state 전이와 in-silico perturbation 가설 생성 후보 |
 | [GWAS–single-cell integration benchmark](liBenchmarkingGWASSingleCell2026.md) | 20개 trait–cell-type mapping 방법과 CATCH 결합법 비교 | Donor·recipient GWAS 신호를 rejection 관련 세포 유형에 연결하는 방법 선택 기준 |
+| [scHPGT](chengRegulatoryPriorGuidedAttention2026.md) | Regulatory-prior-guided attention으로 unpaired scRNA–scATAC를 통합하고 unmatched state의 과도한 alignment 억제 | Rejection-specific immune·tubular state를 보존하는 multiome integration 후보 |
+| [Gravlax](patroGravlaxAnnotationIndependent2026.md) | Annotation-independent molecule relation을 compact archive로 보존해 빠른 재정량·novel-splice query 지원 | 장기 kidney atlas를 annotation 갱신 때마다 raw alignment부터 다시 처리하지 않는 provenance 전략 |
+| [Real-data DTU benchmark](zhangRealDataDrivenFramework2026.md) | Short/long-read single-cell을 포함한 DTU method 10종의 biological-reference 평가 | Cell-state별 isoform signal을 method artifact와 분리하는 기준 |
+| [CellDot](chenCellDotAccurateScalable2026.md) | Imaging-ST molecule을 유지·이웃 재배정·background 제거하는 optimal-transport decontamination | Biopsy에서 tubular–immune spillover와 가짜 cell–cell communication을 줄이는 후보 |
 
 ## 읽을 때 체크할 것
 

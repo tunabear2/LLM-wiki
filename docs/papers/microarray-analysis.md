@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-15'
+updated: '2026-09-22'
 tags:
 - wiki/paper
 ---
@@ -33,6 +33,7 @@ Microarray 분석 섹션은 probe-level intensity에서 normalized expression ma
 | [Preprocessing stability beyond AUROC](zhengHighAUROCMask2026.md) | Cohort·platform shift에서 fixed-threshold failure와 sample-wise rank normalization 평가 | Rejection classifier의 AUROC와 실제 single-biopsy 의사결정 안정성을 분리해 검증 |
 | [Pancreas-biopsy molecular rejection signatures](girmanovaMolecularRejectionSignatures2026.md) | Kidney-derived MMDx를 pancreas allograft biopsy에 전이하고 outcome과 비교 | 장기 간 molecular rejection signature 전이성과 외부검증 필요성을 직접 보여주는 사례 |
 | [UCResponNet-X](topkaraogluUCResponNetXCrossPlatform2026.md) | 세 microarray cohort 학습 뒤 독립 RNA-seq cohort로 infliximab response 검증 | Legacy transplant array와 RNA-seq 사이 normalization 선택을 실증적으로 점검 |
+| [ComboBatch](nikitinBenchmarkingBulkTranscriptomic2026.md) | 4개 platform·88개 lymphoma cohort에서 harmonization 조합 2,234개를 비교 | Legacy transplant microarray와 RNA-seq를 합칠 때 subtle rejection signal 보존 여부를 다중 metric으로 평가 |
 
 ## 분석 체크리스트
 

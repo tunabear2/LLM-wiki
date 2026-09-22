@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-15'
+updated: '2026-09-22'
 tags:
 - wiki/paper
 ---
@@ -48,6 +48,9 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | [LymphGen-Sig](tumuluruLymphGenSigIntegrating2026.md) | 294-gene expression classifier를 독립 임상시험 RNA-seq에 적용 | Locked subtype classifier와 치료효과 검증을 rejection subtype 연구에 옮기는 설계 참고 |
 | [CellMAGE](ballCellMAGEDeconvolution2026.md) | 알려진 parental genotype 비율과 parental scRNA profile을 이용한 bulk deconvolution | Genetics-aware mixture 분해의 장점과 환자 cohort 적용 조건을 구분하는 사례 |
 | [UCResponNet-X](topkaraogluUCResponNetXCrossPlatform2026.md) | 세 microarray cohort에서 학습하고 외부 RNA-seq로 검증한 치료반응 모델 | Legacy array와 RNA-seq 사이 normalization·external validation 설계 참고 |
+| [Incremental transcriptomic value for immunotherapy response](hanIncrementalPredictiveValue2026.md) | Clinical·TMB·PD-L1 baseline 위에서 pathway와 gene-wise feature의 순증분 AUPRC 평가 | Molecular rejection score가 임상변수 위에 주는 실제 추가 가치를 검증하는 nested-model 설계 |
+| [ComboBatch](nikitinBenchmarkingBulkTranscriptomic2026.md) | 88개 cohort·4개 platform의 harmonization 조합 2,234개를 87개 metric으로 비교 | Legacy array와 신규 RNA-seq를 합칠 때 FSQN·SVA와 no-correction을 외부센터에서 비교하는 기준 |
+| [Real-data DTU benchmark](zhangRealDataDrivenFramework2026.md) | RBP perturbation reference와 transcript-set enrichment로 short/long-read DTU 10개 방법 평가 | Rejection-associated isoform 후보의 method·platform 의존성을 먼저 점검하는 기준 |
 
 ## 관련 Article / Report Scraps
 
