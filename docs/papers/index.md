@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-09-22'
+updated: '2026-09-28'
 tags:
 - wiki/index
 ---
@@ -115,6 +115,12 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [scE2TM: interpretable topic modeling with scGPT knowledge](chenScE2TMImprovesSingleCell2026.md)
 - [AI virtual cells for hepatology](choiTowardAIVirtual2026.md)
 - [scGPA: directional virtual perturbation with LLM assistance](tangScGPALLMAssistedWorkflow2026.md)
+- [Class-imbalance benchmark for scFM rare-cell annotation](dongRethinkingClassImbalance2026.md)
+- [Speciesformer: cross-species generative virtual cell model](wangSpeciesformerLearnsConserved2026.md)
+- [ISP Platform: cross-species sequential Geneformer perturbation](sanakiISPPlatformPowered2026.md)
+- [Cell-type baselines versus scGPT for neuronal physiology](sharmaUnreasonableEffectivenessCell2026.md)
+- [Mechanistic-operator falsification framework for virtual cells](stanczakExplicitMechanisticOperators2026.md)
+- [Trustworthy virtual-cell evaluation roadmap](liTowardTrustworthyVirtual2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
