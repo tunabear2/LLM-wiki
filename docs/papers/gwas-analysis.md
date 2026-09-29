@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-22'
+updated: '2026-09-29'
 tags:
 - wiki/paper
 ---
@@ -33,6 +33,7 @@ GWAS 분석 섹션은 genotype array 또는 sequencing-derived variants에서 ge
 | [FELIX local-ancestry-aware association](huUnifiedFrameworkLocalAncestry2026.md) | Admixed participant를 보존하는 local-ancestry GLMM과 적응 결합 검정 | 다양한 donor·recipient ancestry의 rejection·graft-outcome GWAS 설계 후보 |
 | [GWAS–single-cell integration benchmark](liBenchmarkingGWASSingleCell2026.md) | 20개 trait–cell-type mapping 방법과 CATCH 결합법 비교 | 이식 GWAS 신호를 immune·endothelial·tubular cell type에 연결할 때 power와 오탐을 함께 점검 |
 | [SUSD1 renal-impairment GWAS](sanchezGeneticVariantsRisk2026.md) | 다인종 discovery·독립 replication 뒤 kidney single-cell·spatial mapping으로 pDC–interferon 축 연결 | Donor/recipient GWAS를 biopsy cell state와 연결하고 disease-context specificity를 확인하는 사례 |
+| [TorchGWAS2](zhangTorchGWAS2Scalable2026.md) | 결정론적 LMM variance correction과 GPU 병렬화로 다수 phenotype association을 선형 확장 | 반복 측정·longitudinal rejection phenotype과 omics를 제한된 계산비용으로 스캔하는 후보 |
 
 ## 분석 체크리스트
 

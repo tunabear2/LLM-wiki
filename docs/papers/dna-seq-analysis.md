@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-22'
+updated: '2026-09-29'
 tags:
 - wiki/paper
 ---
@@ -33,6 +33,7 @@ DNA 분석 섹션은 WGS/WES/targeted sequencing에서 FASTQ를 variant interpre
 | [DNT diploid genomic foundation model](leibDNTDiploidGenomic2026.md) | Zygosity·allele dosage·cis/trans phase를 한 sequence로 표현하는 tokenizer | Donor·recipient phased genotype을 genomic FM에 넣을 때 haploid 표현의 손실을 점검 |
 | [ContextSV](perdomoLongReadDetection2026.md) | Alignment·coverage·SNV allele frequency·genomic context를 결합한 long-read SV caller | 복잡 CNV/SV와 expression outlier를 연결하기 전 보완적 call 및 검증 전략 참고 |
 | [dicast](alaviDicastMachineLearning2026.md) | Multi-caller short-read SV를 alignment·genomic-context feature로 ML scoring | Donor·recipient WGS에서 높은 precision으로 SV 후보를 넓힌 뒤 expression outlier와 연결하는 후보 |
+| [Long-read SV caller benchmark](shiComprehensiveEvaluationStructural2026.md) | PacBio CLR/CCS·ONT 20개 dataset에서 germline/somatic caller 14개를 12차원 평가 | Donor/recipient 또는 post-transplant clonal 분석에서 platform·coverage별 caller를 고르는 기준 |
 
 ## 분석 체크리스트
 

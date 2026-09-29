@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-22'
+updated: '2026-09-29'
 tags:
 - wiki/paper
 ---
@@ -51,6 +51,9 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | [Incremental transcriptomic value for immunotherapy response](hanIncrementalPredictiveValue2026.md) | Clinical·TMB·PD-L1 baseline 위에서 pathway와 gene-wise feature의 순증분 AUPRC 평가 | Molecular rejection score가 임상변수 위에 주는 실제 추가 가치를 검증하는 nested-model 설계 |
 | [ComboBatch](nikitinBenchmarkingBulkTranscriptomic2026.md) | 88개 cohort·4개 platform의 harmonization 조합 2,234개를 87개 metric으로 비교 | Legacy array와 신규 RNA-seq를 합칠 때 FSQN·SVA와 no-correction을 외부센터에서 비교하는 기준 |
 | [Real-data DTU benchmark](zhangRealDataDrivenFramework2026.md) | RBP perturbation reference와 transcript-set enrichment로 short/long-read DTU 10개 방법 평가 | Rejection-associated isoform 후보의 method·platform 의존성을 먼저 점검하는 기준 |
+| [EXPRESSO](palMachineLearningFramework2026.md) | 91개 cohort에서 치료별 biologically guided LASSO를 학습하고 22개 prospective cohort에 검증 | Rejection 치료반응 모델에서 cohort-held-out feature selection과 독립 검증을 분리하는 설계 참고 |
+| [FedEdgeR](songFedEdgeRFederatedPrivacy2026.md) | SMPC로 edgeR의 IRLS·dispersion·LRT를 연합화한 privacy-preserving DE | 기관별 환자 count를 반출하지 않고 다기관 rejection DEG를 pooled 분석에 가깝게 추정하는 후보 |
+| [DeOPUS](nguyenDeOPUSCellularDeconvolution2026.md) | Power transform·hierarchical shrinkage 기반 reference deconvolution | Kidney atlas를 reference로 bulk biopsy의 면역·실질세포 조성을 추정하는 비교 후보 |
 
 ## 관련 Article / Report Scraps
 

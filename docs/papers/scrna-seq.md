@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-22'
+updated: '2026-09-29'
 tags:
 - wiki/paper
 ---
@@ -72,6 +72,11 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [Gravlax](patroGravlaxAnnotationIndependent2026.md) | Annotation-independent molecule relation을 compact archive로 보존해 빠른 재정량·novel-splice query 지원 | 장기 kidney atlas를 annotation 갱신 때마다 raw alignment부터 다시 처리하지 않는 provenance 전략 |
 | [Real-data DTU benchmark](zhangRealDataDrivenFramework2026.md) | Short/long-read single-cell을 포함한 DTU method 10종의 biological-reference 평가 | Cell-state별 isoform signal을 method artifact와 분리하는 기준 |
 | [CellDot](chenCellDotAccurateScalable2026.md) | Imaging-ST molecule을 유지·이웃 재배정·background 제거하는 optimal-transport decontamination | Biopsy에서 tubular–immune spillover와 가짜 cell–cell communication을 줄이는 후보 |
+| [GLM-Prior](skokGibbsGLMPriorGenomic2026.md) | Genomic language model로 TF–gene sequence prior를 만든 뒤 expression 기반 GRN에 결합 | Matched ATAC이 없는 biopsy에서 cell-state별 조절망 prior를 만들고 외부 검증하는 후보 |
+| [Tumor-cell MHC-II program](bellmuntTumorCellMHCII2026.md) | sc/snRNA로 malignant-cell 신호를 분리하고 ATAC·IFN-γ 실험 및 임상 cohort로 검증 | Graft parenchyma와 infiltrating immune-cell MHC-II 신호를 분리하는 설계 참고 |
+| [PeakATail](tabatPeakATailPrecision2026.md) | Poly(A)-tail evidence와 calibrated test를 결합한 precision-first single-cell APA 분석 | Immune·tubular cell별 alternative polyadenylation을 보수적으로 탐색하는 후보 |
+| [Temporal kidney-allograft profiling](makDonorRecipientImmune2026.md) | 생체·사체 공여신과 DGF 전후 allograft의 donor/recipient immune program 비교 | 신장이식 초기 injury와 rejection-risk cell state를 직접 연결하는 핵심 참고 |
+| [CHART-seq](zhangCHARTSeqFullLength2026.md) | 조기 pooling을 지원하는 저비용 full-length plate scRNA-seq | Biopsy cell의 gene program과 isoform 변화를 같은 assay에서 추적하는 플랫폼 후보 |
 
 ## 읽을 때 체크할 것
 

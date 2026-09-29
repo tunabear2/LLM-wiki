@@ -67,6 +67,8 @@ nav:
               - Quartet/MAQC Splicing Benchmark: papers/wangBenchmarkingRNASeqAlternative2026.md
               - cellGeometry Deconvolution: papers/lauCellGeometryUltraFast2026.md
               - CellMAGE Deconvolution: papers/ballCellMAGEDeconvolution2026.md
+              - FedEdgeR Federated Differential Expression: papers/songFedEdgeRFederatedPrivacy2026.md
+              - DeOPUS Cellular Deconvolution: papers/nguyenDeOPUSCellularDeconvolution2026.md
           - scRNA-seq Analysis: papers/scrna-seq.md
           - scRNA-seq Core Papers:
               - scran Normalization: papers/lunPoolingNormalizeSingleCell2016.md
@@ -79,6 +81,8 @@ nav:
               - DiffusionOT Cell-Fate Landscapes: papers/liuLearningStochasticDynamics2026.md
               - scHPGT RNA–ATAC Integration: papers/chengRegulatoryPriorGuidedAttention2026.md
               - Gravlax Molecular Archive: papers/patroGravlaxAnnotationIndependent2026.md
+              - PeakATail Single-cell APA: papers/tabatPeakATailPrecision2026.md
+              - Kidney-Allograft Temporal Profiling: papers/makDonorRecipientImmune2026.md
           - DNA-seq / Variant Analysis: papers/dna-seq-analysis.md
           - DNA-seq Core Papers:
               - BWA: papers/liBWAFast2009.md
@@ -91,6 +95,7 @@ nav:
               - Pangenome Somatic SV Calling: papers/qinImprovingLongReadSomatic2026.md
               - ContextSV Long-Read SV Calling: papers/perdomoLongReadDetection2026.md
               - dicast Short-Read SV Detection: papers/alaviDicastMachineLearning2026.md
+              - Long-Read SV Caller Benchmark: papers/shiComprehensiveEvaluationStructural2026.md
       - Array / Association Analysis:
           - Microarray Analysis: papers/microarray-analysis.md
           - Microarray Core Papers:
@@ -118,6 +123,7 @@ nav:
               - FELIX Local-Ancestry Association: papers/huUnifiedFrameworkLocalAncestry2026.md
               - GWAS–Single-Cell Integration Benchmark: papers/liBenchmarkingGWASSingleCell2026.md
               - SUSD1 Renal-Impairment GWAS: papers/sanchezGeneticVariantsRisk2026.md
+              - TorchGWAS2 Scalable Association Testing: papers/zhangTorchGWAS2Scalable2026.md
       - LLM / Transformer:
           - Attention Is All You Need: papers/vaswaniAttentionAllYou2023.md
           - Transformer: papers/transformer.md
@@ -135,6 +141,7 @@ nav:
           - Why Post-Training Quantization Works: papers/chenWhyPostTrainingQuantization2026.md
           - ValueDiff KV-Cache Eviction: papers/parkValueDiffValueGeometric2026.md
           - Attention Abstention and Filtering: papers/wangAbstentionNoiseFiltering2026.md
+          - OPAL Attention Linearization: papers/rajeOnPolicyAttentionLinearization2026.md
       - Bio AI:
           - Single-cell Foundation Models: papers/single-cell-foundation-models.md
           - Geneformer: papers/theodorisTransferLearningNetwork2023.md
@@ -159,12 +166,16 @@ nav:
           - OmniTCR Foundation Model: papers/zengOmniTCRFoundationModel2026.md
           - LongevityBench: papers/zhavoronkovOpenBenchmarkLanguage2026.md
           - CUBE Multimodal Tissue Representation: papers/geCUBEMultimodalRepresentation2026.md
+          - GLM-Prior Genomic GRN Prior: papers/skokGibbsGLMPriorGenomic2026.md
+          - RNASeek RNA Foundation Model: papers/chenRNASeekCrossPhyla2026.md
       - Cancer Transcriptomics / Clinical Prediction:
           - EGSP Survival Prediction: papers/liuLeveragingSinglecellFoundation2026.md
           - COIN Drug Sensitivity: papers/shangguanDrugSensitivityInference2025.md
           - Mouse-to-Human Breast Cancer Prediction: papers/sutcliffeTranscriptomicProfilingMouse2026.md
           - LymphGen-Sig DLBCL Classifier: papers/tumuluruLymphGenSigIntegrating2026.md
           - Incremental Immunotherapy Transcriptomics: papers/hanIncrementalPredictiveValue2026.md
+          - EXPRESSO Treatment-Response Prediction: papers/palMachineLearningFramework2026.md
+          - Tumor-Cell MHC-II Program: papers/bellmuntTumorCellMHCII2026.md
       - Transcriptomics / Platform:
           - RNA-Seq vs Microarray: papers/zhaoComparisonRNASeqMicroarray2014.1.16..md
           - Smart-seq2: papers/picelliSmartSeq2Sensitive2013.md
@@ -180,6 +191,7 @@ nav:
           - Isocall Long-Read Transcript Calling: papers/dolzhenkoIsocallScalableTranscript2026.md
           - Real-Data DTU Benchmark: papers/zhangRealDataDrivenFramework2026.md
           - CellDot Imaging-ST Decontamination: papers/chenCellDotAccurateScalable2026.md
+          - CHART-seq Full-Length scRNA-seq: papers/zhangCHARTSeqFullLength2026.md
   - Articles:
       - Article / Report Scraps: articles/index.md
       - Bulk RNA-Seq Foundation Model Benchmark: articles/2026-05-27-bulk-rnaseq-foundation-model-benchmark.md
