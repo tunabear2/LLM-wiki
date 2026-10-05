@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-07-20'
+updated: '2026-10-05'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: Kian Kenyon-Dean; Alina Selega; Ihab Bendidi; Jordan M. Sorokin; Luca Bertinetto; David Errington; Hayley Donnella; Oren Kraus
 - DOI: 10.48550/arXiv.2605.31562
 - URL: [Link](https://arxiv.org/abs/2605.31562)
-- Source/date: arXiv, 2026-05-29
+- Source/date: arXiv v2, revised 2026-09-28
 
 ## Abstract
 
@@ -144,4 +144,3 @@ Kidney transplant rejection 연구에서는 TxFM embedding을 raw pseudobulk/bul
 ## 11. Bibliography
 
 Kenyon-Dean, Kian, Alina Selega, Ihab Bendidi, Jordan M. Sorokin, Luca Bertinetto, David Errington, Hayley Donnella, and Oren Kraus. "Effective Biological Representation Learning by Masking Gene Expression." arXiv, 2026. [https://doi.org/10.48550/arXiv.2605.31562](https://doi.org/10.48550/arXiv.2605.31562).
-

@@ -2,12 +2,12 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-07-20'
+updated: '2026-10-05'
 tags:
 - wiki/paper
 ---
 
-# PerturbCellRL: Verifier-Guided Reinforcement Learning for Single-Cell Perturbation Prediction
+# PerturbCellRL: Aligning Distributions and Grounding Biology via Post-Training Perturbation Generators
 
 ## 기본 정보
 
@@ -16,22 +16,22 @@ tags:
 - Authors: Dongxia Wu; Mingyu Li; Yuhui Zhang; Anurendra Kumar; Emma Lundberg; Serena Yeung-Levy; Emily B. Fox
 - DOI: 10.48550/arXiv.2606.27752
 - URL: [Link](https://arxiv.org/abs/2606.27752)
-- Source/date: arXiv, 2026-06-26
+- Source/date: arXiv v2, revised 2026-10-02
 
 ## Abstract
 
-Single-cell perturbation models can reduce wet-lab screening by predicting transcriptional responses to interventions, but generated individual cells are often not explicitly checked for biological consistency. PerturbCellRL post-trains a pretrained single-cell transcriptomic generator with reinforcement learning, using verifier rewards for Pearson top-k similarity, RMSE top-k proximity, DE Spearman agreement, and pathway activity. The paper evaluates genetic and chemical perturbation benchmarks and reports improved verifier-aligned single-cell consistency while remaining competitive on population-level metrics.
+Single-cell perturbation models can reduce wet-lab screening by predicting transcriptional responses to interventions, but flow-matching can fail to recover target distributions even within the model family. PerturbCellRL post-trains perturbation generators with reinforcement learning, using a gene-expression energy witness to convert population-level discrepancy into per-cell feedback and calibrated rewards for expression plausibility and pathway response. The revised paper reports improved distributional alignment and pathway enrichment recovery across genetic and chemical perturbation benchmarks.
 
 ## 1. 한 줄 요약
 
 %% begin one-line-summary %%
-PerturbCellRL은 pretrained single-cell transcriptomic generator를 verifier reward 기반 RL로 post-training해, perturbation prediction에서 개별 generated cell의 pathway와 DEG 일관성을 높이려는 방법이다.
+PerturbCellRL은 population discrepancy를 per-cell reward로 바꾸는 energy witness와 생물학적 calibration reward를 사용해 single-cell perturbation generator의 분포 정렬과 pathway fidelity를 함께 개선한다.
 %% end one-line-summary %%
 
 ## 2. 핵심 아이디어
 
 %% begin core-idea %%
-기존 perturbation generator는 population-level expression distribution을 맞추는 데 집중해 개별 cell이 생물학적으로 그럴듯한지 직접 제약하지 않을 수 있다. 논문은 Pearson/RMSE top-k, DE Spearman, pathway activity verifier를 reward로 두고 RL post-training을 수행해, 생성된 perturbation response가 gene-level 및 pathway-level 기준을 동시에 만족하도록 유도한다.
+기존 flow-matching perturbation generator는 표현 가능한 target distribution도 최적화 과정에서 회복하지 못할 수 있다. Revised v2는 post-training이 이 분포를 회복할 수 있음을 이론적으로 보이고, gene-expression energy witness의 policy gradient가 더 나은 distribution alignment를 향하도록 설계한다. Real-cell calibration을 이용한 expression plausibility와 pathway-response reward를 더해 분포 정확도와 biological fidelity를 동시에 제약한다.
 %% end core-idea %%
 
 ## 3. 내 연구에 적용할 아이디어
@@ -46,7 +46,8 @@ Kidney transplant rejection에서는 steroid, cytokine, co-stimulation blockade 
 - PerturbCellRL
 - Single-cell perturbation prediction
 - Reinforcement learning
-- Verifier-guided generation
+- Energy-witness reward
+- Distribution alignment
 - Transcriptomic generator
 - Pathway activity reward
 - DEG consistency
@@ -63,4 +64,4 @@ Kidney transplant rejection에서는 steroid, cytokine, co-stimulation blockade 
 
 ## 6. Bibliography
 
-Wu, Dongxia, Mingyu Li, Yuhui Zhang, Anurendra Kumar, Emma Lundberg, Serena Yeung-Levy, and Emily B. Fox. "PerturbCellRL: Verifier-Guided Reinforcement Learning for Single-Cell Perturbation Prediction." _arXiv_, 2026. [https://doi.org/10.48550/arXiv.2606.27752](https://doi.org/10.48550/arXiv.2606.27752).
+Wu, Dongxia, Mingyu Li, Yuhui Zhang, Anurendra Kumar, Emma Lundberg, Serena Yeung-Levy, and Emily B. Fox. "PerturbCellRL: Aligning Distributions and Grounding Biology via Post-Training Perturbation Generators." _arXiv_, 2026. [https://doi.org/10.48550/arXiv.2606.27752](https://doi.org/10.48550/arXiv.2606.27752).

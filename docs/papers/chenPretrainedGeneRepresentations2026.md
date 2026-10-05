@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-21'
+updated: '2026-10-05'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: Tingjun Chen; Stephanie C. Hicks
 - DOI: 10.64898/2026.09.15.751768
 - URL: [Link](https://doi.org/10.64898/2026.09.15.751768)
-- Source/date: bioRxiv v1, posted 2026-09-18
+- Source/date: bioRxiv v2, revised 2026-10-01
 
 ## 1. 한 줄 요약
 

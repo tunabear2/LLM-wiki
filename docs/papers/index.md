@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-09-29'
+updated: '2026-10-05'
 tags:
 - wiki/index
 ---
@@ -62,7 +62,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [CellOS: cellular state world model](zhouCellOSWorldModel2026.md)
 - [VCBench: virtual-cell benchmark for scFMs](weidenerVCBenchMultiDimensional2026.md)
 - [Geometric outliers and gene importance in scFMs](whalleyGlitchGenesEmbedding2026.md)
-- [PerturbCellRL: verifier-guided single-cell perturbation prediction](wuPerturbCellRLVerifierGuided2026.md)
+- [PerturbCellRL: reward-guided post-training for perturbation generators](wuPerturbCellRLVerifierGuided2026.md)
 - [Partial-label metric ceilings for scFM-derived GRN evaluation](kendiukhovPartialLabelMetric2026.md)
 - [Causal intervention validation of scGPT regulatory signals](kendiukhovCausalInterventionValidation2026.md)
 - [Tabular FMs for cellular perturbation prediction](pallaTabularFoundationModels2026.md)
@@ -123,6 +123,14 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Cell-type baselines versus scGPT for neuronal physiology](sharmaUnreasonableEffectivenessCell2026.md)
 - [Mechanistic-operator falsification framework for virtual cells](stanczakExplicitMechanisticOperators2026.md)
 - [Trustworthy virtual-cell evaluation roadmap](liTowardTrustworthyVirtual2026.md)
+- [CellMSA: cross-cell context modeling for single-cell representations](zhaoCellMSAContextModeling2026.md)
+- [LangPatch: transcriptome–electrophysiology foundation-model alignment](shenLanguageInterfaceFoundation2026.md)
+- [Auditing biological-input use in reasoning models](fangWhenBiologicalReasoning2026.md)
+- [NexuST: hierarchical spatial transcriptomics foundation model](liuNexuSTHierarchicalFoundation2026.md)
+- [Recoverable resolution of cellular perturbation prediction](huangRecoverableResolutionCellular2026.md)
+- [Reference-composition bias in kidney xenograft annotation](mouReferenceCompositionBiases2026.md)
+- [stFormer: spatial ligand signaling foundation model](caoStFormerSpatialLigand2026.md)
+- [ST-ConMa: image–gene spatial transcriptomics foundation model](yeomSTConMaMultimodalFoundation2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
@@ -211,7 +219,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [CellOS: cellular state world model](zhouCellOSWorldModel2026.md)
 - [VCBench: virtual-cell benchmark for scFMs](weidenerVCBenchMultiDimensional2026.md)
 - [Geometric outliers and gene importance in scFMs](whalleyGlitchGenesEmbedding2026.md)
-- [PerturbCellRL: verifier-guided single-cell perturbation prediction](wuPerturbCellRLVerifierGuided2026.md)
+- [PerturbCellRL: reward-guided post-training for perturbation generators](wuPerturbCellRLVerifierGuided2026.md)
 - [Partial-label metric ceilings for scFM-derived GRN evaluation](kendiukhovPartialLabelMetric2026.md)
 - [Causal intervention validation of scGPT regulatory signals](kendiukhovCausalInterventionValidation2026.md)
 - [Tabular FMs for cellular perturbation prediction](pallaTabularFoundationModels2026.md)

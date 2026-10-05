@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-14'
+updated: '2026-10-05'
 tags:
 - wiki/paper
 ---
@@ -15,8 +15,9 @@ tags:
 - Item type: preprint
 - Authors: Jon Bezney; Carlo Ruggeri; Federico Borra; Lei S. Qi; Francesca Buffa; Lars M. Steinmetz
 - DOI: 10.64898/2026.09.08.749477
-- URL: [Link](https://www.biorxiv.org/content/10.64898/2026.09.08.749477v1)
-- Source/date: bioRxiv v1, posted 2026-09-10
+- PMID: 42818971
+- URL: [Link](https://pubmed.ncbi.nlm.nih.gov/42818971/)
+- Source/date: bioRxiv v1, posted 2026-09-10; PubMed indexed 2026-10-01
 
 ## 1. 한 줄 요약
 
