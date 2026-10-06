@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-29'
+updated: '2026-10-07'
 tags:
 - wiki/paper
 ---
@@ -54,6 +54,8 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | [EXPRESSO](palMachineLearningFramework2026.md) | 91개 cohort에서 치료별 biologically guided LASSO를 학습하고 22개 prospective cohort에 검증 | Rejection 치료반응 모델에서 cohort-held-out feature selection과 독립 검증을 분리하는 설계 참고 |
 | [FedEdgeR](songFedEdgeRFederatedPrivacy2026.md) | SMPC로 edgeR의 IRLS·dispersion·LRT를 연합화한 privacy-preserving DE | 기관별 환자 count를 반출하지 않고 다기관 rejection DEG를 pooled 분석에 가깝게 추정하는 후보 |
 | [DeOPUS](nguyenDeOPUSCellularDeconvolution2026.md) | Power transform·hierarchical shrinkage 기반 reference deconvolution | Kidney atlas를 reference로 bulk biopsy의 면역·실질세포 조성을 추정하는 비교 후보 |
+| [MAJEC](limMAJECUnifiedQuantification2026.md) | Gene·isoform·TE를 한 번에 정량하는 EM 방법 | Rejection-associated transposable-element와 isoform signal을 같은 BAM에서 점검 |
+| [GGE](yankovitzGGETranscriptomeMetaLearning2026.md) | 제한된 label을 위한 bulk transcriptome meta-learning | 소규모 이식 cohort에서 center/platform-held-out few-shot 분류를 시험 |
 
 ## 관련 Article / Report Scraps
 

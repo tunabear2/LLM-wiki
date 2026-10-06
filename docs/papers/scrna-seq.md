@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-29'
+updated: '2026-10-07'
 tags:
 - wiki/paper
 ---
@@ -77,6 +77,8 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [PeakATail](tabatPeakATailPrecision2026.md) | Poly(A)-tail evidence와 calibrated test를 결합한 precision-first single-cell APA 분석 | Immune·tubular cell별 alternative polyadenylation을 보수적으로 탐색하는 후보 |
 | [Temporal kidney-allograft profiling](makDonorRecipientImmune2026.md) | 생체·사체 공여신과 DGF 전후 allograft의 donor/recipient immune program 비교 | 신장이식 초기 injury와 rejection-risk cell state를 직접 연결하는 핵심 참고 |
 | [CHART-seq](zhangCHARTSeqFullLength2026.md) | 조기 pooling을 지원하는 저비용 full-length plate scRNA-seq | Biopsy cell의 gene program과 isoform 변화를 같은 assay에서 추적하는 플랫폼 후보 |
+| [scTAPAS](kockelberghScTAPASDonorGenotypes2026.md) | scRNA-seq에서 donor genotype을 복원해 eQTL·HLA–TCR 분석 | Array가 없는 이식 cohort에서 genotype–cell-state 연결을 검토 |
+| [MOD-scTWAS](guoMODScTWAS2026.md) | Coexpression-aware single-cell TWAS | Rejection GWAS를 immune·tubular cell eQTL와 연결하는 후보 |
 
 ## 읽을 때 체크할 것
 

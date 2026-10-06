@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-10-05'
+updated: '2026-10-07'
 tags:
 - wiki/index
 ---
@@ -31,6 +31,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Attention abstention and noise filtering](wangAbstentionNoiseFiltering2026.md)
 - [OPAL: on-policy attention linearization](rajeOnPolicyAttentionLinearization2026.md)
 - [RNASeek: cross-phyla generative RNA foundation model](chenRNASeekCrossPhyla2026.md)
+- [Base Models Can Reason By Taking a Cue From Training Data](wangBaseModelsReasoningCues2026.md)
+- [LoGRA: low-rank gradient sketches for LLM RL](zhangLoGRALowRank2026.md)
 
 ## Bio AI
 
@@ -143,6 +145,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [scHPGT: regulatory-prior RNA–ATAC integration](chengRegulatoryPriorGuidedAttention2026.md)
 - [GLM-Prior: genomic-LM priors for GRN inference](skokGibbsGLMPriorGenomic2026.md)
 - [RNASeek: cross-phyla RNA modeling and design](chenRNASeekCrossPhyla2026.md)
+- [Mendel: variant-centric human genetic variation foundation model](salmanMendelVariantCentric2026.md)
+- [GGE: few-shot meta-learning for human transcriptomes](yankovitzGGETranscriptomeMetaLearning2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
@@ -159,6 +163,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Tumor-cell MHC-II program and checkpoint outcomes](bellmuntTumorCellMHCII2026.md)
 - [FedEdgeR: federated differential expression across cancer cohorts](songFedEdgeRFederatedPrivacy2026.md)
 - [DeOPUS: reference-based tumor deconvolution](nguyenDeOPUSCellularDeconvolution2026.md)
+- [Transcriptome-informed multimodal AI for breast-cancer therapy response](parkTranscriptomeInformedMultimodal2026.md)
 
 ## Bulk RNA-seq
 
@@ -189,6 +194,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Tumor-cell MHC-II program and checkpoint outcomes](bellmuntTumorCellMHCII2026.md)
 - [FedEdgeR: federated privacy-preserving differential expression](songFedEdgeRFederatedPrivacy2026.md)
 - [DeOPUS: shrinkage-based cellular deconvolution](nguyenDeOPUSCellularDeconvolution2026.md)
+- [MAJEC: unified gene, isoform, and TE quantification](limMAJECUnifiedQuantification2026.md)
+- [GGE: few-shot meta-learning for human transcriptomes](yankovitzGGETranscriptomeMetaLearning2026.md)
 
 ## scRNA-seq
 
@@ -296,6 +303,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [PeakATail: calibrated single-cell APA analysis](tabatPeakATailPrecision2026.md)
 - [Temporal kidney-allograft single-cell profiling](makDonorRecipientImmune2026.md)
 - [CHART-seq: scalable full-length single-cell RNA-seq](zhangCHARTSeqFullLength2026.md)
+- [scTAPAS: donor genotype reconstruction from scRNA-seq](kockelberghScTAPASDonorGenotypes2026.md)
+- [MOD-scTWAS: coexpression-aware single-cell TWAS](guoMODScTWAS2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -313,6 +322,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [ContextSV: context-aware long-read SV calling](perdomoLongReadDetection2026.md)
 - [dicast: machine-learning short-read SV detection](alaviDicastMachineLearning2026.md)
 - [Long-read germline/somatic SV caller benchmark](shiComprehensiveEvaluationStructural2026.md)
+- [GIAB HG002 v5.0q assembly-based variant benchmark](olsonGIABHG002Benchmark2026.md)
+- [scTAPAS: donor genotype reconstruction from scRNA-seq](kockelberghScTAPASDonorGenotypes2026.md)
+- [Mendel: variant-centric human genetic variation foundation model](salmanMendelVariantCentric2026.md)
 
 ## Microarray
 
@@ -345,6 +357,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [GWAS–single-cell trait-to-cell-type integration benchmark](liBenchmarkingGWASSingleCell2026.md)
 - [SUSD1 locus for renal impairment in decompensated cirrhosis](sanchezGeneticVariantsRisk2026.md)
 - [TorchGWAS2: scalable association testing for related samples](zhangTorchGWAS2Scalable2026.md)
+- [Cell-based polygenic risk scores for clinical progression](sahelijoCellBasedPolygenicRisk2026.md)
+- [MOD-scTWAS: coexpression-aware single-cell TWAS](guoMODScTWAS2026.md)
 
 ## Transcriptomics / Platform
 
@@ -374,6 +388,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [PeakATail: single-cell poly(A)-site and APA analysis](tabatPeakATailPrecision2026.md)
 - [Temporal kidney-allograft single-cell profiling](makDonorRecipientImmune2026.md)
 - [CHART-seq: scalable full-length single-cell RNA-seq](zhangCHARTSeqFullLength2026.md)
+- [Platform-specific spatial transcriptomics preprocessing benchmark](duPlatformSpecificSpatialPreprocessing2026.md)
+- [CellART: unified high-resolution spatial transcriptomics](chenCellARTSpatialTranscriptomics2026.md)
 
 ## 사용 흐름
 
