@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-07'
+updated: '2026-10-12'
 tags:
 - wiki/paper
 ---
@@ -36,6 +36,7 @@ GWAS 분석 섹션은 genotype array 또는 sequencing-derived variants에서 ge
 | [TorchGWAS2](zhangTorchGWAS2Scalable2026.md) | 결정론적 LMM variance correction과 GPU 병렬화로 다수 phenotype association을 선형 확장 | 반복 측정·longitudinal rejection phenotype과 omics를 제한된 계산비용으로 스캔하는 후보 |
 | [Cell-based polygenic risk scores](sahelijoCellBasedPolygenicRisk2026.md) | snRNA coexpression network와 PRS·drug prioritization | Rejection GWAS를 cell-state network와 예후·약물 후보로 연결하는 template |
 | [MOD-scTWAS](guoMODScTWAS2026.md) | Coexpression-aware cell-type TWAS | Immune·tubular genetically regulated expression의 power와 calibration을 점검 |
+| [Process-specific CAD polygenic risk](morzeDecomposingPolygenicRisk2026.md) | Variant–trait matrix의 Bayesian NMF로 여덟 biological process별 PRS 분해 | 이식 GWAS를 면역·내피·응고·fibrosis 축으로 분해하는 장기적 분석 template |
 
 ## 분석 체크리스트
 

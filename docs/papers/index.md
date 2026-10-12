@@ -33,6 +33,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [RNASeek: cross-phyla generative RNA foundation model](chenRNASeekCrossPhyla2026.md)
 - [Base Models Can Reason By Taking a Cue From Training Data](wangBaseModelsReasoningCues2026.md)
 - [LoGRA: low-rank gradient sketches for LLM RL](zhangLoGRALowRank2026.md)
+- [Orthros: phase-aware efficient attention](chouOrthrosPhaseAware2026.md)
+- [LLoCoT: looped latent reasoning](garciaFromChainThought2026.md)
 
 ## Bio AI
 
@@ -157,6 +159,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [RNASeek: cross-phyla RNA modeling and design](chenRNASeekCrossPhyla2026.md)
 - [Mendel: variant-centric human genetic variation foundation model](salmanMendelVariantCentric2026.md)
 - [GGE: few-shot meta-learning for human transcriptomes](yankovitzGGETranscriptomeMetaLearning2026.md)
+- [GLARE: genomic-LM transposable-element classification](haasGLAREGenomicLanguage2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
@@ -174,6 +177,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [FedEdgeR: federated differential expression across cancer cohorts](songFedEdgeRFederatedPrivacy2026.md)
 - [DeOPUS: reference-based tumor deconvolution](nguyenDeOPUSCellularDeconvolution2026.md)
 - [Transcriptome-informed multimodal AI for breast-cancer therapy response](parkTranscriptomeInformedMultimodal2026.md)
+- [PHERGain multimodal AI for response and prognosis](ruizBorregoMultimodalArtificial2026.md)
 
 ## Bulk RNA-seq
 
@@ -208,6 +212,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [GGE: few-shot meta-learning for human transcriptomes](yankovitzGGETranscriptomeMetaLearning2026.md)
 - [GeneICL: transcriptomics-aware tabular foundation model](bohlGeneICLTabularFoundation2026.md)
 - [DECONVersation: scFM-derived bulk cell-type deconvolution](okuDECONVersationSingleCell2026.md)
+- [scStable: bulk-derived stability testing for scRNA-seq](jiangScStableAssessing2026.md)
 
 ## scRNA-seq
 
@@ -317,6 +322,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [CHART-seq: scalable full-length single-cell RNA-seq](zhangCHARTSeqFullLength2026.md)
 - [scTAPAS: donor genotype reconstruction from scRNA-seq](kockelberghScTAPASDonorGenotypes2026.md)
 - [MOD-scTWAS: coexpression-aware single-cell TWAS](guoMODScTWAS2026.md)
+- [scStable: between-sample stability assessment](jiangScStableAssessing2026.md)
+- [Double-dipping in phenotype testing with scRNA-seq](sanchezDoubleDippingTesting2026.md)
+- [STEER-seq: pooled multimodal perturbation screening](miglioriSTEERSeqRecombinase2026.md)
+- [10X versus Parse scRNA-seq benchmark](caskeyUnifiedComparison10X2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -337,6 +346,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [GIAB HG002 v5.0q assembly-based variant benchmark](olsonGIABHG002Benchmark2026.md)
 - [scTAPAS: donor genotype reconstruction from scRNA-seq](kockelberghScTAPASDonorGenotypes2026.md)
 - [Mendel: variant-centric human genetic variation foundation model](salmanMendelVariantCentric2026.md)
+- [GLARE: genomic-LM repetitive-element classification](haasGLAREGenomicLanguage2026.md)
+- [Songbird: WGD-aware single-cell copy-number calling](wesleyWaveletBasedWhole2026.md)
 
 ## Microarray
 
@@ -371,6 +382,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [TorchGWAS2: scalable association testing for related samples](zhangTorchGWAS2Scalable2026.md)
 - [Cell-based polygenic risk scores for clinical progression](sahelijoCellBasedPolygenicRisk2026.md)
 - [MOD-scTWAS: coexpression-aware single-cell TWAS](guoMODScTWAS2026.md)
+- [Process-specific polygenic risk for coronary artery disease](morzeDecomposingPolygenicRisk2026.md)
 
 ## Transcriptomics / Platform
 
@@ -402,6 +414,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [CHART-seq: scalable full-length single-cell RNA-seq](zhangCHARTSeqFullLength2026.md)
 - [Platform-specific spatial transcriptomics preprocessing benchmark](duPlatformSpecificSpatialPreprocessing2026.md)
 - [CellART: unified high-resolution spatial transcriptomics](chenCellARTSpatialTranscriptomics2026.md)
+- [STEER-seq: pooled multimodal perturbation screening](miglioriSTEERSeqRecombinase2026.md)
+- [10X versus Parse scRNA-seq benchmark](caskeyUnifiedComparison10X2026.md)
 
 ## 사용 흐름
 

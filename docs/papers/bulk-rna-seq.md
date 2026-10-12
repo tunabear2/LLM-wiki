@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-07'
+updated: '2026-10-12'
 tags:
 - wiki/paper
 ---
@@ -56,6 +56,7 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | [DeOPUS](nguyenDeOPUSCellularDeconvolution2026.md) | Power transform·hierarchical shrinkage 기반 reference deconvolution | Kidney atlas를 reference로 bulk biopsy의 면역·실질세포 조성을 추정하는 비교 후보 |
 | [MAJEC](limMAJECUnifiedQuantification2026.md) | Gene·isoform·TE를 한 번에 정량하는 EM 방법 | Rejection-associated transposable-element와 isoform signal을 같은 BAM에서 점검 |
 | [GGE](yankovitzGGETranscriptomeMetaLearning2026.md) | 제한된 label을 위한 bulk transcriptome meta-learning | 소규모 이식 cohort에서 center/platform-held-out few-shot 분류를 시험 |
+| [scStable](jiangScStableAssessing2026.md) | Bulk에서 배운 표본 간 변이를 한 scRNA reference에 주입하는 stability stress test | Matched bulk biopsy가 있을 때 rejection-associated single-cell DEG·cluster의 donor 간 안정성을 점검 |
 
 ## 관련 Article / Report Scraps
 

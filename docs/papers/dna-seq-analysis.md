@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-07'
+updated: '2026-10-12'
 tags:
 - wiki/paper
 ---
@@ -36,6 +36,8 @@ DNA 분석 섹션은 WGS/WES/targeted sequencing에서 FASTQ를 variant interpre
 | [Long-read SV caller benchmark](shiComprehensiveEvaluationStructural2026.md) | PacBio CLR/CCS·ONT 20개 dataset에서 germline/somatic caller 14개를 12차원 평가 | Donor/recipient 또는 post-transplant clonal 분석에서 platform·coverage별 caller를 고르는 기준 |
 | [GIAB HG002 v5.0q benchmark](olsonGIABHG002Benchmark2026.md) | Assembly 기반 small/SV truth set 확장 | Donor·recipient WGS caller와 HLA/SV QC의 재현 가능한 기준 |
 | [scTAPAS](kockelberghScTAPASDonorGenotypes2026.md) | scRNA-seq에서 donor genotype 복원 | 별도 array가 없는 PBMC·biopsy에서 HLA/eQTL 후보를 검토 |
+| [GLARE](haasGLAREGenomicLanguage2026.md) | Genomic LM을 이용한 taxon·database shift-robust TE superfamily 분류 | RNA-seq TE signal을 해석하기 전 repeat annotation 품질을 점검하는 후보 |
+| [Songbird](wesleyWaveletBasedWhole2026.md) | Tn5 fragment geometry와 wavelet을 이용한 WGD-aware scWGS copy-number calling | Post-transplant malignancy의 cell-level CNA·ploidy를 orthogonal assay와 검증하는 후보 |
 
 ## 분석 체크리스트
 

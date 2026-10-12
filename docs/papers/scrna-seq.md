@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-07'
+updated: '2026-10-12'
 tags:
 - wiki/paper
 ---
@@ -79,6 +79,10 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [CHART-seq](zhangCHARTSeqFullLength2026.md) | 조기 pooling을 지원하는 저비용 full-length plate scRNA-seq | Biopsy cell의 gene program과 isoform 변화를 같은 assay에서 추적하는 플랫폼 후보 |
 | [scTAPAS](kockelberghScTAPASDonorGenotypes2026.md) | scRNA-seq에서 donor genotype을 복원해 eQTL·HLA–TCR 분석 | Array가 없는 이식 cohort에서 genotype–cell-state 연결을 검토 |
 | [MOD-scTWAS](guoMODScTWAS2026.md) | Coexpression-aware single-cell TWAS | Rejection GWAS를 immune·tubular cell eQTL와 연결하는 후보 |
+| [scStable](jiangScStableAssessing2026.md) | Bulk-derived between-sample variation을 이용한 합성 replicate와 stability 평가 | 적은 donor의 allograft scRNA-seq에서 cluster·DEG·parameter 선택의 견고성을 stress-test |
+| [Double-dipping in scRNA-seq phenotype testing](sanchezDoubleDippingTesting2026.md) | 같은 expression으로 clustering과 phenotype DE를 할 때의 post-selection FDR | Rejection-driven cluster 안의 DEG를 donor-level pseudobulk·imbalance 진단으로 재검증 |
+| [STEER-seq](miglioriSTEERSeqRecombinase2026.md) | 정의된 locus의 single-copy ORF와 joint RNA–ATAC perturbation readout | Rejection TF 후보의 sufficiency와 chromatin response를 기능적으로 검증하는 플랫폼 후보 |
+| [10X versus Parse benchmark](caskeyUnifiedComparison10X2026.md) | Droplet·split-pool 간 nuclear RNA, GC, contamination bias 비교 | Platform-balanced donor split과 within-platform replication을 설계하는 근거 |
 
 ## 읽을 때 체크할 것
 
