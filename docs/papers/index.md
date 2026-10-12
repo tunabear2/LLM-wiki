@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-10-07'
+updated: '2026-10-12'
 tags:
 - wiki/index
 ---
@@ -133,6 +133,16 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Reference-composition bias in kidney xenograft annotation](mouReferenceCompositionBiases2026.md)
 - [stFormer: spatial ligand signaling foundation model](caoStFormerSpatialLigand2026.md)
 - [ST-ConMa: image–gene spatial transcriptomics foundation model](yeomSTConMaMultimodalFoundation2026.md)
+- [Headroom-calibrated interpretability probing for scGPT](gargHowHighFloors2026.md)
+- [GeneICL: tabular foundation model for bulk transcriptomics](bohlGeneICLTabularFoundation2026.md)
+- [ASTRA: zero-shot spatial transcriptomics super-resolution](yeASTRAEnablesZeroShot2026.md)
+- [Slide-batch limits of histology-guided transcriptomic FMs](mcconnellSlideLevelBatchStructure2026.md)
+- [VINTER: generative vision-language model for spatial tissues](wuVINTERGenerativeVisionLanguage2026.md)
+- [DECONVersation: scFM-derived bulk deconvolution](okuDECONVersationSingleCell2026.md)
+- [Cause-excluded evaluation for perturbation target discovery](huCauseExcludedEffect2026.md)
+- [Knowledge-graph priors versus scFMs for Perturb-seq](niBenchmarkingBiologicalKnowledgeGraph2026.md)
+- [Network medicine with scGPT for cell-type regulatory analysis](alvarezPerezIntegratingNetworkMedicine2026.md)
+- [Foundation-model approaches for spatial transcriptomics](fanFromDescriptiveGenerative2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
@@ -196,6 +206,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [DeOPUS: shrinkage-based cellular deconvolution](nguyenDeOPUSCellularDeconvolution2026.md)
 - [MAJEC: unified gene, isoform, and TE quantification](limMAJECUnifiedQuantification2026.md)
 - [GGE: few-shot meta-learning for human transcriptomes](yankovitzGGETranscriptomeMetaLearning2026.md)
+- [GeneICL: transcriptomics-aware tabular foundation model](bohlGeneICLTabularFoundation2026.md)
+- [DECONVersation: scFM-derived bulk cell-type deconvolution](okuDECONVersationSingleCell2026.md)
 
 ## scRNA-seq
 
