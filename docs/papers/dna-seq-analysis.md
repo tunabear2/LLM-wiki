@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-12'
+updated: '2026-10-18'
 tags:
 - wiki/paper
 ---
@@ -38,6 +38,9 @@ DNA 분석 섹션은 WGS/WES/targeted sequencing에서 FASTQ를 variant interpre
 | [scTAPAS](kockelberghScTAPASDonorGenotypes2026.md) | scRNA-seq에서 donor genotype 복원 | 별도 array가 없는 PBMC·biopsy에서 HLA/eQTL 후보를 검토 |
 | [GLARE](haasGLAREGenomicLanguage2026.md) | Genomic LM을 이용한 taxon·database shift-robust TE superfamily 분류 | RNA-seq TE signal을 해석하기 전 repeat annotation 품질을 점검하는 후보 |
 | [Songbird](wesleyWaveletBasedWhole2026.md) | Tn5 fragment geometry와 wavelet을 이용한 WGD-aware scWGS copy-number calling | Post-transplant malignancy의 cell-level CNA·ploidy를 orthogonal assay와 검증하는 후보 |
+| [DNA-LLM2Vec](liangDNALLM2VecArchitectureAware2026.md) | Causal DNA decoder를 bidirectional frozen encoder로 task별 적응 | Donor·recipient variant의 distal eQTL·regulatory effect embedding 후보 |
+| [Short-read SV analysis standards](slimmerTowardsStandardsStructural2026.md) | 16개 caller와 ensemble의 exact breakpoint·size benchmark | SV–expression outlier 연결 전 caller·merging·orthogonal validation 기준 |
+| [UK Biobank phenome-wide SV map](atanurPhenomeWideStructural2026.md) | 467,152 WGS에서 160만 SV와 임상·단백질 phenotype의 대규모 연관 지도 | 신기능·면역 관련 donor/recipient SV 후보를 biopsy expression과 교차하는 자원 |
 
 ## 분석 체크리스트
 

@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-10-12'
+updated: '2026-10-18'
 tags:
 - wiki/index
 ---
@@ -35,6 +35,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [LoGRA: low-rank gradient sketches for LLM RL](zhangLoGRALowRank2026.md)
 - [Orthros: phase-aware efficient attention](chouOrthrosPhaseAware2026.md)
 - [LLoCoT: looped latent reasoning](garciaFromChainThought2026.md)
+- [Titan-Llama: test-time neural memory for long context](panTitanLlamaRetrofitting2026.md)
+- [JSSA: joint-subspace sparse attention](songJointSubspaceSparse2026.md)
+- [DNA-LLM2Vec: bidirectional adaptation of DNA decoders](liangDNALLM2VecArchitectureAware2026.md)
 
 ## Bio AI
 
@@ -160,6 +163,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Mendel: variant-centric human genetic variation foundation model](salmanMendelVariantCentric2026.md)
 - [GGE: few-shot meta-learning for human transcriptomes](yankovitzGGETranscriptomeMetaLearning2026.md)
 - [GLARE: genomic-LM transposable-element classification](haasGLAREGenomicLanguage2026.md)
+- [DNA-LLM2Vec: task-conditioned DNA foundation-model adaptation](liangDNALLM2VecArchitectureAware2026.md)
+- [Constructed negatives in protein-interaction model evaluation](durandConstructedNegativesShape2026.md)
+- [EcoNet: graph learning of tumor ecosystems](wangDeepLearningDrivenTumor2026.md)
+- [GEMS: sequence-to-function interpretation of GWAS variants](xieGEMSGWASEffect2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
@@ -178,6 +185,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [DeOPUS: reference-based tumor deconvolution](nguyenDeOPUSCellularDeconvolution2026.md)
 - [Transcriptome-informed multimodal AI for breast-cancer therapy response](parkTranscriptomeInformedMultimodal2026.md)
 - [PHERGain multimodal AI for response and prognosis](ruizBorregoMultimodalArtificial2026.md)
+- [EcoNet: tumor-microenvironment immunotherapy prediction](wangDeepLearningDrivenTumor2026.md)
+- [MONALEESA multimodal PFS prediction](wangMultimodalMachineLearning2026.md)
 
 ## Bulk RNA-seq
 
@@ -213,6 +222,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [GeneICL: transcriptomics-aware tabular foundation model](bohlGeneICLTabularFoundation2026.md)
 - [DECONVersation: scFM-derived bulk cell-type deconvolution](okuDECONVersationSingleCell2026.md)
 - [scStable: bulk-derived stability testing for scRNA-seq](jiangScStableAssessing2026.md)
+- [EcoNet: TME network-based immunotherapy prediction](wangDeepLearningDrivenTumor2026.md)
+- [MONALEESA clinical–expression–ctDNA survival fusion](wangMultimodalMachineLearning2026.md)
+- [Long-read transcript normalization benchmark](paniaguaSystematicEvaluationTranscript2026.md)
 
 ## scRNA-seq
 
@@ -326,6 +338,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Double-dipping in phenotype testing with scRNA-seq](sanchezDoubleDippingTesting2026.md)
 - [STEER-seq: pooled multimodal perturbation screening](miglioriSTEERSeqRecombinase2026.md)
 - [10X versus Parse scRNA-seq benchmark](caskeyUnifiedComparison10X2026.md)
+- [cit_gsa: covariate-adjusted single-cell gene-set analysis](falletCitGsaGeneSet2026.md)
+- [EcoNet: scRNA-informed tumor ecosystem graph learning](wangDeepLearningDrivenTumor2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -348,6 +362,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Mendel: variant-centric human genetic variation foundation model](salmanMendelVariantCentric2026.md)
 - [GLARE: genomic-LM repetitive-element classification](haasGLAREGenomicLanguage2026.md)
 - [Songbird: WGD-aware single-cell copy-number calling](wesleyWaveletBasedWhole2026.md)
+- [DNA-LLM2Vec: bidirectional genomic sequence embeddings](liangDNALLM2VecArchitectureAware2026.md)
+- [Short-read structural-variant analysis standards](slimmerTowardsStandardsStructural2026.md)
+- [UK Biobank phenome-wide structural-variant map](atanurPhenomeWideStructural2026.md)
 
 ## Microarray
 
@@ -383,6 +400,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Cell-based polygenic risk scores for clinical progression](sahelijoCellBasedPolygenicRisk2026.md)
 - [MOD-scTWAS: coexpression-aware single-cell TWAS](guoMODScTWAS2026.md)
 - [Process-specific polygenic risk for coronary artery disease](morzeDecomposingPolygenicRisk2026.md)
+- [GEMS: cell-type mechanisms for fine-mapped GWAS variants](xieGEMSGWASEffect2026.md)
+- [UK Biobank phenome-wide structural-variant map](atanurPhenomeWideStructural2026.md)
 
 ## Transcriptomics / Platform
 
@@ -416,6 +435,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [CellART: unified high-resolution spatial transcriptomics](chenCellARTSpatialTranscriptomics2026.md)
 - [STEER-seq: pooled multimodal perturbation screening](miglioriSTEERSeqRecombinase2026.md)
 - [10X versus Parse scRNA-seq benchmark](caskeyUnifiedComparison10X2026.md)
+- [Long-read transcript normalization across PacBio and ONT](paniaguaSystematicEvaluationTranscript2026.md)
+- [Sequencing-based spatial transcriptomics platform benchmark](mortierNavigatingSpatialTranscriptomics2026.md)
 
 ## 사용 흐름
 

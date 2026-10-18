@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-12'
+updated: '2026-10-18'
 tags:
 - wiki/paper
 ---
@@ -83,6 +83,7 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [Double-dipping in scRNA-seq phenotype testing](sanchezDoubleDippingTesting2026.md) | 같은 expression으로 clustering과 phenotype DE를 할 때의 post-selection FDR | Rejection-driven cluster 안의 DEG를 donor-level pseudobulk·imbalance 진단으로 재검증 |
 | [STEER-seq](miglioriSTEERSeqRecombinase2026.md) | 정의된 locus의 single-copy ORF와 joint RNA–ATAC perturbation readout | Rejection TF 후보의 sufficiency와 chromatin response를 기능적으로 검증하는 플랫폼 후보 |
 | [10X versus Parse benchmark](caskeyUnifiedComparison10X2026.md) | Droplet·split-pool 간 nuclear RNA, GC, contamination bias 비교 | Platform-balanced donor split과 within-platform replication을 설계하는 근거 |
+| [cit_gsa](falletCitGsaGeneSet2026.md) | 다조건·연속변수와 covariate를 지원하는 one-step self-contained gene-set DE | Rejection pathway를 cell type·treatment로 보정하되 donor-level 추론을 별도로 검증 |
 
 ## 읽을 때 체크할 것
 

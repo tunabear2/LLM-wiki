@@ -89,6 +89,7 @@ nav:
               - MOD-scTWAS Coexpression-aware TWAS: papers/guoMODScTWAS2026.md
               - scStable Stability Assessment: papers/jiangScStableAssessing2026.md
               - Double-Dipping Phenotype Testing: papers/sanchezDoubleDippingTesting2026.md
+              - cit_gsa Covariate-adjusted Gene Sets: papers/falletCitGsaGeneSet2026.md
           - DNA-seq / Variant Analysis: papers/dna-seq-analysis.md
           - DNA-seq Core Papers:
               - BWA: papers/liBWAFast2009.md
@@ -105,6 +106,8 @@ nav:
               - GIAB HG002 v5.0q Variant Benchmark: papers/olsonGIABHG002Benchmark2026.md
               - scTAPAS Donor Genotype Reconstruction: papers/kockelberghScTAPASDonorGenotypes2026.md
               - Songbird WGD-aware Copy-Number Calling: papers/wesleyWaveletBasedWhole2026.md
+              - Short-read SV Analysis Standards: papers/slimmerTowardsStandardsStructural2026.md
+              - UK Biobank Phenome-wide SV Map: papers/atanurPhenomeWideStructural2026.md
       - Array / Association Analysis:
           - Microarray Analysis: papers/microarray-analysis.md
           - Microarray Core Papers:
@@ -136,6 +139,7 @@ nav:
               - Cell-based Polygenic Risk Scores: papers/sahelijoCellBasedPolygenicRisk2026.md
               - MOD-scTWAS Coexpression-aware TWAS: papers/guoMODScTWAS2026.md
               - Process-specific CAD Polygenic Risk: papers/morzeDecomposingPolygenicRisk2026.md
+              - GEMS GWAS Variant Mechanisms: papers/xieGEMSGWASEffect2026.md
       - LLM / Transformer:
           - Attention Is All You Need: papers/vaswaniAttentionAllYou2023.md
           - Transformer: papers/transformer.md
@@ -158,6 +162,8 @@ nav:
           - LoGRA Low-Rank Gradient Sketches: papers/zhangLoGRALowRank2026.md
           - Orthros Phase-Aware Attention: papers/chouOrthrosPhaseAware2026.md
           - LLoCoT Looped Latent Reasoning: papers/garciaFromChainThought2026.md
+          - Titan-Llama Neural Memory: papers/panTitanLlamaRetrofitting2026.md
+          - JSSA Sparse Attention: papers/songJointSubspaceSparse2026.md
       - Bio AI:
           - Single-cell Foundation Models: papers/single-cell-foundation-models.md
           - Geneformer: papers/theodorisTransferLearningNetwork2023.md
@@ -187,6 +193,8 @@ nav:
           - Mendel Variant Foundation Model: papers/salmanMendelVariantCentric2026.md
           - GGE Transcriptome Meta-learning: papers/yankovitzGGETranscriptomeMetaLearning2026.md
           - GLARE Genomic TE Classification: papers/haasGLAREGenomicLanguage2026.md
+          - DNA-LLM2Vec Genomic Embeddings: papers/liangDNALLM2VecArchitectureAware2026.md
+          - PPI Constructed-Negative Benchmark: papers/durandConstructedNegativesShape2026.md
       - Cancer Transcriptomics / Clinical Prediction:
           - EGSP Survival Prediction: papers/liuLeveragingSinglecellFoundation2026.md
           - COIN Drug Sensitivity: papers/shangguanDrugSensitivityInference2025.md
@@ -197,6 +205,8 @@ nav:
           - Tumor-Cell MHC-II Program: papers/bellmuntTumorCellMHCII2026.md
           - Transcriptome-informed Breast-cancer Response: papers/parkTranscriptomeInformedMultimodal2026.md
           - PHERGain Multimodal Response and Prognosis: papers/ruizBorregoMultimodalArtificial2026.md
+          - EcoNet Immunotherapy Response: papers/wangDeepLearningDrivenTumor2026.md
+          - MONALEESA Multimodal PFS: papers/wangMultimodalMachineLearning2026.md
       - Transcriptomics / Platform:
           - RNA-Seq vs Microarray: papers/zhaoComparisonRNASeqMicroarray2014.1.16..md
           - Smart-seq2: papers/picelliSmartSeq2Sensitive2013.md
@@ -217,6 +227,8 @@ nav:
           - CellART High-resolution Spatial Transcriptomics: papers/chenCellARTSpatialTranscriptomics2026.md
           - STEER-seq Multimodal Perturbation Screening: papers/miglioriSTEERSeqRecombinase2026.md
           - 10X versus Parse scRNA-seq Benchmark: papers/caskeyUnifiedComparison10X2026.md
+          - Long-read Transcript Normalization: papers/paniaguaSystematicEvaluationTranscript2026.md
+          - Spatial Transcriptomics Platform Benchmark: papers/mortierNavigatingSpatialTranscriptomics2026.md
   - Articles:
       - Article / Report Scraps: articles/index.md
       - Bulk RNA-Seq Foundation Model Benchmark: articles/2026-05-27-bulk-rnaseq-foundation-model-benchmark.md
