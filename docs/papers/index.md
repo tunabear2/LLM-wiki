@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-10-18'
+updated: '2026-10-19'
 tags:
 - wiki/index
 ---
@@ -148,6 +148,19 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Knowledge-graph priors versus scFMs for Perturb-seq](niBenchmarkingBiologicalKnowledgeGraph2026.md)
 - [Network medicine with scGPT for cell-type regulatory analysis](alvarezPerezIntegratingNetworkMedicine2026.md)
 - [Foundation-model approaches for spatial transcriptomics](fanFromDescriptiveGenerative2026.md)
+- [Layer-wise evaluation of scFM molecular representations](wenBeyondFinalLayer2026.md)
+- [Biological concept directions in foundation-model embeddings](shamailRepresentingBiologicalConcepts2026.md)
+- [Low-data advantage benchmark for single-cell foundation models](benhayonBenchmarkingSingleCellFoundation2026.md)
+- [BioMod: biological-module tokenization for single-cell FMs](mengBioModBiologicalModule2026.md)
+- [CellScribe: in-context cellular profiling with scFM-grounded LLMs](gelardClosedSetAnnotation2026.md)
+- [SubcellPert: subcellular perturbation-prediction benchmark](wangSubcellPertBenchmarkingSubcellular2026.md)
+- [FOCUS: coordinated spatial-transcriptomics enhancement](wangCoordinatedEnhancementMolecular2026.md)
+- [CellNet: panoramic cross-species single-cell transcriptome modeling](lianPanoramicModellingSingleCell2026.md)
+- [CellChain: evidence-use benchmark for perturbation reasoning](xiaCellChainBenchmarkingCrossScale2026.md)
+- [CellForge: AI scientists building virtual-cell models](tangAIScientistsBuilding2026.md)
+- [Virtual cells: mechanistic-to-data-driven review](maVirtualCellsProgress2026.md)
+- [Emerging frontiers for AI in single-cell genomics](mitraEmergingFrontiersAI2026.md)
+- [Spatial-transcriptomics prediction residuals as biological signal](iesmantasPredictionResidualsSpatial2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
