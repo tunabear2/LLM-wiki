@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-10-19'
+updated: '2026-10-25'
 tags:
 - wiki/index
 ---
@@ -38,6 +38,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Titan-Llama: test-time neural memory for long context](panTitanLlamaRetrofitting2026.md)
 - [JSSA: joint-subspace sparse attention](songJointSubspaceSparse2026.md)
 - [DNA-LLM2Vec: bidirectional adaptation of DNA decoders](liangDNALLM2VecArchitectureAware2026.md)
+- [RACE: RoPE-aligned cache eviction for long-context LLMs](tenisonRACERoPEAligned2026.md)
+- [SSA: stratified sparse attention](joshiStratifiedSparseAttention2026.md)
 
 ## Bio AI
 
@@ -180,6 +182,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Constructed negatives in protein-interaction model evaluation](durandConstructedNegativesShape2026.md)
 - [EcoNet: graph learning of tumor ecosystems](wangDeepLearningDrivenTumor2026.md)
 - [GEMS: sequence-to-function interpretation of GWAS variants](xieGEMSGWASEffect2026.md)
+- [hEVO: genomic foundation model for human genetic diversity](xuGenomicFoundationModel2026.md)
+- [Decision benchmark for protein foundation models](dingDecisionBenchmarkingProtein2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
@@ -200,6 +204,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [PHERGain multimodal AI for response and prognosis](ruizBorregoMultimodalArtificial2026.md)
 - [EcoNet: tumor-microenvironment immunotherapy prediction](wangDeepLearningDrivenTumor2026.md)
 - [MONALEESA multimodal PFS prediction](wangMultimodalMachineLearning2026.md)
+- [Transcriptome-derived DNA-methylation subtypes for renal-cancer treatment selection](jeanneretDNAMethylationSubtypes2026.md)
 
 ## Bulk RNA-seq
 
@@ -238,6 +243,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [EcoNet: TME network-based immunotherapy prediction](wangDeepLearningDrivenTumor2026.md)
 - [MONALEESA clinical–expression–ctDNA survival fusion](wangMultimodalMachineLearning2026.md)
 - [Long-read transcript normalization benchmark](paniaguaSystematicEvaluationTranscript2026.md)
+- [Transcriptome-derived DNA-methylation subtypes in renal cancer](jeanneretDNAMethylationSubtypes2026.md)
+- [GLORB: robust Bayesian differential expression under global shifts](callahanGLORBRobustBayesian2026.md)
+- [corrdeconv: disease-state-aware bulk deconvolution](jiangCorrdeconvCorrectsDeconvolution2026.md)
 
 ## scRNA-seq
 
@@ -353,6 +361,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [10X versus Parse scRNA-seq benchmark](caskeyUnifiedComparison10X2026.md)
 - [cit_gsa: covariate-adjusted single-cell gene-set analysis](falletCitGsaGeneSet2026.md)
 - [EcoNet: scRNA-informed tumor ecosystem graph learning](wangDeepLearningDrivenTumor2026.md)
+- [PETRO: robust Perturb-seq effect estimation](sunPETRORobustPerturbSeq2026.md)
+- [3′/5′ scRNA-seq protocol-bias benchmark](shydlouskayaCharacterizingProtocolBias2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -378,6 +388,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [DNA-LLM2Vec: bidirectional genomic sequence embeddings](liangDNALLM2VecArchitectureAware2026.md)
 - [Short-read structural-variant analysis standards](slimmerTowardsStandardsStructural2026.md)
 - [UK Biobank phenome-wide structural-variant map](atanurPhenomeWideStructural2026.md)
+- [hEVO: phased human-genome foundation model](xuGenomicFoundationModel2026.md)
+- [DCSMAP: hybrid-pangenome variant calling for diverse genomes](yangDCSMAPHybridPangenome2026.md)
 
 ## Microarray
 
@@ -415,6 +427,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Process-specific polygenic risk for coronary artery disease](morzeDecomposingPolygenicRisk2026.md)
 - [GEMS: cell-type mechanisms for fine-mapped GWAS variants](xieGEMSGWASEffect2026.md)
 - [UK Biobank phenome-wide structural-variant map](atanurPhenomeWideStructural2026.md)
+- [hEVO: genomic foundation model for variant interpretation](xuGenomicFoundationModel2026.md)
+- [SUMMIT: genome-wide multi-ancestry LD scores](jeongSUMMITGenomeWideLD2026.md)
 
 ## Transcriptomics / Platform
 
@@ -450,6 +464,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [10X versus Parse scRNA-seq benchmark](caskeyUnifiedComparison10X2026.md)
 - [Long-read transcript normalization across PacBio and ONT](paniaguaSystematicEvaluationTranscript2026.md)
 - [Sequencing-based spatial transcriptomics platform benchmark](mortierNavigatingSpatialTranscriptomics2026.md)
+- [3′/5′ scRNA-seq protocol-bias benchmark](shydlouskayaCharacterizingProtocolBias2026.md)
+- [Seq-o-Matic: open-source in situ transcriptomic sequencer](zhangSeqOMaticOpenSource2026.md)
 
 ## 사용 흐름
 

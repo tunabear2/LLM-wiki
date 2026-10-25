@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-18'
+updated: '2026-10-25'
 tags:
 - wiki/paper
 ---
@@ -39,6 +39,7 @@ GWAS 분석 섹션은 genotype array 또는 sequencing-derived variants에서 ge
 | [Process-specific CAD polygenic risk](morzeDecomposingPolygenicRisk2026.md) | Variant–trait matrix의 Bayesian NMF로 여덟 biological process별 PRS 분해 | 이식 GWAS를 면역·내피·응고·fibrosis 축으로 분해하는 장기적 분석 template |
 | [GEMS](xieGEMSGWASEffect2026.md) | Borzoi ATAC/RNA effect와 SHAP으로 fine-mapped variant를 cell type에 연결 | Donor·recipient GWAS hit을 immune·endothelial·tubular program과 연결하는 후보 |
 | [UK Biobank phenome-wide SV map](atanurPhenomeWideStructural2026.md) | 160만 structural variant의 질환·정량·plasma-protein PheWAS | 이식 phenotype과 연결할 SV 후보·pQTL prior를 고르는 대규모 reference |
+| [SUMMIT genome-wide LD scores](jeongSUMMITGenomeWideLD2026.md) | 대규모 multi-ancestry reference에서 genome-wide LD score를 빠르게 근사 | Donor·recipient ancestry가 다양한 GWAS에서 LD-score 기반 QC·heritability의 계산성과 편향을 함께 점검 |
 
 ## 분석 체크리스트
 

@@ -71,6 +71,8 @@ nav:
               - DeOPUS Cellular Deconvolution: papers/nguyenDeOPUSCellularDeconvolution2026.md
               - MAJEC Unified Gene/TE Quantification: papers/limMAJECUnifiedQuantification2026.md
               - GGE Few-shot Transcriptome Meta-learning: papers/yankovitzGGETranscriptomeMetaLearning2026.md
+              - GLORB Robust Differential Expression: papers/callahanGLORBRobustBayesian2026.md
+              - corrdeconv Disease-aware Deconvolution: papers/jiangCorrdeconvCorrectsDeconvolution2026.md
           - scRNA-seq Analysis: papers/scrna-seq.md
           - scRNA-seq Core Papers:
               - scran Normalization: papers/lunPoolingNormalizeSingleCell2016.md
@@ -90,6 +92,8 @@ nav:
               - scStable Stability Assessment: papers/jiangScStableAssessing2026.md
               - Double-Dipping Phenotype Testing: papers/sanchezDoubleDippingTesting2026.md
               - cit_gsa Covariate-adjusted Gene Sets: papers/falletCitGsaGeneSet2026.md
+              - PETRO Robust Perturb-seq: papers/sunPETRORobustPerturbSeq2026.md
+              - 3-prime/5-prime Protocol Bias: papers/shydlouskayaCharacterizingProtocolBias2026.md
           - DNA-seq / Variant Analysis: papers/dna-seq-analysis.md
           - DNA-seq Core Papers:
               - BWA: papers/liBWAFast2009.md
@@ -108,6 +112,7 @@ nav:
               - Songbird WGD-aware Copy-Number Calling: papers/wesleyWaveletBasedWhole2026.md
               - Short-read SV Analysis Standards: papers/slimmerTowardsStandardsStructural2026.md
               - UK Biobank Phenome-wide SV Map: papers/atanurPhenomeWideStructural2026.md
+              - DCSMAP Hybrid-Pangenome Calling: papers/yangDCSMAPHybridPangenome2026.md
       - Array / Association Analysis:
           - Microarray Analysis: papers/microarray-analysis.md
           - Microarray Core Papers:
@@ -140,6 +145,7 @@ nav:
               - MOD-scTWAS Coexpression-aware TWAS: papers/guoMODScTWAS2026.md
               - Process-specific CAD Polygenic Risk: papers/morzeDecomposingPolygenicRisk2026.md
               - GEMS GWAS Variant Mechanisms: papers/xieGEMSGWASEffect2026.md
+              - SUMMIT Genome-wide LD Scores: papers/jeongSUMMITGenomeWideLD2026.md
       - LLM / Transformer:
           - Attention Is All You Need: papers/vaswaniAttentionAllYou2023.md
           - Transformer: papers/transformer.md
@@ -164,6 +170,8 @@ nav:
           - LLoCoT Looped Latent Reasoning: papers/garciaFromChainThought2026.md
           - Titan-Llama Neural Memory: papers/panTitanLlamaRetrofitting2026.md
           - JSSA Sparse Attention: papers/songJointSubspaceSparse2026.md
+          - RACE RoPE-aligned Cache Eviction: papers/tenisonRACERoPEAligned2026.md
+          - SSA Stratified Sparse Attention: papers/joshiStratifiedSparseAttention2026.md
       - Bio AI:
           - Single-cell Foundation Models: papers/single-cell-foundation-models.md
           - Geneformer: papers/theodorisTransferLearningNetwork2023.md
@@ -195,6 +203,8 @@ nav:
           - GLARE Genomic TE Classification: papers/haasGLAREGenomicLanguage2026.md
           - DNA-LLM2Vec Genomic Embeddings: papers/liangDNALLM2VecArchitectureAware2026.md
           - PPI Constructed-Negative Benchmark: papers/durandConstructedNegativesShape2026.md
+          - hEVO Genomic Foundation Model: papers/xuGenomicFoundationModel2026.md
+          - Protein FM Decision Benchmark: papers/dingDecisionBenchmarkingProtein2026.md
       - Cancer Transcriptomics / Clinical Prediction:
           - EGSP Survival Prediction: papers/liuLeveragingSinglecellFoundation2026.md
           - COIN Drug Sensitivity: papers/shangguanDrugSensitivityInference2025.md
@@ -207,6 +217,7 @@ nav:
           - PHERGain Multimodal Response and Prognosis: papers/ruizBorregoMultimodalArtificial2026.md
           - EcoNet Immunotherapy Response: papers/wangDeepLearningDrivenTumor2026.md
           - MONALEESA Multimodal PFS: papers/wangMultimodalMachineLearning2026.md
+          - Renal-Cancer Methylation-Subtype Classifier: papers/jeanneretDNAMethylationSubtypes2026.md
       - Transcriptomics / Platform:
           - RNA-Seq vs Microarray: papers/zhaoComparisonRNASeqMicroarray2014.1.16..md
           - Smart-seq2: papers/picelliSmartSeq2Sensitive2013.md
@@ -229,6 +240,7 @@ nav:
           - 10X versus Parse scRNA-seq Benchmark: papers/caskeyUnifiedComparison10X2026.md
           - Long-read Transcript Normalization: papers/paniaguaSystematicEvaluationTranscript2026.md
           - Spatial Transcriptomics Platform Benchmark: papers/mortierNavigatingSpatialTranscriptomics2026.md
+          - Seq-o-Matic In Situ Sequencer: papers/zhangSeqOMaticOpenSource2026.md
   - Articles:
       - Article / Report Scraps: articles/index.md
       - Bulk RNA-Seq Foundation Model Benchmark: articles/2026-05-27-bulk-rnaseq-foundation-model-benchmark.md

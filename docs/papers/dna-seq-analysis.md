@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-18'
+updated: '2026-10-25'
 tags:
 - wiki/paper
 ---
@@ -41,6 +41,7 @@ DNA 분석 섹션은 WGS/WES/targeted sequencing에서 FASTQ를 variant interpre
 | [DNA-LLM2Vec](liangDNALLM2VecArchitectureAware2026.md) | Causal DNA decoder를 bidirectional frozen encoder로 task별 적응 | Donor·recipient variant의 distal eQTL·regulatory effect embedding 후보 |
 | [Short-read SV analysis standards](slimmerTowardsStandardsStructural2026.md) | 16개 caller와 ensemble의 exact breakpoint·size benchmark | SV–expression outlier 연결 전 caller·merging·orthogonal validation 기준 |
 | [UK Biobank phenome-wide SV map](atanurPhenomeWideStructural2026.md) | 467,152 WGS에서 160만 SV와 임상·단백질 phenotype의 대규모 연관 지도 | 신기능·면역 관련 donor/recipient SV 후보를 biopsy expression과 교차하는 자원 |
+| [DCSMAP](yangDCSMAPHybridPangenome2026.md) | 선형 reference와 pangenome을 결합해 diverse genome의 small-variant calling을 개선 | Donor·recipient ancestry에 따른 reference bias를 줄인 뒤 eQTL·ASE와 biopsy expression을 연결하는 후보 |
 
 ## 분석 체크리스트
 

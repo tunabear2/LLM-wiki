@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-18'
+updated: '2026-10-25'
 tags:
 - wiki/paper
 ---
@@ -58,6 +58,9 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | [GGE](yankovitzGGETranscriptomeMetaLearning2026.md) | 제한된 label을 위한 bulk transcriptome meta-learning | 소규모 이식 cohort에서 center/platform-held-out few-shot 분류를 시험 |
 | [scStable](jiangScStableAssessing2026.md) | Bulk에서 배운 표본 간 변이를 한 scRNA reference에 주입하는 stability stress test | Matched bulk biopsy가 있을 때 rejection-associated single-cell DEG·cluster의 donor 간 안정성을 점검 |
 | [Long-read transcript normalization benchmark](paniaguaSystematicEvaluationTranscript2026.md) | PacBio·ONT의 길이 편향에 따라 quantifier와 normalization 조합을 비교 | Biopsy long-read isoform 정량에서 platform별 TPM/CQN/EDASeq 적용을 분리하고 short-read와 교차검증 |
+| [Renal-cancer methylation-subtype classifier](jeanneretDNAMethylationSubtypes2026.md) | Bulk transcriptome의 9개 유전자 비율로 DNA-methylation subtype과 치료반응을 추정 | Biopsy의 잠재 분자상태를 작은 ratio signature로 압축할 수 있지만 이식 cohort 외부검증이 먼저 필요 |
+| [GLORB](callahanGLORBRobustBayesian2026.md) | 전사체 전반의 global shift를 허용하는 강건 Bayesian differential-expression 모델 | 광범위한 염증·조성 변화가 있는 rejection 비교에서 표준 정규화 가정의 민감도를 점검 |
+| [corrdeconv](jiangCorrdeconvCorrectsDeconvolution2026.md) | 질병 상태가 reference와 bulk 양쪽 발현에 미치는 영향을 보정하는 deconvolution | Allograft atlas 기반 세포비율 추정에서 rejection-state shift와 실제 abundance를 분리하고 조직학적 count로 검증 |
 
 ## 관련 Article / Report Scraps
 
