@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-10-25'
+updated: '2026-10-31'
 tags:
 - wiki/index
 ---
@@ -163,6 +163,17 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Virtual cells: mechanistic-to-data-driven review](maVirtualCellsProgress2026.md)
 - [Emerging frontiers for AI in single-cell genomics](mitraEmergingFrontiersAI2026.md)
 - [Spatial-transcriptomics prediction residuals as biological signal](iesmantasPredictionResidualsSpatial2026.md)
+- [EL-PERTURB: OOD benchmark for perturbation prediction](tiwariGeneticPerturbationPrediction2026.md)
+- [Bolero: cell-state-conditioned regulatory sequence modeling](liuPredictingCellStateSpecific2026.md)
+- [CellBridge: calibrated H&E-to-cell-type representation](ogutFineGrainedReliable2026.md)
+- [ProtCell: single-cell proteomics foundation model](huProtCellFoundationModel2026.md)
+- [Unified perturbational modeling for AI virtual cells](weiHowMuchAIVirtual2026.md)
+- [ImmuneTwins: personalized virtual-cell immune trajectories](huDigitalTwinsForecast2026.md)
+- [Tessera: direction-sensitive spatial representation learning](amirabadSpatiallyInformedDirection2026.md)
+- [VGL-stGen: histology–spatial transcriptomics multimodal model](shinVGLStGenLearning2026.md)
+- [OmicsLM: multi-sample omics reasoning model](sypetkowskiOmicsLMMultimodal2026.md)
+- [GeneMamba: efficient single-cell foundation model](qiGeneMambaEfficientEffective2026.md)
+- [Whole-transcriptome inputs for AI virtual cells](liuSingleCellWholeTranscriptome2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
