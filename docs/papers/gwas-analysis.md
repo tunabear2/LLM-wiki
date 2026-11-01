@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-25'
+updated: '2026-11-01'
 tags:
 - wiki/paper
 ---
@@ -40,6 +40,8 @@ GWAS 분석 섹션은 genotype array 또는 sequencing-derived variants에서 ge
 | [GEMS](xieGEMSGWASEffect2026.md) | Borzoi ATAC/RNA effect와 SHAP으로 fine-mapped variant를 cell type에 연결 | Donor·recipient GWAS hit을 immune·endothelial·tubular program과 연결하는 후보 |
 | [UK Biobank phenome-wide SV map](atanurPhenomeWideStructural2026.md) | 160만 structural variant의 질환·정량·plasma-protein PheWAS | 이식 phenotype과 연결할 SV 후보·pQTL prior를 고르는 대규모 reference |
 | [SUMMIT genome-wide LD scores](jeongSUMMITGenomeWideLD2026.md) | 대규모 multi-ancestry reference에서 genome-wide LD score를 빠르게 근사 | Donor·recipient ancestry가 다양한 GWAS에서 LD-score 기반 QC·heritability의 계산성과 편향을 함께 점검 |
+| [RNA quantification effects on eQTL and TWAS](headQuantificationMethodAffects2026.md) | RNA-seq annotation·quantifier 선택이 eQTL, colocalization, TWAS에 전파되는 영향 | Rejection GWAS–expression 연결을 pipeline별로 재현하고 isoform·gene-length 편향을 점검 |
+| [UK Biobank 490K imputation panel](wienbrandtHaplotypeReferencePanel2026.md) | 490,319 WGS haplotype을 이용한 global-population phasing·imputation | Donor·recipient ancestry별 INFO/R²와 fine-mapping 이득을 기존 panel과 비교하는 reference 후보 |
 
 ## 분석 체크리스트
 

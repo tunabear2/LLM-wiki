@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-10-31'
+updated: '2026-11-01'
 tags:
 - wiki/index
 ---
@@ -40,6 +40,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [DNA-LLM2Vec: bidirectional adaptation of DNA decoders](liangDNALLM2VecArchitectureAware2026.md)
 - [RACE: RoPE-aligned cache eviction for long-context LLMs](tenisonRACERoPEAligned2026.md)
 - [SSA: stratified sparse attention](joshiStratifiedSparseAttention2026.md)
+- [CATT: controlled LM data-attribution evaluation](yuElucidatingDesignSpace2026.md)
+- [Looped Transformer scaling and parallel inference](ekboteHowLoopYour2026.md)
 
 ## Bio AI
 
@@ -195,6 +197,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [GEMS: sequence-to-function interpretation of GWAS variants](xieGEMSGWASEffect2026.md)
 - [hEVO: genomic foundation model for human genetic diversity](xuGenomicFoundationModel2026.md)
 - [Decision benchmark for protein foundation models](dingDecisionBenchmarkingProtein2026.md)
+- [Ernie-Switcher: RNA-FM-guided programmable RNA design](leiErnieSwitcherRNA2026.md)
+- [Few-shot regulatory-sequence design with Evo 2](hieFewShotRegulatory2026.md)
+- [TabSurv: tabular FM for expression-based survival](vuTabSurvTabularFoundation2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
@@ -216,6 +221,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [EcoNet: tumor-microenvironment immunotherapy prediction](wangDeepLearningDrivenTumor2026.md)
 - [MONALEESA multimodal PFS prediction](wangMultimodalMachineLearning2026.md)
 - [Transcriptome-derived DNA-methylation subtypes for renal-cancer treatment selection](jeanneretDNAMethylationSubtypes2026.md)
+- [TabSurv: cross-cohort breast-cancer prognosis](vuTabSurvTabularFoundation2026.md)
 
 ## Bulk RNA-seq
 
@@ -257,6 +263,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Transcriptome-derived DNA-methylation subtypes in renal cancer](jeanneretDNAMethylationSubtypes2026.md)
 - [GLORB: robust Bayesian differential expression under global shifts](callahanGLORBRobustBayesian2026.md)
 - [corrdeconv: disease-state-aware bulk deconvolution](jiangCorrdeconvCorrectsDeconvolution2026.md)
+- [TabSurv: gene-expression survival modeling under cohort shift](vuTabSurvTabularFoundation2026.md)
+- [RNA quantification choices alter eQTL, colocalization, and TWAS](headQuantificationMethodAffects2026.md)
 
 ## scRNA-seq
 
@@ -374,6 +382,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [EcoNet: scRNA-informed tumor ecosystem graph learning](wangDeepLearningDrivenTumor2026.md)
 - [PETRO: robust Perturb-seq effect estimation](sunPETRORobustPerturbSeq2026.md)
 - [3′/5′ scRNA-seq protocol-bias benchmark](shydlouskayaCharacterizingProtocolBias2026.md)
+- [Cross-donor evaluation design for cell-type classification](chenEvaluationDesignShapes2026.md)
+- [JuloVelo: gene-kinetics-informed RNA velocity](tungIdentificationGeneKinetics2026.md)
+- [Cell-type mismatch in spatial deconvolution](mahamuneSystematicEvaluationRobustness2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -401,6 +412,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [UK Biobank phenome-wide structural-variant map](atanurPhenomeWideStructural2026.md)
 - [hEVO: phased human-genome foundation model](xuGenomicFoundationModel2026.md)
 - [DCSMAP: hybrid-pangenome variant calling for diverse genomes](yangDCSMAPHybridPangenome2026.md)
+- [SomatiX: long-read matched tumor-normal somatic SNV calling](liuSomatiXAccurateEfficient2026.md)
 
 ## Microarray
 
@@ -440,6 +452,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [UK Biobank phenome-wide structural-variant map](atanurPhenomeWideStructural2026.md)
 - [hEVO: genomic foundation model for variant interpretation](xuGenomicFoundationModel2026.md)
 - [SUMMIT: genome-wide multi-ancestry LD scores](jeongSUMMITGenomeWideLD2026.md)
+- [RNA quantification effects on eQTL, colocalization, and TWAS](headQuantificationMethodAffects2026.md)
+- [UK Biobank 490K-genome imputation panel](wienbrandtHaplotypeReferencePanel2026.md)
 
 ## Transcriptomics / Platform
 
@@ -477,6 +491,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Sequencing-based spatial transcriptomics platform benchmark](mortierNavigatingSpatialTranscriptomics2026.md)
 - [3′/5′ scRNA-seq protocol-bias benchmark](shydlouskayaCharacterizingProtocolBias2026.md)
 - [Seq-o-Matic: open-source in situ transcriptomic sequencer](zhangSeqOMaticOpenSource2026.md)
+- [Live-ST: longitudinal profiling of living tissue](reynoldsLiveSpatialTranscriptomics2026.md)
+- [Spatial deconvolution robustness to cell-type mismatch](mahamuneSystematicEvaluationRobustness2026.md)
 
 ## 사용 흐름
 

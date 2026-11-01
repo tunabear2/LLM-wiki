@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-25'
+updated: '2026-11-01'
 tags:
 - wiki/paper
 ---
@@ -86,6 +86,9 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [cit_gsa](falletCitGsaGeneSet2026.md) | 다조건·연속변수와 covariate를 지원하는 one-step self-contained gene-set DE | Rejection pathway를 cell type·treatment로 보정하되 donor-level 추론을 별도로 검증 |
 | [PETRO](sunPETRORobustPerturbSeq2026.md) | 여러 guide의 합의를 이용해 off-target·비효율 guide에 강건한 Perturb-seq 효과를 추정 | Rejection 후보 유전자 perturbation을 guide 품질과 분리하되 donor·batch 수준의 반복 검증이 필요 |
 | [3′/5′ protocol-bias benchmark](shydlouskayaCharacterizingProtocolBias2026.md) | Matched sample에서 10x 3′·5′ chemistry 편향과 11개 보정법을 비교 | 서로 다른 chemistry의 kidney biopsy cohort를 통합할 때 protocol signal과 질병 state 보존을 함께 점검 |
+| [Cross-donor classification evaluation](chenEvaluationDesignShapes2026.md) | Random-cell split과 donor-held-out split의 일반화 추정 차이 | Allograft cell annotation·phenotype model을 donor 단위로 분리해 leakage를 차단하는 기준 |
+| [JuloVelo](tungIdentificationGeneKinetics2026.md) | Gene-kinetics pattern과 multiome accessibility로 RNA velocity를 안정화 | Injury–recovery·rejection cell-state 전이를 추정하되 임상 시간과 별도 검증하는 후보 |
+| [Spatial deconvolution cell-type mismatch](mahamuneSystematicEvaluationRobustness2026.md) | Reference에 누락된 cell type이 여덟 deconvolution method에 미치는 영향 | 정상 신장 reference가 rejection-specific state를 기존 type으로 흡수하는지 stress-test하는 기준 |
 
 ## 읽을 때 체크할 것
 

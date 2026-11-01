@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-25'
+updated: '2026-11-01'
 tags:
 - wiki/paper
 ---
@@ -61,6 +61,7 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | [Renal-cancer methylation-subtype classifier](jeanneretDNAMethylationSubtypes2026.md) | Bulk transcriptome의 9개 유전자 비율로 DNA-methylation subtype과 치료반응을 추정 | Biopsy의 잠재 분자상태를 작은 ratio signature로 압축할 수 있지만 이식 cohort 외부검증이 먼저 필요 |
 | [GLORB](callahanGLORBRobustBayesian2026.md) | 전사체 전반의 global shift를 허용하는 강건 Bayesian differential-expression 모델 | 광범위한 염증·조성 변화가 있는 rejection 비교에서 표준 정규화 가정의 민감도를 점검 |
 | [corrdeconv](jiangCorrdeconvCorrectsDeconvolution2026.md) | 질병 상태가 reference와 bulk 양쪽 발현에 미치는 영향을 보정하는 deconvolution | Allograft atlas 기반 세포비율 추정에서 rejection-state shift와 실제 abundance를 분리하고 조직학적 count로 검증 |
+| [RNA quantification effects on eQTL and TWAS](headQuantificationMethodAffects2026.md) | Annotation·quantifier 선택이 eQTL, colocalization, TWAS 재현성에 미치는 영향 | Donor·recipient eQTL과 rejection TWAS를 서로 다른 quantification pipeline에서 sensitivity analysis하는 근거 |
 
 ## 관련 Article / Report Scraps
 
