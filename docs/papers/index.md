@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-11-01'
+updated: '2026-11-09'
 tags:
 - wiki/index
 ---
@@ -176,6 +176,19 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [OmicsLM: multi-sample omics reasoning model](sypetkowskiOmicsLMMultimodal2026.md)
 - [GeneMamba: efficient single-cell foundation model](qiGeneMambaEfficientEffective2026.md)
 - [Whole-transcriptome inputs for AI virtual cells](liuSingleCellWholeTranscriptome2026.md)
+- [scTAT: transcriptome-aware tokenization for scFMs](xiongRethinkingOneGene2026.md)
+- [Attribution-based diagnostics for scFMs](jafariAttributionBasedDiagnostics2026.md)
+- [Low-rank reliability bound in STATE perturbation prediction](zhangLowRankDecoder2026.md)
+- [scAnyOmics: distilled multi-omics virtual cells](songScAnyOmicsFoundationModel2026.md)
+- [Where single-cell foundation models help](cupaioliWhereSingleCellFoundation2026.md)
+- [AutoSPECTRA: autonomous generalizability auditing](ektefaieAutonomousGeneralizability2026.md)
+- [CytoBridge: spatiotemporal virtual-cell dynamics](zhangVirtualDynamicsSpatiotemporal2026.md)
+- [EMBER: contextualized perturbation gene representations](hoEMBERContextualizedGene2026.md)
+- [MUTUAL: foundation-model RNA–ATAC alignment](baoSingleCellMultimodal2026.md)
+- [scRM: read-level single-cell foundation model](heScRMFoundation2026.md)
+- [Deep-evolutionary transfer of scFMs](trnovecSingleCellFoundation2026.md)
+- [Reliability transfer in single-cell foundation models](parkPredictionTransferReliability2026.md)
+- [scDMC: interpretable dual-stream single-cell FM](guoUnlockingBiologicalInsight2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)

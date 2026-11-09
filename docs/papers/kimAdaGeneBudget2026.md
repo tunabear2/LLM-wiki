@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-07'
+updated: '2026-11-09'
 tags:
 - wiki/paper
 ---
@@ -15,8 +15,8 @@ tags:
 - Item type: preprint
 - Authors: Dohee Kim; Uiwon Hwang
 - DOI: 10.64898/2026.08.06.743174
-- URL: [Link](https://www.biorxiv.org/content/10.64898/2026.08.06.743174v1)
-- Source/date: bioRxiv v1, posted 2026-08-12
+- URL: [Link](https://www.biorxiv.org/content/10.64898/2026.08.06.743174v2)
+- Source/date: bioRxiv v2, revised 2026-11-03
 
 ## 1. 한 줄 요약
 

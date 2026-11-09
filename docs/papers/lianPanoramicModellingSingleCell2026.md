@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: high
-updated: '2026-10-19'
+updated: '2026-11-09'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: X. Lian; P. Liu; J. Tan; L. Tan; C. Li; Q. Zou; C. Lin; X. Zeng
 - arXiv: 2610.21943
 - URL: [Link](https://arxiv.org/abs/2610.21943)
-- Source/date: arXiv v1, submitted 2026-10-15
+- Source/date: arXiv v2, revised 2026-11-01
 
 ## 1. 한 줄 요약
 
