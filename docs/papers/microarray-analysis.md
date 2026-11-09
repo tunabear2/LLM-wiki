@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-29'
+updated: '2026-11-09'
 tags:
 - wiki/paper
 ---
@@ -35,6 +35,7 @@ Microarray 분석 섹션은 probe-level intensity에서 normalized expression ma
 | [UCResponNet-X](topkaraogluUCResponNetXCrossPlatform2026.md) | 세 microarray cohort 학습 뒤 독립 RNA-seq cohort로 infliximab response 검증 | Legacy transplant array와 RNA-seq 사이 normalization 선택을 실증적으로 점검 |
 | [ComboBatch](nikitinBenchmarkingBulkTranscriptomic2026.md) | 4개 platform·88개 lymphoma cohort에서 harmonization 조합 2,234개를 비교 | Legacy transplant microarray와 RNA-seq를 합칠 때 subtle rejection signal 보존 여부를 다중 metric으로 평가 |
 | [EXPRESSO](palMachineLearningFramework2026.md) | RNA-seq·microarray cohort를 rank-normalize해 치료별 response model을 학습·외부 검증 | Legacy array와 RNA-seq를 함께 쓰는 rejection response model에서 platform transfer를 점검하는 사례 |
+| [Microarray deconvolution benchmark](kamaliBenchmarkingCellType2026.md) | FACS truth와 scRNA reference에서 10개 방법·probe 처리·normalization을 비교 | Legacy allograft array의 면역·실질세포 조성을 추정할 때 tissue-specific 재검증이 필요한 기준 |
 
 ## 분석 체크리스트
 

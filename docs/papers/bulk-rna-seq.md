@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-01'
+updated: '2026-11-09'
 tags:
 - wiki/paper
 ---
@@ -62,6 +62,10 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | [GLORB](callahanGLORBRobustBayesian2026.md) | 전사체 전반의 global shift를 허용하는 강건 Bayesian differential-expression 모델 | 광범위한 염증·조성 변화가 있는 rejection 비교에서 표준 정규화 가정의 민감도를 점검 |
 | [corrdeconv](jiangCorrdeconvCorrectsDeconvolution2026.md) | 질병 상태가 reference와 bulk 양쪽 발현에 미치는 영향을 보정하는 deconvolution | Allograft atlas 기반 세포비율 추정에서 rejection-state shift와 실제 abundance를 분리하고 조직학적 count로 검증 |
 | [RNA quantification effects on eQTL and TWAS](headQuantificationMethodAffects2026.md) | Annotation·quantifier 선택이 eQTL, colocalization, TWAS 재현성에 미치는 영향 | Donor·recipient eQTL과 rejection TWAS를 서로 다른 quantification pipeline에서 sensitivity analysis하는 근거 |
+| [DeSCENT](zhaoDeSCENTDeconvolutionalSingleCell2026.md) | scRNA reference로 bulk를 cell-level profile로 복원해 cancer survival model과 결합 | Kidney atlas 기반 deconvolution이 graft-outcome 예측에 주는 순증분 가치를 bulk-only와 비교하는 template |
+| [Pre-transplant γδ T-cell signature](kimReproduciblePreTransplant2026.md) | 세 kidney-transplant cohort의 bulk RNA·TCR·cytometry·metabolomics에서 rejection 연관 depletion 재현 | 이식 전 baseline immune state와 longitudinal biopsy signal을 임상변수 위에서 검증하는 직접 근거 |
+| [Microarray deconvolution benchmark](kamaliBenchmarkingCellType2026.md) | FACS truth microarray와 scRNA reference에서 10개 cell-composition 방법 비교 | Legacy allograft array의 cell fraction을 추정할 때 tissue-specific truth set과 전처리 민감도를 점검 |
+| [DirectClean](guoDirectCleanArtifactAware2026.md) | ONT direct-cDNA chimera를 제거하면서 유효 transcript segment를 회수 | Biopsy long-read isoform·fusion 분석에서 artifact 제거와 read retention을 함께 평가하는 전처리 후보 |
 
 ## 관련 Article / Report Scraps
 

@@ -43,6 +43,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [CATT: controlled LM data-attribution evaluation](yuElucidatingDesignSpace2026.md)
 - [Looped Transformer scaling and parallel inference](ekboteHowLoopYour2026.md)
 
+- [CISA: chunk-indexed sparse attention retrofit](dabbahCISARetrofittingDense2026.md)
+- [LIMBER: hybrid Mamba–Transformer RNA foundation model](wangLIMBERHybridRNA2026.md)
+
 ## Bio AI
 
 - [Single-cell Foundation Models](single-cell-foundation-models.md)
@@ -214,6 +217,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Few-shot regulatory-sequence design with Evo 2](hieFewShotRegulatory2026.md)
 - [TabSurv: tabular FM for expression-based survival](vuTabSurvTabularFoundation2026.md)
 
+- [LIMBER: hybrid RNA foundation model](wangLIMBERHybridRNA2026.md)
+- [Protify: homology-aware protein-LM benchmarking](rafailidisProtifyBenchmarkingPlatform2026.md)
+
 ## Cancer Transcriptomics / Clinical Prediction
 
 - [EGSP: scFoundation embeddings for survival prediction](liuLeveragingSinglecellFoundation2026.md)
@@ -235,6 +241,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [MONALEESA multimodal PFS prediction](wangMultimodalMachineLearning2026.md)
 - [Transcriptome-derived DNA-methylation subtypes for renal-cancer treatment selection](jeanneretDNAMethylationSubtypes2026.md)
 - [TabSurv: cross-cohort breast-cancer prognosis](vuTabSurvTabularFoundation2026.md)
+
+- [DeSCENT: single-cell-informed cancer survival analysis](zhaoDeSCENTDeconvolutionalSingleCell2026.md)
 
 ## Bulk RNA-seq
 
@@ -278,6 +286,11 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [corrdeconv: disease-state-aware bulk deconvolution](jiangCorrdeconvCorrectsDeconvolution2026.md)
 - [TabSurv: gene-expression survival modeling under cohort shift](vuTabSurvTabularFoundation2026.md)
 - [RNA quantification choices alter eQTL, colocalization, and TWAS](headQuantificationMethodAffects2026.md)
+
+- [DeSCENT: single-cell-informed bulk survival analysis](zhaoDeSCENTDeconvolutionalSingleCell2026.md)
+- [Pre-transplant γδ T-cell rejection signature](kimReproduciblePreTransplant2026.md)
+- [Microarray cell-type deconvolution benchmark](kamaliBenchmarkingCellType2026.md)
+- [DirectClean: ONT direct-cDNA artifact removal](guoDirectCleanArtifactAware2026.md)
 
 ## scRNA-seq
 
@@ -399,6 +412,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [JuloVelo: gene-kinetics-informed RNA velocity](tungIdentificationGeneKinetics2026.md)
 - [Cell-type mismatch in spatial deconvolution](mahamuneSystematicEvaluationRobustness2026.md)
 
+- [DeSCENT: deconvolutional single-cell representation for survival](zhaoDeSCENTDeconvolutionalSingleCell2026.md)
+- [Differential-composition method benchmark](wuBenchmarkingStatisticalMethods2026.md)
+- [Live D-seq: longitudinal live-cell transcriptomics](reynoldsLiveDropletSingleCell2026.md)
+
 ## DNA-seq / Variant Analysis
 
 - [DNA-seq / Variant Analysis Paper Notes](dna-seq-analysis.md)
@@ -427,6 +444,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [DCSMAP: hybrid-pangenome variant calling for diverse genomes](yangDCSMAPHybridPangenome2026.md)
 - [SomatiX: long-read matched tumor-normal somatic SNV calling](liuSomatiXAccurateEfficient2026.md)
 
+- [JANUS: somatic SV discovery on cancer pangenome graphs](karaSomaticStructuralVariation2026.md)
+- [SwiftLD: byte-identical accelerated LD calculation](christensenEuropeanLDProxies2026.md)
+
 ## Microarray
 
 - [Microarray Analysis Paper Notes](microarray-analysis.md)
@@ -443,6 +463,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [UCResponNet-X: cross-platform drug-response modeling](topkaraogluUCResponNetXCrossPlatform2026.md)
 - [ComboBatch: multi-platform transcriptomic harmonization](nikitinBenchmarkingBulkTranscriptomic2026.md)
 - [EXPRESSO: rank-normalized cross-platform response modeling](palMachineLearningFramework2026.md)
+
+- [Microarray cell-type deconvolution benchmark](kamaliBenchmarkingCellType2026.md)
 
 ## GWAS
 
@@ -467,6 +489,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [SUMMIT: genome-wide multi-ancestry LD scores](jeongSUMMITGenomeWideLD2026.md)
 - [RNA quantification effects on eQTL, colocalization, and TWAS](headQuantificationMethodAffects2026.md)
 - [UK Biobank 490K-genome imputation panel](wienbrandtHaplotypeReferencePanel2026.md)
+
+- [SwiftLD: fast vcftools-compatible LD calculation](christensenEuropeanLDProxies2026.md)
 
 ## Transcriptomics / Platform
 
@@ -506,6 +530,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Seq-o-Matic: open-source in situ transcriptomic sequencer](zhangSeqOMaticOpenSource2026.md)
 - [Live-ST: longitudinal profiling of living tissue](reynoldsLiveSpatialTranscriptomics2026.md)
 - [Spatial deconvolution robustness to cell-type mismatch](mahamuneSystematicEvaluationRobustness2026.md)
+
+- [DirectClean: artifact-aware ONT direct-cDNA preprocessing](guoDirectCleanArtifactAware2026.md)
+- [Live D-seq: longitudinal live-cell scRNA-seq](reynoldsLiveDropletSingleCell2026.md)
 
 ## 사용 흐름
 

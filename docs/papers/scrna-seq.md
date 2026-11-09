@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-01'
+updated: '2026-11-09'
 tags:
 - wiki/paper
 ---
@@ -89,6 +89,9 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [Cross-donor classification evaluation](chenEvaluationDesignShapes2026.md) | Random-cell split과 donor-held-out split의 일반화 추정 차이 | Allograft cell annotation·phenotype model을 donor 단위로 분리해 leakage를 차단하는 기준 |
 | [JuloVelo](tungIdentificationGeneKinetics2026.md) | Gene-kinetics pattern과 multiome accessibility로 RNA velocity를 안정화 | Injury–recovery·rejection cell-state 전이를 추정하되 임상 시간과 별도 검증하는 후보 |
 | [Spatial deconvolution cell-type mismatch](mahamuneSystematicEvaluationRobustness2026.md) | Reference에 누락된 cell type이 여덟 deconvolution method에 미치는 영향 | 정상 신장 reference가 rejection-specific state를 기존 type으로 흡수하는지 stress-test하는 기준 |
+| [DeSCENT](zhaoDeSCENTDeconvolutionalSingleCell2026.md) | scRNA reference로 bulk cohort의 cellular expression을 복원해 survival과 연결 | Kidney atlas의 cell-state 정보를 대규모 bulk allograft outcome cohort로 확장하는 방법론 template |
+| [Differential-composition benchmark](wuBenchmarkingStatisticalMethods2026.md) | 12개 donor-level cell-composition test의 FDR·power 비교 | Rejection-associated 세포비율 차이를 donor 단위로 검정하고 false discovery inflation을 점검하는 기준 |
+| [Live D-seq](reynoldsLiveDropletSingleCell2026.md) | 살아 있는 동일 cell lineage의 RNA를 반복 sampling하는 droplet platform | Ex-vivo immune·tubular drug response를 시간에 따라 추적하되 sampling stress와 sensitivity를 검증하는 후보 |
 
 ## 읽을 때 체크할 것
 

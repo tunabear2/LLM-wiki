@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-01'
+updated: '2026-11-09'
 tags:
 - wiki/paper
 ---
@@ -43,6 +43,8 @@ DNA 분석 섹션은 WGS/WES/targeted sequencing에서 FASTQ를 variant interpre
 | [UK Biobank phenome-wide SV map](atanurPhenomeWideStructural2026.md) | 467,152 WGS에서 160만 SV와 임상·단백질 phenotype의 대규모 연관 지도 | 신기능·면역 관련 donor/recipient SV 후보를 biopsy expression과 교차하는 자원 |
 | [DCSMAP](yangDCSMAPHybridPangenome2026.md) | 선형 reference와 pangenome을 결합해 diverse genome의 small-variant calling을 개선 | Donor·recipient ancestry에 따른 reference bias를 줄인 뒤 eQTL·ASE와 biopsy expression을 연결하는 후보 |
 | [SomatiX](liuSomatiXAccurateEfficient2026.md) | Matched tumor-normal long-read의 allele-aware somatic SNV calling | Post-transplant malignancy·clonal hematopoiesis 변이를 expression clone과 연결할 때 platform·VAF별 검증 후보 |
+| [JANUS](karaSomaticStructuralVariation2026.md) | Matched tumor-normal HiFi read의 personal pangenome graph에서 somatic SV를 joint calling | 여러 시점 post-transplant tumor의 low-purity SV를 expression outlier와 연결하는 후보 |
+| [SwiftLD](christensenEuropeanLDProxies2026.md) | vcftools와 byte-identical한 accelerated pairwise LD 계산 | Donor·recipient ancestry별 fine-mapping·eQTL LD를 빠르게 만들되 proxy transfer loss를 점검 |
 
 ## 분석 체크리스트
 

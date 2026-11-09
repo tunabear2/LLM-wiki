@@ -74,6 +74,7 @@ nav:
               - GLORB Robust Differential Expression: papers/callahanGLORBRobustBayesian2026.md
               - corrdeconv Disease-aware Deconvolution: papers/jiangCorrdeconvCorrectsDeconvolution2026.md
               - RNA Quantification Effects on eQTL and TWAS: papers/headQuantificationMethodAffects2026.md
+              - Pre-transplant Gamma-Delta T-cell Signature: papers/kimReproduciblePreTransplant2026.md
           - scRNA-seq Analysis: papers/scrna-seq.md
           - scRNA-seq Core Papers:
               - scran Normalization: papers/lunPoolingNormalizeSingleCell2016.md
@@ -97,6 +98,7 @@ nav:
               - 3-prime/5-prime Protocol Bias: papers/shydlouskayaCharacterizingProtocolBias2026.md
               - Cross-donor Cell Classification Evaluation: papers/chenEvaluationDesignShapes2026.md
               - JuloVelo RNA Velocity: papers/tungIdentificationGeneKinetics2026.md
+              - Differential-Composition Benchmark: papers/wuBenchmarkingStatisticalMethods2026.md
           - DNA-seq / Variant Analysis: papers/dna-seq-analysis.md
           - DNA-seq Core Papers:
               - BWA: papers/liBWAFast2009.md
@@ -117,6 +119,7 @@ nav:
               - UK Biobank Phenome-wide SV Map: papers/atanurPhenomeWideStructural2026.md
               - DCSMAP Hybrid-Pangenome Calling: papers/yangDCSMAPHybridPangenome2026.md
               - SomatiX Long-read Somatic SNVs: papers/liuSomatiXAccurateEfficient2026.md
+              - JANUS Cancer-Pangenome Somatic SVs: papers/karaSomaticStructuralVariation2026.md
       - Array / Association Analysis:
           - Microarray Analysis: papers/microarray-analysis.md
           - Microarray Core Papers:
@@ -131,6 +134,7 @@ nav:
               - Pancreas MMDx Rejection Signatures: papers/girmanovaMolecularRejectionSignatures2026.md
               - UCResponNet-X Cross-Platform Response: papers/topkaraogluUCResponNetXCrossPlatform2026.md
               - ComboBatch Harmonization Benchmark: papers/nikitinBenchmarkingBulkTranscriptomic2026.md
+              - Microarray Deconvolution Benchmark: papers/kamaliBenchmarkingCellType2026.md
           - GWAS Analysis: papers/gwas-analysis.md
           - GWAS Core Papers:
               - WTCCC GWAS: papers/wtcccGWAS2007.md
@@ -151,6 +155,7 @@ nav:
               - GEMS GWAS Variant Mechanisms: papers/xieGEMSGWASEffect2026.md
               - SUMMIT Genome-wide LD Scores: papers/jeongSUMMITGenomeWideLD2026.md
               - UK Biobank 490K Imputation Panel: papers/wienbrandtHaplotypeReferencePanel2026.md
+              - SwiftLD Accelerated LD: papers/christensenEuropeanLDProxies2026.md
       - LLM / Transformer:
           - Attention Is All You Need: papers/vaswaniAttentionAllYou2023.md
           - Transformer: papers/transformer.md
@@ -179,6 +184,7 @@ nav:
           - SSA Stratified Sparse Attention: papers/joshiStratifiedSparseAttention2026.md
           - CATT LM Data Attribution: papers/yuElucidatingDesignSpace2026.md
           - Looped Transformer Scaling: papers/ekboteHowLoopYour2026.md
+          - CISA Chunk-Indexed Sparse Attention: papers/dabbahCISARetrofittingDense2026.md
       - Bio AI:
           - Single-cell Foundation Models: papers/single-cell-foundation-models.md
           - Geneformer: papers/theodorisTransferLearningNetwork2023.md
@@ -214,6 +220,8 @@ nav:
           - Protein FM Decision Benchmark: papers/dingDecisionBenchmarkingProtein2026.md
           - Ernie-Switcher RNA Device Design: papers/leiErnieSwitcherRNA2026.md
           - Evo 2 Few-shot Regulatory Design: papers/hieFewShotRegulatory2026.md
+          - LIMBER RNA Foundation Model: papers/wangLIMBERHybridRNA2026.md
+          - Protify Protein-LM Benchmarking: papers/rafailidisProtifyBenchmarkingPlatform2026.md
       - Cancer Transcriptomics / Clinical Prediction:
           - EGSP Survival Prediction: papers/liuLeveragingSinglecellFoundation2026.md
           - COIN Drug Sensitivity: papers/shangguanDrugSensitivityInference2025.md
@@ -228,6 +236,7 @@ nav:
           - MONALEESA Multimodal PFS: papers/wangMultimodalMachineLearning2026.md
           - Renal-Cancer Methylation-Subtype Classifier: papers/jeanneretDNAMethylationSubtypes2026.md
           - TabSurv Breast-Cancer Prognosis: papers/vuTabSurvTabularFoundation2026.md
+          - DeSCENT Single-Cell-Informed Survival: papers/zhaoDeSCENTDeconvolutionalSingleCell2026.md
       - Transcriptomics / Platform:
           - RNA-Seq vs Microarray: papers/zhaoComparisonRNASeqMicroarray2014.1.16..md
           - Smart-seq2: papers/picelliSmartSeq2Sensitive2013.md
@@ -253,6 +262,8 @@ nav:
           - Seq-o-Matic In Situ Sequencer: papers/zhangSeqOMaticOpenSource2026.md
           - Live Spatial Transcriptomics: papers/reynoldsLiveSpatialTranscriptomics2026.md
           - Spatial Deconvolution Cell-Type Mismatch: papers/mahamuneSystematicEvaluationRobustness2026.md
+          - DirectClean ONT Direct-cDNA Preprocessing: papers/guoDirectCleanArtifactAware2026.md
+          - Live D-seq Longitudinal scRNA-seq: papers/reynoldsLiveDropletSingleCell2026.md
   - Articles:
       - Article / Report Scraps: articles/index.md
       - Bulk RNA-Seq Foundation Model Benchmark: articles/2026-05-27-bulk-rnaseq-foundation-model-benchmark.md
