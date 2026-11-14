@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: high
-updated: '2026-10-12'
+updated: '2026-11-14'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: A. Oku; H. Geiger; N. Robine; R. Fu
 - DOI: 10.64898/2026.10.02.756356
 - URL: [Link](https://doi.org/10.64898/2026.10.02.756356)
-- Source/date: bioRxiv v1, posted 2026-10-09
+- Source/date: bioRxiv v2, revised 2026-11-10 (v1 posted 2026-10-09)
 
 ## 1. 한 줄 요약
 

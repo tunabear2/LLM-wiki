@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-11-09'
+updated: '2026-11-14'
 tags:
 - wiki/index
 ---
@@ -192,6 +192,12 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Deep-evolutionary transfer of scFMs](trnovecSingleCellFoundation2026.md)
 - [Reliability transfer in single-cell foundation models](parkPredictionTransferReliability2026.md)
 - [scDMC: interpretable dual-stream single-cell FM](guoUnlockingBiologicalInsight2026.md)
+- [BioMeme: biological response memory for virtual cells](biBioMemeBiologicalResponse2026.md)
+- [LingoCell: language-aligned single-cell and spatial perturbation](yangLingoCellInterpretsGene2026.md)
+- [Simple models versus single-cell foundation models](souzaSimpleModelsOutperform2026.md)
+- [Knowledge boundaries of biological foundation models](caiAIBiologistsKnowledgeBoundaries2026.md)
+- [TabOmics: small open tabular FM for wide omics](lopezGarciaTabOmicsSmallOpen2026.md)
+- [BulkFormer–TabPFN for post-transplant kidney function](tingleCombiningBulkFormerTabPFN2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)
