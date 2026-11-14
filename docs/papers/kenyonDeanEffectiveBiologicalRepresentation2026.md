@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-05'
+updated: '2026-11-14'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: Kian Kenyon-Dean; Alina Selega; Ihab Bendidi; Jordan M. Sorokin; Luca Bertinetto; David Errington; Hayley Donnella; Oren Kraus
 - DOI: 10.48550/arXiv.2605.31562
 - URL: [Link](https://arxiv.org/abs/2605.31562)
-- Source/date: arXiv v2, revised 2026-09-28
+- Source/date: arXiv v3, revised 2026-11-10
 
 ## Abstract
 

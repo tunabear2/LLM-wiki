@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: high
-updated: '2026-11-09'
+updated: '2026-11-14'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: Jiaqi Xiong; Jiaying Li; Yu Zheng; Xiang Zhou; Ziteng Wang; Xinting Hu; Jiaxin Qi
 - arXiv: 2611.05410
 - URL: [Link](https://arxiv.org/abs/2611.05410)
-- Source/date: arXiv v1, submitted 2026-10-21; announced 2026-11
+- Source/date: arXiv v2, revised 2026-11-09 (v1 submitted 2026-10-21)
 
 ## 1. 한 줄 요약
 
