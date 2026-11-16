@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-09'
+updated: '2026-11-16'
 tags:
 - wiki/paper
 ---
@@ -92,6 +92,11 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [DeSCENT](zhaoDeSCENTDeconvolutionalSingleCell2026.md) | scRNA reference로 bulk cohort의 cellular expression을 복원해 survival과 연결 | Kidney atlas의 cell-state 정보를 대규모 bulk allograft outcome cohort로 확장하는 방법론 template |
 | [Differential-composition benchmark](wuBenchmarkingStatisticalMethods2026.md) | 12개 donor-level cell-composition test의 FDR·power 비교 | Rejection-associated 세포비율 차이를 donor 단위로 검정하고 false discovery inflation을 점검하는 기준 |
 | [Live D-seq](reynoldsLiveDropletSingleCell2026.md) | 살아 있는 동일 cell lineage의 RNA를 반복 sampling하는 droplet platform | Ex-vivo immune·tubular drug response를 시간에 따라 추적하되 sampling stress와 sensitivity를 검증하는 후보 |
+| [SigBridgeR](yangSigBridgeRToolkit2026.md) | Bulk phenotype과 scRNA cell state를 연결하는 8개 방법의 표준화·benchmark | Rejection·graft-failure outcome과 연관된 세포상태를 찾을 때 reference mismatch와 donor split을 점검 |
+| [ProClust](qianProClustStatisticalSignificance2026.md) | Projection 기반 p-value로 overcluster를 검정하고 지지되지 않는 cluster를 병합 | 작은 rejection-associated cluster가 분해 artifact인지 donor-aware null에서 검증하는 보조 도구 |
+| [PIANO](wangPIANOGenerativeModeling2026.md) | Covariate-aware 생성모형으로 single-cell·spatial data를 1억 cell까지 통합 | 기관·platform이 다른 kidney atlas를 통합하면서 rejection state 보존을 center holdout으로 확인하는 후보 |
+| [Single-cell mRNA–tRNA sequencing](kidaSingleCellTransferRNA2026.md) | 같은 세포에서 mRNA·tRNA와 선택적으로 protein을 함께 측정 | Immune·tubular stress의 transcript–translation 불일치를 측정하는 새 readout 후보 |
+| [Single-nucleus long-read kidney RNA-seq](odaSingleNucleusLongRead2026.md) | Healthy·ischemic kidney에서 nucleus-level isoform usage를 long read로 비교 | 냉동 allograft biopsy의 injury·rejection isoform을 cell type별로 검증하는 직접 설계 참고 |
 
 ## 읽을 때 체크할 것
 

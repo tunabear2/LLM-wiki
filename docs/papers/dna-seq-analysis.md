@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-09'
+updated: '2026-11-16'
 tags:
 - wiki/paper
 ---
@@ -45,6 +45,9 @@ DNA 분석 섹션은 WGS/WES/targeted sequencing에서 FASTQ를 variant interpre
 | [SomatiX](liuSomatiXAccurateEfficient2026.md) | Matched tumor-normal long-read의 allele-aware somatic SNV calling | Post-transplant malignancy·clonal hematopoiesis 변이를 expression clone과 연결할 때 platform·VAF별 검증 후보 |
 | [JANUS](karaSomaticStructuralVariation2026.md) | Matched tumor-normal HiFi read의 personal pangenome graph에서 somatic SV를 joint calling | 여러 시점 post-transplant tumor의 low-purity SV를 expression outlier와 연결하는 후보 |
 | [SwiftLD](christensenEuropeanLDProxies2026.md) | vcftools와 byte-identical한 accelerated pairwise LD 계산 | Donor·recipient ancestry별 fine-mapping·eQTL LD를 빠르게 만들되 proxy transfer loss를 점검 |
+| [ModBERT](bolzanModBERTDNAModification2026.md) | Variant와 CpG methylation을 확률적 five-letter genome으로 함께 모델링 | Donor·recipient 개인 genome의 regulatory variant를 methylation·ASE·expression outlier와 연결하는 후보 |
+| [bronko](doughtyBronkoAlignmentFree2026.md) | K-mer pseudo-pileup과 streaming noise model을 이용한 alignment-free viral variant 탐지 | 면역억제 환자의 바이러스 재활성화·intrahost evolution을 빠르게 screening하되 germline caller와 구분 |
+| [SuSiE-OUT](weinstockExcludedCausalVariants2026.md) | Input에서 빠진 causal variant가 proxy PIP를 부풀리는 문제를 모델링 | Rejection GWAS·eQTL fine-mapping 전 rare variant·indel filter의 gene-prior 왜곡을 sensitivity analysis |
 
 ## 분석 체크리스트
 

@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-11-14'
+updated: '2026-11-16'
 tags:
 - wiki/index
 ---
@@ -45,6 +45,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 
 - [CISA: chunk-indexed sparse attention retrofit](dabbahCISARetrofittingDense2026.md)
 - [LIMBER: hybrid Mamba–Transformer RNA foundation model](wangLIMBERHybridRNA2026.md)
+- [SignRot: outlier-aware LLM quantization](gimSignRotLLMQuantization2026.md)
+- [RNAtomy: structure-aware RNA Mamba–Transformer](shiraliRNAtomyStructureAwareRNA2026.md)
+- [ModBERT: variant- and methylation-aware DNA language model](bolzanModBERTDNAModification2026.md)
 
 ## Bio AI
 
@@ -225,6 +228,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 
 - [LIMBER: hybrid RNA foundation model](wangLIMBERHybridRNA2026.md)
 - [Protify: homology-aware protein-LM benchmarking](rafailidisProtifyBenchmarkingPlatform2026.md)
+- [RNAtomy: structure-aware RNA foundation model](shiraliRNAtomyStructureAwareRNA2026.md)
+- [ModBERT: personal-genome language model](bolzanModBERTDNAModification2026.md)
+- [PIANO: generative integration at 100-million-cell scale](wangPIANOGenerativeModeling2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
@@ -249,6 +255,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [TabSurv: cross-cohort breast-cancer prognosis](vuTabSurvTabularFoundation2026.md)
 
 - [DeSCENT: single-cell-informed cancer survival analysis](zhaoDeSCENTDeconvolutionalSingleCell2026.md)
+- [SigBridgeR: benchmark of phenotype-associated cell-subpopulation methods](yangSigBridgeRToolkit2026.md)
+- [Geometry-based renal-cancer treatment-response signatures](chacholskiGeometryBasedGeneExpression2026.md)
 
 ## Bulk RNA-seq
 
@@ -297,6 +305,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Pre-transplant γδ T-cell rejection signature](kimReproduciblePreTransplant2026.md)
 - [Microarray cell-type deconvolution benchmark](kamaliBenchmarkingCellType2026.md)
 - [DirectClean: ONT direct-cDNA artifact removal](guoDirectCleanArtifactAware2026.md)
+- [DE-Rigor-Agent: assumption-aware differential expression](rongDERigorAgentAssumptionAware2026.md)
+- [SigBridgeR: bulk–single-cell phenotype bridge benchmark](yangSigBridgeRToolkit2026.md)
+- [Geometry-based renal-cancer treatment-response signatures](chacholskiGeometryBasedGeneExpression2026.md)
 
 ## scRNA-seq
 
@@ -421,6 +432,11 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [DeSCENT: deconvolutional single-cell representation for survival](zhaoDeSCENTDeconvolutionalSingleCell2026.md)
 - [Differential-composition method benchmark](wuBenchmarkingStatisticalMethods2026.md)
 - [Live D-seq: longitudinal live-cell transcriptomics](reynoldsLiveDropletSingleCell2026.md)
+- [SigBridgeR: phenotype-associated subpopulation benchmark](yangSigBridgeRToolkit2026.md)
+- [ProClust: statistical significance of single-cell clusters](qianProClustStatisticalSignificance2026.md)
+- [PIANO: generative integration at 100-million-cell scale](wangPIANOGenerativeModeling2026.md)
+- [Single-cell mRNA–tRNA sequencing](kidaSingleCellTransferRNA2026.md)
+- [Single-nucleus long-read RNA-seq in acute kidney injury](odaSingleNucleusLongRead2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -452,6 +468,9 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 
 - [JANUS: somatic SV discovery on cancer pangenome graphs](karaSomaticStructuralVariation2026.md)
 - [SwiftLD: byte-identical accelerated LD calculation](christensenEuropeanLDProxies2026.md)
+- [ModBERT: variant- and methylation-aware personal genomes](bolzanModBERTDNAModification2026.md)
+- [bronko: alignment-free viral variant detection](doughtyBronkoAlignmentFree2026.md)
+- [SuSiE-OUT: fine-mapping with omitted causal variants](weinstockExcludedCausalVariants2026.md)
 
 ## Microarray
 
@@ -497,6 +516,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [UK Biobank 490K-genome imputation panel](wienbrandtHaplotypeReferencePanel2026.md)
 
 - [SwiftLD: fast vcftools-compatible LD calculation](christensenEuropeanLDProxies2026.md)
+- [SuSiE-OUT: fine-mapping with omitted causal variants](weinstockExcludedCausalVariants2026.md)
 
 ## Transcriptomics / Platform
 
@@ -539,6 +559,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 
 - [DirectClean: artifact-aware ONT direct-cDNA preprocessing](guoDirectCleanArtifactAware2026.md)
 - [Live D-seq: longitudinal live-cell scRNA-seq](reynoldsLiveDropletSingleCell2026.md)
+- [Single-cell mRNA–tRNA sequencing](kidaSingleCellTransferRNA2026.md)
+- [Single-nucleus long-read RNA-seq in acute kidney injury](odaSingleNucleusLongRead2026.md)
 
 ## 사용 흐름
 

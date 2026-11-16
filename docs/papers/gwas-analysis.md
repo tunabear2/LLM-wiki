@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-09'
+updated: '2026-11-16'
 tags:
 - wiki/paper
 ---
@@ -43,6 +43,7 @@ GWAS 분석 섹션은 genotype array 또는 sequencing-derived variants에서 ge
 | [RNA quantification effects on eQTL and TWAS](headQuantificationMethodAffects2026.md) | RNA-seq annotation·quantifier 선택이 eQTL, colocalization, TWAS에 전파되는 영향 | Rejection GWAS–expression 연결을 pipeline별로 재현하고 isoform·gene-length 편향을 점검 |
 | [UK Biobank 490K imputation panel](wienbrandtHaplotypeReferencePanel2026.md) | 490,319 WGS haplotype을 이용한 global-population phasing·imputation | Donor·recipient ancestry별 INFO/R²와 fine-mapping 이득을 기존 panel과 비교하는 reference 후보 |
 | [SwiftLD](christensenEuropeanLDProxies2026.md) | vcftools-compatible pairwise LD를 byte-identical하게 가속하고 ancestry별 proxy loss를 정량화 | Donor·recipient GWAS의 pruning·fine-mapping에서 ancestry-matched LD와 계산비용을 함께 점검 |
+| [SuSiE-OUT](weinstockExcludedCausalVariants2026.md) | MAF·indel filter로 omitted causal variant가 생길 때 proxy false discovery를 줄이는 fine-mapping model | Donor·recipient GWAS–eQTL colocalization에서 rare variant·indel 제외 전후 credible set을 비교하는 근거 |
 
 ## 분석 체크리스트
 

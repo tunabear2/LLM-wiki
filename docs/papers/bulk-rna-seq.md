@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-09'
+updated: '2026-11-16'
 tags:
 - wiki/paper
 ---
@@ -66,6 +66,9 @@ Bulk RNA-seq 논문은 sample/patient-level expression을 임상 phenotype, surv
 | [Pre-transplant γδ T-cell signature](kimReproduciblePreTransplant2026.md) | 세 kidney-transplant cohort의 bulk RNA·TCR·cytometry·metabolomics에서 rejection 연관 depletion 재현 | 이식 전 baseline immune state와 longitudinal biopsy signal을 임상변수 위에서 검증하는 직접 근거 |
 | [Microarray deconvolution benchmark](kamaliBenchmarkingCellType2026.md) | FACS truth microarray와 scRNA reference에서 10개 cell-composition 방법 비교 | Legacy allograft array의 cell fraction을 추정할 때 tissue-specific truth set과 전처리 민감도를 점검 |
 | [DirectClean](guoDirectCleanArtifactAware2026.md) | ONT direct-cDNA chimera를 제거하면서 유효 transcript segment를 회수 | Biopsy long-read isoform·fusion 분석에서 artifact 제거와 read retention을 함께 평가하는 전처리 후보 |
+| [DE-Rigor-Agent](rongDERigorAgentAssumptionAware2026.md) | Dataset diagnostic과 전문가 규칙으로 여섯 DE method의 적용 가정을 먼저 점검 | 소표본·batch-confounded allograft bulk RNA-seq에서 자동 method 선택 근거와 제외 사유를 audit |
+| [SigBridgeR](yangSigBridgeRToolkit2026.md) | Bulk phenotype과 scRNA reference를 연결하는 여덟 subpopulation method의 표준 benchmark | 대규모 graft-outcome cohort를 biopsy cell state와 연결할 때 positive/negative control과 parameter sensitivity를 비교 |
+| [Geometry-based RCC response signatures](chacholskiGeometryBasedGeneExpression2026.md) | Co-expression geometry로 renal-cancer 치료효과 이질성을 예측 | Rejection therapy response에서 개별 DEG보다 module geometry가 주는 순증분 가치를 trial·기관 외부검증으로 평가 |
 
 ## 관련 Article / Report Scraps
 
