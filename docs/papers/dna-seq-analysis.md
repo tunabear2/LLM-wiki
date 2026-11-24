@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-16'
+updated: '2026-11-24'
 tags:
 - wiki/paper
 ---
@@ -48,6 +48,8 @@ DNA 분석 섹션은 WGS/WES/targeted sequencing에서 FASTQ를 variant interpre
 | [ModBERT](bolzanModBERTDNAModification2026.md) | Variant와 CpG methylation을 확률적 five-letter genome으로 함께 모델링 | Donor·recipient 개인 genome의 regulatory variant를 methylation·ASE·expression outlier와 연결하는 후보 |
 | [bronko](doughtyBronkoAlignmentFree2026.md) | K-mer pseudo-pileup과 streaming noise model을 이용한 alignment-free viral variant 탐지 | 면역억제 환자의 바이러스 재활성화·intrahost evolution을 빠르게 screening하되 germline caller와 구분 |
 | [SuSiE-OUT](weinstockExcludedCausalVariants2026.md) | Input에서 빠진 causal variant가 proxy PIP를 부풀리는 문제를 모델링 | Rejection GWAS·eQTL fine-mapping 전 rare variant·indel filter의 gene-prior 왜곡을 sensitivity analysis |
+| [Long-read SV local-assembly benchmark](mirusEvaluatingLocalAssembly2026.md) | HiFi·ONT의 다섯 consensus 전략을 read quality·flank·전처리별로 분해 비교 | Donor·recipient SV와 expression outlier를 연결하기 전 platform별 local assembly 안정성을 점검 |
+| [AlphaGenome 2](gayosoAlphaGenome2Predicts2026.md) | Cell-state condition을 사용한 non-coding variant effect와 enhancer–gene 예측 | Donor·recipient regulatory variant를 biopsy cell-state eQTL·ASE·chromatin evidence로 우선순위화 |
 
 ## 분석 체크리스트
 

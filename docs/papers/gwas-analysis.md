@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-16'
+updated: '2026-11-24'
 tags:
 - wiki/paper
 ---
@@ -44,6 +44,8 @@ GWAS 분석 섹션은 genotype array 또는 sequencing-derived variants에서 ge
 | [UK Biobank 490K imputation panel](wienbrandtHaplotypeReferencePanel2026.md) | 490,319 WGS haplotype을 이용한 global-population phasing·imputation | Donor·recipient ancestry별 INFO/R²와 fine-mapping 이득을 기존 panel과 비교하는 reference 후보 |
 | [SwiftLD](christensenEuropeanLDProxies2026.md) | vcftools-compatible pairwise LD를 byte-identical하게 가속하고 ancestry별 proxy loss를 정량화 | Donor·recipient GWAS의 pruning·fine-mapping에서 ancestry-matched LD와 계산비용을 함께 점검 |
 | [SuSiE-OUT](weinstockExcludedCausalVariants2026.md) | MAF·indel filter로 omitted causal variant가 생길 때 proxy false discovery를 줄이는 fine-mapping model | Donor·recipient GWAS–eQTL colocalization에서 rare variant·indel 제외 전후 credible set을 비교하는 근거 |
+| [DEFA](kohleickDomainInformedEffector2026.md) | 서로 다른 biological-domain curation으로 GWAS effector gene을 별도 학습·비교 | Rejection locus의 eQTL·protein·druggability prior가 고르는 gene의 합의와 불일치를 보존 |
+| [AlphaGenome 2](gayosoAlphaGenome2Predicts2026.md) | Cell-state-specific sequence-to-function model로 fine-mapped variant와 enhancer–gene link를 평가 | Rejection GWAS hit을 kidney·immune cell state에 연결하되 낮은 recall을 eQTL·ASE로 보완 |
 
 ## 분석 체크리스트
 

@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-16'
+updated: '2026-11-24'
 tags:
 - wiki/paper
 ---
@@ -97,6 +97,10 @@ scRNA-seq 논문은 cell-level expression, cell-state representation, batch/plat
 | [PIANO](wangPIANOGenerativeModeling2026.md) | Covariate-aware 생성모형으로 single-cell·spatial data를 1억 cell까지 통합 | 기관·platform이 다른 kidney atlas를 통합하면서 rejection state 보존을 center holdout으로 확인하는 후보 |
 | [Single-cell mRNA–tRNA sequencing](kidaSingleCellTransferRNA2026.md) | 같은 세포에서 mRNA·tRNA와 선택적으로 protein을 함께 측정 | Immune·tubular stress의 transcript–translation 불일치를 측정하는 새 readout 후보 |
 | [Single-nucleus long-read kidney RNA-seq](odaSingleNucleusLongRead2026.md) | Healthy·ischemic kidney에서 nucleus-level isoform usage를 long read로 비교 | 냉동 allograft biopsy의 injury·rejection isoform을 cell type별로 검증하는 직접 설계 참고 |
+| [Replicate-library noise floor](razaReplicateLibrariesNoise2026.md) | Condition contrast를 same-condition library 거리와 library-level permutation으로 검정 | 환자·library를 실험 단위로 두어 cell 수가 만든 rejection-state pseudoreplication을 차단 |
+| [AlphaGenome 2](gayosoAlphaGenome2Predicts2026.md) | Single-cell atlas condition으로 1-Mb DNA의 regulatory activity와 variant effect를 예측 | Rejection GWAS 변이를 immune·endothelial·tubular state별 enhancer–gene link와 교차 검증 |
+| [FULL-seq](wangFULLSeqIsoformSpecific2026.md) | 같은 세포에서 full-length RNA와 chromatin accessibility를 공동 측정 | Biopsy cell state의 promoter·alternative-first-exon 변화가 gene-level 분석에서 가려지는지 확인 |
+| [LIFE-seq](wangLIFESeqLongitudinalSpatial2026.md) | Living tissue의 RNA를 반복 sampling하는 longitudinal spatial platform | 같은 조직의 injury–rejection–response를 추적하되 sampling-induced inflammation을 sham으로 검증 |
 
 ## 읽을 때 체크할 것
 

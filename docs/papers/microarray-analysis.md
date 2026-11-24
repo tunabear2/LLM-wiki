@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-11-09'
+updated: '2026-11-24'
 tags:
 - wiki/paper
 ---
@@ -36,6 +36,7 @@ Microarray 분석 섹션은 probe-level intensity에서 normalized expression ma
 | [ComboBatch](nikitinBenchmarkingBulkTranscriptomic2026.md) | 4개 platform·88개 lymphoma cohort에서 harmonization 조합 2,234개를 비교 | Legacy transplant microarray와 RNA-seq를 합칠 때 subtle rejection signal 보존 여부를 다중 metric으로 평가 |
 | [EXPRESSO](palMachineLearningFramework2026.md) | RNA-seq·microarray cohort를 rank-normalize해 치료별 response model을 학습·외부 검증 | Legacy array와 RNA-seq를 함께 쓰는 rejection response model에서 platform transfer를 점검하는 사례 |
 | [Microarray deconvolution benchmark](kamaliBenchmarkingCellType2026.md) | FACS truth와 scRNA reference에서 10개 방법·probe 처리·normalization을 비교 | Legacy allograft array의 면역·실질세포 조성을 추정할 때 tissue-specific 재검증이 필요한 기준 |
+| [Hidden dependencies in microarray classifiers](krikunHiddenDependenciesEndometriosis2026.md) | CEL hash, outcome-informed ComBat와 scan-date confounding으로 외부검증 누수를 재구성 | GEO allograft cohort의 중복 biopsy·label leakage를 raw-file provenance와 fold-wise 보정으로 차단 |
 
 ## 분석 체크리스트
 

@@ -48,6 +48,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [SignRot: outlier-aware LLM quantization](gimSignRotLLMQuantization2026.md)
 - [RNAtomy: structure-aware RNA Mamba–Transformer](shiraliRNAtomyStructureAwareRNA2026.md)
 - [ModBERT: variant- and methylation-aware DNA language model](bolzanModBERTDNAModification2026.md)
+- [MemOnce: scalable long-context memory states](nieMemOnceScalableMemory2026.md)
+- [Model Carving: jointly learned Transformer topology](zhengModelCarvingTraining2026.md)
 
 ## Bio AI
 
@@ -247,6 +249,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [RNAtomy: structure-aware RNA foundation model](shiraliRNAtomyStructureAwareRNA2026.md)
 - [ModBERT: personal-genome language model](bolzanModBERTDNAModification2026.md)
 - [PIANO: generative integration at 100-million-cell scale](wangPIANOGenerativeModeling2026.md)
+- [AlphaGenome 2: cell-state-specific regulatory variant effects](gayosoAlphaGenome2Predicts2026.md)
 
 ## Cancer Transcriptomics / Clinical Prediction
 
@@ -273,6 +276,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [DeSCENT: single-cell-informed cancer survival analysis](zhaoDeSCENTDeconvolutionalSingleCell2026.md)
 - [SigBridgeR: benchmark of phenotype-associated cell-subpopulation methods](yangSigBridgeRToolkit2026.md)
 - [Geometry-based renal-cancer treatment-response signatures](chacholskiGeometryBasedGeneExpression2026.md)
+- [GBM extracellular-matrix programs and post-recurrence survival](ayadExtracellularMatrixSpatial2026.md)
+- [Spatial melanoma-cell states associated with metastasis](antoranzSpatialSingleCell2026.md)
 
 ## Bulk RNA-seq
 
@@ -324,6 +329,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [DE-Rigor-Agent: assumption-aware differential expression](rongDERigorAgentAssumptionAware2026.md)
 - [SigBridgeR: bulk–single-cell phenotype bridge benchmark](yangSigBridgeRToolkit2026.md)
 - [Geometry-based renal-cancer treatment-response signatures](chacholskiGeometryBasedGeneExpression2026.md)
+- [RapidGLM: accelerated DE, CRISPR-screen, and cis-eQTL analysis](hungRapidGLMGenomeScale2026.md)
+- [GBM extracellular-matrix programs in longitudinal bulk RNA-seq](ayadExtracellularMatrixSpatial2026.md)
 
 ## scRNA-seq
 
@@ -453,6 +460,11 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [PIANO: generative integration at 100-million-cell scale](wangPIANOGenerativeModeling2026.md)
 - [Single-cell mRNA–tRNA sequencing](kidaSingleCellTransferRNA2026.md)
 - [Single-nucleus long-read RNA-seq in acute kidney injury](odaSingleNucleusLongRead2026.md)
+- [Replicate libraries as the noise floor for cell-state claims](razaReplicateLibrariesNoise2026.md)
+- [AlphaGenome 2: regulatory variant effects across cell states](gayosoAlphaGenome2Predicts2026.md)
+- [Spatial melanoma-cell states associated with metastasis](antoranzSpatialSingleCell2026.md)
+- [FULL-seq: full-length RNA–chromatin single-cell multiome](wangFULLSeqIsoformSpecific2026.md)
+- [LIFE-seq: longitudinal spatial transcriptomics of living tissue](wangLIFESeqLongitudinalSpatial2026.md)
 
 ## DNA-seq / Variant Analysis
 
@@ -487,6 +499,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [ModBERT: variant- and methylation-aware personal genomes](bolzanModBERTDNAModification2026.md)
 - [bronko: alignment-free viral variant detection](doughtyBronkoAlignmentFree2026.md)
 - [SuSiE-OUT: fine-mapping with omitted causal variants](weinstockExcludedCausalVariants2026.md)
+- [Long-read SV local-assembly strategy benchmark](mirusEvaluatingLocalAssembly2026.md)
+- [AlphaGenome 2: cell-state-specific regulatory variant effects](gayosoAlphaGenome2Predicts2026.md)
 
 ## Microarray
 
@@ -506,6 +520,7 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [EXPRESSO: rank-normalized cross-platform response modeling](palMachineLearningFramework2026.md)
 
 - [Microarray cell-type deconvolution benchmark](kamaliBenchmarkingCellType2026.md)
+- [Hidden dependencies in endometriosis microarray classifiers](krikunHiddenDependenciesEndometriosis2026.md)
 
 ## GWAS
 
@@ -533,6 +548,8 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 
 - [SwiftLD: fast vcftools-compatible LD calculation](christensenEuropeanLDProxies2026.md)
 - [SuSiE-OUT: fine-mapping with omitted causal variants](weinstockExcludedCausalVariants2026.md)
+- [DEFA: domain-informed GWAS effector-gene assignment](kohleickDomainInformedEffector2026.md)
+- [AlphaGenome 2: cell-state-specific GWAS variant interpretation](gayosoAlphaGenome2Predicts2026.md)
 
 ## Transcriptomics / Platform
 
@@ -577,6 +594,10 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Live D-seq: longitudinal live-cell scRNA-seq](reynoldsLiveDropletSingleCell2026.md)
 - [Single-cell mRNA–tRNA sequencing](kidaSingleCellTransferRNA2026.md)
 - [Single-nucleus long-read RNA-seq in acute kidney injury](odaSingleNucleusLongRead2026.md)
+- [GBM extracellular-matrix spatial ecosystems](ayadExtracellularMatrixSpatial2026.md)
+- [Same-section spatial RNA–protein profiling of thin melanoma](antoranzSpatialSingleCell2026.md)
+- [FULL-seq: full-length RNA–chromatin single-cell multiome](wangFULLSeqIsoformSpecific2026.md)
+- [LIFE-seq: longitudinal spatial transcriptomics of living tissue](wangLIFESeqLongitudinalSpatial2026.md)
 
 ## 사용 흐름
 
