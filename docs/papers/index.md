@@ -2,7 +2,7 @@
 type: index
 status: reference
 rag_priority: low
-updated: '2026-11-16'
+updated: '2026-11-24'
 tags:
 - wiki/index
 ---
@@ -201,6 +201,22 @@ Zotero와 Obsidian으로 가져온 논문 정리 문서를 모아두는 공간�
 - [Knowledge boundaries of biological foundation models](caiAIBiologistsKnowledgeBoundaries2026.md)
 - [TabOmics: small open tabular FM for wide omics](lopezGarciaTabOmicsSmallOpen2026.md)
 - [BulkFormer–TabPFN for post-transplant kidney function](tingleCombiningBulkFormerTabPFN2026.md)
+- [scOntoFM: ontology-aware single-cell foundation model](guoLearningBiologicalHierarchies2026.md)
+- [scREFINE: label-efficient refinement of scGPT embeddings](sadikScREFINELabelEfficient2026.md)
+- [Geneformer probability-space clustering for de novo populations](guoIntegratingUnsupervisedClustering2026.md)
+- [MCT: multicellular context foundation model](wiatrakLearningGeneCoregulation2026.md)
+- [Loki2: interpretable single-cell pathology foundation model](chenBiologicallyInterpretableSingleCell2026.md)
+- [scUNVEIL: measurement-enriched scRNA-seq embeddings](honzikScUNVEILLearning2026.md)
+- [GenVinci: 3D molecular tissue scenes from histology](chenGenVinciReconstructs3D2026.md)
+- [LeakageHunter-SCFM: dataset-lineage auditing](zhaLeakageHunterSCFMEvidence2026.md)
+- [AI-powered virtual cells and digital twins](liAIPoweredVirtualCells2026.md)
+- [Virtual spatial transcriptomics for kidney histopathology](nonchevVirtualSpatialTranscriptomics2026.md)
+- [Virtual knockout in the generative-AI era](zuoVirtualKnockoutGenerative2026.md)
+- [UCE state bridges across 59 million cells](feiDecipheringStateBridges2026.md)
+- [Virtual Cell Challenge 2026 evaluation metrics](dobinModelEvaluationMetrics2026.md)
+- [GAIN: population-level combinatorial perturbation prediction](anPopulationLevelLearning2026.md)
+- [Zero-shot virtual knock-out rankings and causal-gene recovery](cuiZeroShotVirtualKnockout2026.md)
+- [TabBioMed: benchmark for biomedical tabular learning](mateoBernadoTabBioMedBenchmark2026.md)
 - [GeneBag](liangGeneBagTrainingCell2024.md)
 - [Path-GPTOmic](PathGPTOmicBalancedMultimodal.md)
 - [HEIMDALL](haberHEIMDALLDisentanglingTokenizer2026.md)

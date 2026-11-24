@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: high
-updated: '2026-11-09'
+updated: '2026-11-24'
 tags:
 - wiki/paper
 ---
@@ -15,8 +15,9 @@ tags:
 - Item type: preprint
 - Authors: Zheyu Zhang; Yuanhao Huang; Fan Feng; Jie Liu
 - arXiv: 2611.05849
+- PMID: 43060833
 - URL: [Link](https://arxiv.org/abs/2611.05849)
-- Source/date: arXiv v1, submitted 2026-11-03
+- Source/date: arXiv v1, submitted 2026-11-03; PubMed indexed 2026-11-20
 
 ## 1. 한 줄 요약
 

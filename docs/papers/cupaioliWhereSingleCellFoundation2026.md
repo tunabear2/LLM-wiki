@@ -2,12 +2,12 @@
 type: paper
 status: reference
 rag_priority: high
-updated: '2026-11-14'
+updated: '2026-11-24'
 tags:
 - wiki/paper
 ---
 
-# Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines
+# Where single-cell foundation models help: a public-data benchmark of annotation, in silico perturbation and gene regulatory inference
 
 ## 기본 정보
 
@@ -16,7 +16,7 @@ tags:
 - Authors: F. A. Cupaioli; I. Merelli
 - DOI: 10.64898/2026.11.03.763968
 - URL: [Link](https://doi.org/10.64898/2026.11.03.763968)
-- Source/date: bioRxiv v2, revised 2026-11-10 (v1 posted 2026-11-04)
+- Source/date: bioRxiv revised v3, 2026-11-19 (v1 posted 2026-11-04)
 
 ## 1. 한 줄 요약
 
@@ -32,4 +32,4 @@ Rejection 분석에서는 donor·clone·library replication을 확보하고 PCA�
 
 ## 4. Bibliography
 
-Cupaioli, F. A., and I. Merelli. "Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines." _bioRxiv_, 2026. [https://doi.org/10.64898/2026.11.03.763968](https://doi.org/10.64898/2026.11.03.763968).
+Cupaioli, F. A., and I. Merelli. "Where single-cell foundation models help: a public-data benchmark of annotation, in silico perturbation and gene regulatory inference." _bioRxiv_, 2026. [https://doi.org/10.64898/2026.11.03.763968](https://doi.org/10.64898/2026.11.03.763968).

@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: high
-updated: '2026-10-31'
+updated: '2026-11-24'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: Z. Wei; Y. Ye; S. Cui; W. Ma; Y. You
 - DOI: 10.64898/2026.10.25.761625
 - URL: [Link](https://doi.org/10.64898/2026.10.25.761625)
-- Source/date: bioRxiv v1, posted 2026-10-27
+- Source/date: bioRxiv revised v2, 2026-11-18 (v1 posted 2026-10-27)
 
 ## 1. 한 줄 요약
 

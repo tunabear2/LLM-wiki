@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-10-05'
+updated: '2026-11-24'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: Junbo Shen; Jinying Gao; Bo Lei
 - DOI: 10.48550/arXiv.2609.37024
 - URL: [Link](https://doi.org/10.48550/arXiv.2609.37024)
-- Source/date: arXiv v1, submitted 2026-09-29
+- Source/date: arXiv revised v2, 2026-11-20 (v1 submitted 2026-09-29)
 
 ## 1. 한 줄 요약
 

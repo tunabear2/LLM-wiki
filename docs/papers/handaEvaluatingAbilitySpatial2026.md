@@ -2,7 +2,7 @@
 type: paper
 status: reference
 rag_priority: medium
-updated: '2026-09-21'
+updated: '2026-11-24'
 tags:
 - wiki/paper
 ---
@@ -16,7 +16,7 @@ tags:
 - Authors: Dhanav Handa; Cristina Martin-Linares; Genevieve Stein-O'Brien; Jonathan Ling; Uthsav Chitra
 - DOI: 10.64898/2026.08.01.742217
 - URL: [Link](https://doi.org/10.64898/2026.08.01.742217)
-- Source/date: bioRxiv v1, posted 2026-08-06; newly indexed 2026-09-17
+- Source/date: bioRxiv revised v2, 2026-11-16 (v1 posted 2026-08-06)
 
 ## 1. 한 줄 요약
 
